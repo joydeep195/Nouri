@@ -12,6 +12,12 @@ updates:
       runtime-dependencies:
         dependency-type: production
         update-types: [minor, patch]
+    # Major versions (e.g. TypeScript 7, ESLint 10) often need code or plugin changes,
+    # so they are upgraded deliberately by a person rather than by bot PRs.
+    # Security updates are still raised for any version.
+    ignore:
+      - dependency-name: '*'
+        update-types: [version-update:semver-major]
 
   - package-ecosystem: github-actions
     directory: /
