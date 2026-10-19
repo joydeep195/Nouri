@@ -523,3 +523,119 @@ dl.nutri {
 dl.nutri dd {
   margin: 0;
 }
+
+/* ---------- Not recognised ---------- */
+ul.unknown-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.unknown-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: var(--surface-2);
+}
+.unknown-name {
+  font-weight: 700;
+  font-size: 14.5px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.unknown-add,
+.unknown-added {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 0;
+  border-radius: 99px;
+  padding: 7px 11px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.unknown-add {
+  background: var(--avoid-soft);
+  color: var(--avoid);
+}
+.unknown-add:disabled {
+  opacity: 0.5;
+}
+.unknown-added {
+  color: var(--great);
+}
+.ingredients mark.unknown {
+  background: none;
+  color: inherit;
+  font-weight: 600;
+  text-decoration: underline dotted var(--text-3);
+  text-underline-offset: 3px;
+}
+.legend i.unknown {
+  background: none;
+  border: 1.5px dotted var(--text-3);
+}
+
+/* ---------- Additive names ---------- */
+.fact.fact-block {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+}
+ul.additive-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.additive-list li {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+.additive-code {
+  flex: none;
+  min-width: 54px;
+  padding: 3px 7px;
+  border-radius: 7px;
+  background: var(--surface-2);
+  font-size: 12.5px;
+  font-weight: 800;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+.additive-text b {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+}
+.additive-text small {
+  display: block;
+  font-size: 12.5px;
+  color: var(--text-3);
+  margin-top: 1px;
+}
+.additive-none,
+.additive-abbr {
+  font-size: 14px;
+  color: var(--text-2);
+}
+.additive-abbr b {
+  color: var(--text);
+}
+.fact .additive-text {
+  flex: 1;
+  min-width: 0;
+}
+.fact .additive-text b {
+  text-align: left;
+}

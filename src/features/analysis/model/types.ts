@@ -107,6 +107,10 @@ export interface ScoredAnalysis {
   hasIngredients: boolean;
   hasNutrition: boolean;
   confidence: Confidence;
+  /** Ingredients we couldn't identify, as written on the label. They are not scored. */
+  unrecognised: { text: string; start: number; end: number }[];
+  /** Label abbreviations we expanded, e.g. PGPR → Polyglycerol polyricinoleate. */
+  abbreviations: { abbr: string; meaning: string; code?: string | undefined }[];
 }
 
 export interface InsufficientAnalysis {

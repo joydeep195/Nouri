@@ -3,4 +3,4 @@ export const APP_NAME = 'Nouri';
 export const APP_TAGLINE = "Know what's good before you bite";
 export const APP_DESCRIPTION =
   'Scan any packaged food and see if it is a good choice for your health, your gut and your weight goals.';
-export const APP_VERSION = '2.0.0';
+export const APP_VERSION = '2.1.0';

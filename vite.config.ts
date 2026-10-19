@@ -15,7 +15,25 @@ export default defineConfig({
   base: './',
   resolve: { alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) } },
   // No data: URIs (the CSP only allows files from our own origin), no source maps in production.
-  build: { sourcemap: false, target: 'es2022', assetsInlineLimit: 0 },
+  build: {
+    sourcemap: false,
+    target: 'es2022',
+    assetsInlineLimit: 0,
+    rolldownOptions: {
+      output: {
+        // Separate long-lived chunks, so an app update doesn't re-download libraries or dictionaries.
+        codeSplitting: {
+          groups: [
+            { name: 'ingredient-data', test: /src[\\/]features[\\/]analysis[\\/]data[\\/]/ },
+            { name: 'vendor', test: /node_modules/ },
+          ],
+        },
+      },
+    },
+  },
+  // The ingredient dictionaries are large JSON files: ship them as one JSON.parse string
+  // (smaller, faster to parse) without a named export per key.
+  json: { namedExports: false, stringify: true },
   // `vite preview` sends the same headers as production hosting, so the CSP is tested for real.
   preview: { headers: SECURITY_HEADERS },
   plugins: [

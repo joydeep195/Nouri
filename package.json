@@ -1,7 +1,7 @@
 {
   "name": "nouri",
   "private": true,
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Scan packaged food and see if it's a good choice: overall health, gut comfort (Crohn's / IBD) and weight goals.",
   "type": "module",
   "engines": {
@@ -24,7 +24,9 @@
     "icons": "node scripts/make-icons.mjs",
     "prepare": "simple-git-hooks",
     "hosting:sync": "node scripts/sync-hosting-config.ts",
-    "baseline": "vitest run src/features/analysis/model/score.test.ts --mode baseline"
+    "baseline": "vitest run src/features/analysis/model/score.test.ts --mode baseline",
+    "audit:ingredients": "node scripts/ingredient-audit.mjs",
+    "data:ingredients": "node scripts/build-ingredient-data.mjs"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"

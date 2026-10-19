@@ -8,7 +8,8 @@ Nouri is a client-only progressive web app (PWA): React 19 + TypeScript (strict)
 src/
   app/                 Shell: entry point, App (screen switch), typed navigation, ErrorBoundary, TabBar
   features/
-    analysis/          Scoring engine (model/) and the result screen (ui/)
+    analysis/          Scoring engine and ingredient recognition (model/), generated Open Food Facts
+                       ingredient/additive dictionaries (data/, ODbL), result screen (ui/)
     product/           Product types, limits, zod schemas, Open Food Facts client; lookup + QR screens
     scan/              Barcode/QR parsing + check digits, camera/ZXing detector; scanner + number entry
     label/             On-device OCR + label text parsing; label reader + ingredient form
@@ -21,8 +22,9 @@ src/
     ui/                Logo, TopBar, Toggle
   styles/              tokens.css (light/dark design tokens), base.css, components.css
 build-tools/           Vite plugins: self-hosted OCR assets, CSP <meta> + _headers
+scripts/               Data generator (ingredient dictionaries), coverage audit, sample fetcher, icons
 e2e/                   Playwright tests (WebKit + Chromium) against the production build
-tests/                 Shared fixtures (sample products, score baseline, real API response)
+tests/                 Shared fixtures (sample products, score baseline, real API responses, real-label sample)
 ```
 
 ### Rules

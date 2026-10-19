@@ -19,7 +19,9 @@ The overall score leans towards the weakest pillar, and anything marked as a per
 - **Scan barcodes and QR codes** with the camera (EAN/UPC and GS1 Digital Link). A photo fallback works when the live camera isn't available.
 - **No barcode? Read the label.** The ingredients and nutrition table are read **on the phone** by a self-hosted OCR engine.
 - **Type or paste** an ingredient list, with optional nutrition per 100 g.
-- **Understands Indian labels**: INS numbers, "Emulsifier (471)", maida, atta, besan, paneer.
+- **Understands Indian labels**: INS numbers, "Emulsifier (471)", maida, atta, besan, paneer, plus Hindi names like pyaz, lahsun and hing.
+- **Knows ~7,000 ingredients and every E/INS additive** (from Open Food Facts), plus label abbreviations like PGPR, SSL, DATEM, CMC and SMP. Each additive is shown with its name and job, and small spelling or OCR mistakes are tolerated.
+- **Honest about what it doesn't know**: unrecognised ingredients are listed, never scored as "fine", and can be added as a personal trigger in one tap. See [coverage on real products](docs/INGREDIENT-COVERAGE.md).
 - **Personal profile**: weight-loss goal, flare mode, low-FODMAP, dairy, gluten, spice, caffeine, and custom triggers.
 - **History**, re-scored automatically when the profile changes.
 - **Offline-capable**, with light and dark mode and accessible markup.

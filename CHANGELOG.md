@@ -2,6 +2,23 @@
 
 All notable changes to Nouri. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
+## [2.1.0] - 2026-10-20
+
+### Added
+
+- Ingredient recognition, using a vocabulary of ~7,100 ingredient names, every E/INS additive with its name and job (both from Open Food Facts, ODbL) and South Asian/romanised names. Unrecognised ingredients are listed on the result screen and never earn a bonus.
+- One-tap "Add as trigger" for any unrecognised ingredient.
+- Label abbreviations (PGPR, SSL, CSL, DATEM, CMC, HPMC, MCC, MSG, TBHQ, BHA, BHT, EDTA, SAPP, HFCS, SMP, WPC…), expanded on screen and scored like the full name.
+- Additive names now count as additives ("glyceryl monostearate" → E471), so the emulsifier, sweetener and colour rules catch them.
+- Misspelling and OCR-slip tolerance: "carageenan" is flagged as carrageenan.
+- New rules: rare sugars (allulose, tagatose), added fermentable fibres (polydextrose…), hing as a gluten risk, and tea as caffeine (not herbal teas). More hidden sugar names (evaporated cane juice, khand, mishri…). Hindi names for onion, garlic, chilli, ginger and pulses. Milk proteins (caseinate) under dairy.
+- Coverage audit against real Open Food Facts products (`npm run audit:ingredients`) and a test that keeps coverage from dropping.
+- App split into cached chunks (app, ingredient data, libraries), so updates download less.
+
+### Changed
+
+- Some scores shifted where additives named in words are now counted (e.g. a maltitol/polydextrose protein bar: 35 → 24, sugar-free gum gets "Lots of additives"). The regression baseline was re-recorded after review.
+
 ## [2.0.0] - 2026-10-19
 
 The app and scores are unchanged for users. The codebase was rebuilt to production standards.

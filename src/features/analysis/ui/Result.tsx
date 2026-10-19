@@ -21,12 +21,15 @@ import type { Profile } from '@/features/profile/model/profile';
 import { stagger } from '@/shared/lib/style';
 import { TopBar } from '@/shared/ui/TopBar';
 import { analyze } from '../model/score';
-import type { Pillar } from '../model/types';
+import type { Highlight, Pillar } from '../model/types';
+import type { Mark } from './Highlighted';
+import { AdditiveList } from './AdditiveList';
 import { FlagItem } from './FlagItem';
 import { Highlighted } from './Highlighted';
 import { NutritionCard } from './NutritionCard';
 import { ScoreRing } from './ScoreRing';
 import { verdictClass } from './ScorePill';
+import { UnrecognisedCard } from './UnrecognisedCard';
 import './result.css';
 
 const PILLAR_ICONS: Record<Pillar, LucideIcon> = { health: HeartPulse, gut: Feather, weight: Scale };
@@ -51,9 +54,11 @@ interface ResultProps {
   onScanAgain: () => void;
   onEdit: (product: Product) => void;
   onLabel: (product: Product) => void;
+  /** Adds an ingredient to the user's personal triggers. */
+  onAddTrigger?: (name: string) => void;
 }
 
-export default function Result({ product, profile, onBack, onScanAgain, onEdit, onLabel }: ResultProps) {
+export default function Result({ product, profile, onBack, onScanAgain, onEdit, onLabel, onAddTrigger }: ResultProps) {
   const r = useMemo(() => analyze(product, profile), [product, profile]);
   const [allBad, setAllBad] = useState(false);
   const [allGood, setAllGood] = useState(false);
@@ -124,6 +129,12 @@ export default function Result({ product, profile, onBack, onScanAgain, onEdit, 
             <span className="confidence">
               <Info size={14} aria-hidden="true" />
               {!r.hasNutrition ? 'No nutrition facts, so this is a best guess' : 'Based on nutrition only'}
+            </span>
+          )}
+          {r.unrecognised.length > 0 && (
+            <span className="confidence">
+              <Info size={14} aria-hidden="true" />
+              {r.unrecognised.length} ingredient{r.unrecognised.length === 1 ? '' : 's'} not recognised
             </span>
           )}
         </div>
@@ -207,6 +218,8 @@ export default function Result({ product, profile, onBack, onScanAgain, onEdit, 
         </section>
       )}
 
+      <UnrecognisedCard items={r.unrecognised} triggers={profile.triggers} onAddTrigger={onAddTrigger} />
+
       {r.nutrition && <NutritionCard n={r.nutrition} isBeverage={r.isBeverage} />}
 
       <section className="card">
@@ -229,9 +242,9 @@ export default function Result({ product, profile, onBack, onScanAgain, onEdit, 
               <span className={`nutriscore ns-${product.nutriscore}`}>{product.nutriscore}</span>
             </div>
           )}
-          <div className="fact">
+          <div className="fact fact-block">
             <span>Additives</span>
-            <b>{r.additives.length ? r.additives.map((a) => a.toUpperCase()).join(', ') : 'None found'}</b>
+            <AdditiveList codes={r.additives} abbreviations={r.abbreviations} />
           </div>
           {product.allergens && product.allergens.length > 0 && (
             <div className="fact">
@@ -246,9 +259,9 @@ export default function Result({ product, profile, onBack, onScanAgain, onEdit, 
         <section className="card">
           <h2>Ingredients</h2>
           <p className="ingredients">
-            <Highlighted text={product.ingredientsText} marks={r.highlights} />
+            <Highlighted text={product.ingredientsText} marks={withUnknown(r.highlights, r.unrecognised)} />
           </p>
-          {r.highlights.length > 0 && (
+          {(r.highlights.length > 0 || r.unrecognised.length > 0) && (
             <div className="legend">
               {r.highlights.some((h) => h.kind === 'bad') && (
                 <span>
@@ -258,6 +271,11 @@ export default function Result({ product, profile, onBack, onScanAgain, onEdit, 
               {r.highlights.some((h) => h.kind === 'good') && (
                 <span>
                   <i className="good" /> Good for you
+                </span>
+              )}
+              {r.unrecognised.length > 0 && (
+                <span>
+                  <i className="unknown" /> Not recognised
                 </span>
               )}
             </div>
@@ -300,5 +318,13 @@ export default function Result({ product, profile, onBack, onScanAgain, onEdit, 
         </button>
       </div>
     </main>
+  );
+}
+
+/** Adds "not recognised" marks where no other highlight already covers the text. */
+function withUnknown(marks: Highlight[], unknown: { start: number; end: number }[]): Mark[] {
+  const extra = unknown.filter((u) => !marks.some((m) => m.start < u.end && m.end > u.start));
+  return [...marks, ...extra.map((u) => ({ start: u.start, end: u.end, kind: 'unknown' as const }))].sort(
+    (a, b) => a.start - b.start,
   );
 }

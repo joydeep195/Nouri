@@ -17,8 +17,11 @@ import {
   splitIngredients,
   termRegex,
   unique,
+  type TextMatch,
 } from '@/shared/lib/text';
 import { flagTotal, makeFlag } from './flags';
+import { FuzzyIndex } from './fuzzy';
+import { coreName, fuzzyAdditive, fuzzyKnown, normName, readIngredients, type Candidate } from './ingredients';
 import { cleanNutrition, nutritionFlags } from './nutrition';
 import { RULES } from './rules';
 import {
@@ -79,10 +82,17 @@ const resolve = <T>(v: Resolvable<T>, ctx: RuleContext): T =>
 // Compile each rule's term list once.
 const COMPILED = RULES.map((rule) => ({ rule, regex: rule.terms ? termRegex(rule.terms) : null }));
 
+// Rule terms by spelling, for catching misspellings and OCR slips ("carageenan").
+const FUZZY_RULE_TERMS = new FuzzyIndex<number>();
+for (const [i, { rule }] of COMPILED.entries()) for (const t of rule.terms ?? []) FUZZY_RULE_TERMS.add(normName(t), i);
+
 // Ingredients that mark a food as ultra-processed (NOVA 4) when we have to guess.
 const UPF_TERMS = termRegex([
   'maltodextrin',
   'modified starch',
+  'hydrolysed vegetable protein',
+  'hydrolyzed vegetable protein',
+  'hvp',
   'modified maize starch',
   'modified corn starch',
   'glucose syrup',
@@ -148,9 +158,34 @@ export function analyze(product: Partial<Product>, profile?: Partial<Profile> | 
     .filter(Boolean)
     .join(' ; ');
   const matchText = `${ingredientsText}\n${extra}`;
+  const inIngredients = (m: TextMatch) => m.end <= ingredientsText.length;
+
+  // Exact rule and trigger matches, which also tell us which ingredients we understood.
+  const exact = COMPILED.map(({ rule, regex }) => (regex ? findMatches(regex, matchText, rule) : []));
+  const triggerMatches = p.triggers.map((t) => findMatches(termRegex([t]), matchText));
+  const covered = [...exact.flat(), ...triggerMatches.flat()].filter(inIngredients);
+
+  // Ingredients we don't recognise get a second look for typos before being reported.
+  const reading = hasIngredients ? readIngredients(ingredientsText, covered) : null;
+  const fuzzyMatches = new Map<number, TextMatch[]>();
+  const unrecognised: Candidate[] = [];
+  for (const c of reading?.unknown ?? []) {
+    const hit = FUZZY_RULE_TERMS.find(c.name) ?? FUZZY_RULE_TERMS.find(coreName(c.name));
+    if (hit) {
+      const list = fuzzyMatches.get(hit.value) ?? [];
+      list.push({ start: c.start, end: c.end, term: `${c.text} (${hit.word}?)` });
+      fuzzyMatches.set(hit.value, list);
+      continue;
+    }
+    const code = fuzzyAdditive(c.name);
+    if (code) reading?.additiveCodes.add(code);
+    else if (!fuzzyKnown(c.name)) unrecognised.push(c);
+  }
+
   const additives = new Set<string>([
     ...(product.additives ?? []).map(normalizeAdditive).filter((a): a is string => a != null),
     ...extractAdditiveCodes(ingredientsText),
+    ...(reading?.additiveCodes ?? []),
   ]);
   const allergens = new Set((product.allergens ?? []).map((a) => a.replace(/^[a-z]{2}:/, '')));
   const indexOf = (pos: number) => {
@@ -162,10 +197,10 @@ export function analyze(product: Partial<Product>, profile?: Partial<Profile> | 
   const highlights: Highlight[] = [];
 
   // 1. Ingredient rules
-  for (const { rule, regex } of COMPILED) {
+  for (const [ruleIndex, { rule }] of COMPILED.entries()) {
     if (rule.when && !rule.when(p)) continue;
     if (rule.skipIf?.test(matchText)) continue;
-    const matches = regex ? findMatches(regex, matchText, rule) : [];
+    const matches = [...(exact[ruleIndex] ?? []), ...(fuzzyMatches.get(ruleIndex) ?? [])];
     const codes = rule.e ? [...additives].filter((a) => additiveMatches(a, rule.e ?? [])) : [];
     const allergenHit = rule.allergens?.some((a) => allergens.has(a)) ?? false;
     const testHit = rule.test?.({ product, nutrition, isBeverage }) ?? false;
@@ -201,8 +236,8 @@ export function analyze(product: Partial<Product>, profile?: Partial<Profile> | 
   }
 
   // 2. Personal triggers
-  for (const trigger of p.triggers) {
-    const matches = findMatches(termRegex([trigger]), matchText);
+  for (const [i, trigger] of p.triggers.entries()) {
+    const matches = triggerMatches[i] ?? [];
     if (!matches.length) continue;
     const inList = matches.filter((m) => m.end <= ingredientsText.length);
     flags.push(
@@ -263,9 +298,17 @@ export function analyze(product: Partial<Product>, profile?: Partial<Profile> | 
     );
   }
 
-  // 5. Simple ingredient list vs. a long additive list
+  // 5. Simple ingredient list vs. a long additive list. An ingredient we don't recognise could
+  // be anything, so a list with one never earns the "simple" bonus.
   const badIngredientFlags = flags.filter((f) => f.kind === 'bad' && !f.id.startsWith('nova') && f.found.length);
-  if (hasIngredients && items.length <= 5 && additives.size === 0 && nova !== 4 && badIngredientFlags.length <= 1) {
+  if (
+    hasIngredients &&
+    items.length <= 5 &&
+    additives.size === 0 &&
+    nova !== 4 &&
+    badIngredientFlags.length <= 1 &&
+    unrecognised.length === 0
+  ) {
     flags.push(
       makeFlag({
         id: 'simple',
@@ -334,6 +377,11 @@ export function analyze(product: Partial<Product>, profile?: Partial<Profile> | 
   let confidence: Confidence = 'high';
   if (!hasNutrition || !hasIngredients) confidence = 'medium';
   if (!hasNutrition && items.length < 2) confidence = 'low';
+  // Many unrecognised ingredients make the score a weaker guess.
+  const candidateCount = reading?.candidates.length ?? 0;
+  if (candidateCount && unrecognised.length / candidateCount >= 0.2) {
+    confidence = confidence === 'high' ? 'medium' : 'low';
+  }
 
   return {
     insufficient: false,
@@ -352,7 +400,14 @@ export function analyze(product: Partial<Product>, profile?: Partial<Profile> | 
     hasIngredients,
     hasNutrition,
     confidence,
+    unrecognised: uniqueBy(unrecognised, (c) => c.name).map(({ text, start, end }) => ({ text, start, end })),
+    abbreviations: reading?.abbreviations ?? [],
   };
+}
+
+function uniqueBy<T>(list: T[], key: (x: T) => string): T[] {
+  const seen = new Set<string>();
+  return list.filter((x) => (seen.has(key(x)) ? false : (seen.add(key(x)), true)));
 }
 
 function mergeHighlights(list: Highlight[]): Highlight[] {

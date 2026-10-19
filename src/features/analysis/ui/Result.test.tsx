@@ -51,7 +51,8 @@ describe('<Result />', () => {
       />,
     );
     expect(container.querySelector('img[src="x"]')).toBeNull();
-    expect(screen.getByText(/<img src=x/)).toBeInTheDocument();
+    // Shown as plain text, both in the ingredient list and in the "Not recognised" card.
+    expect(screen.getAllByText(/<img src=x/).length).toBeGreaterThan(0);
     expect(container.querySelector('mark.bad')?.textContent).toMatch(/sugar|carrageenan/);
   });
 
@@ -66,5 +67,36 @@ describe('<Result />', () => {
     const link = screen.getByRole('link', { name: 'Open Food Facts' });
     expect(link).toHaveAttribute('href', 'https://world.openfoodfacts.org/product/5449000000996');
     expect(link).toHaveAttribute('rel', 'noopener noreferrer');
+  });
+
+  it('names each additive and what it does', () => {
+    renderResult({ source: 'typed', name: 'Biscuit', ingredientsText: 'Flour, sugar, emulsifier (471), PGPR' });
+    const details = screen.getByRole('heading', { name: /Details/ }).closest('section');
+    if (!details) throw new Error('no Details section');
+    expect(within(details).getByText('E471')).toBeInTheDocument();
+    expect(within(details).getByText('Mono- and diglycerides of fatty acids')).toBeInTheDocument();
+    expect(within(details).getByText('Polyglycerol polyricinoleate (PGPR)')).toBeInTheDocument();
+    expect(within(details).getAllByText(/emulsifier/).length).toBeGreaterThan(0);
+  });
+
+  it('lists unrecognised ingredients and adds one as a trigger', async () => {
+    const onAddTrigger = vi.fn();
+    render(
+      <Result
+        product={{ source: 'typed', name: 'Mystery mix', ingredientsText: 'Rice, florbix, salt' }}
+        profile={profile()}
+        onBack={vi.fn()}
+        onScanAgain={vi.fn()}
+        onEdit={vi.fn()}
+        onLabel={vi.fn()}
+        onAddTrigger={onAddTrigger}
+      />,
+    );
+    const card = screen.getByRole('heading', { name: /Not recognised/ }).closest('section');
+    if (!card) throw new Error('no Not recognised card');
+    expect(within(card).getByText('florbix')).toBeInTheDocument();
+    expect(screen.getByText('1 ingredient not recognised')).toBeInTheDocument();
+    await userEvent.click(within(card).getByRole('button', { name: 'Add florbix as a trigger' }));
+    expect(onAddTrigger).toHaveBeenCalledWith('florbix');
   });
 });

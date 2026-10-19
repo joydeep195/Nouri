@@ -2,6 +2,19 @@
 
 Every product gets three pillar scores from 0 to 100, plus an overall score and a verdict. The engine lives in `src/features/analysis/model/` and is pure TypeScript: no I/O, no React. That means it is fully unit-tested, including a 136-case regression suite (`score.test.ts`).
 
+## Recognising ingredients
+
+Before scoring, the ingredient list is split into individual ingredients, including sub-ingredients in brackets, e.g. "Seasoning (onion powder, chilli)". Each one is then checked against, in order:
+
+1. **Scoring rules** (`rules.ts`): an exact whole-word match.
+2. **Additives**: E/INS codes ("E471", "INS 412", "Emulsifier (471)"), additive names ("glyceryl monostearate" → E471), and label **abbreviations** in `abbreviations.ts` (PGPR → E476, SSL → E481, DATEM → E472e, CMC → E466, MSG → E621, TBHQ → E319, SMP = skimmed milk powder…). Named additives then trigger the same rules as their codes. The result screen lists every additive with its name and job, e.g. "E471: Mono- and diglycerides of fatty acids (emulsifier, stabiliser)".
+3. **Vocabulary**: about 7,100 English ingredient names and synonyms from Open Food Facts (`data/`, ODbL), plus `extraVocabulary.ts`. The extra list adds romanised Hindi and other South Asian names (jeera, haldi, ajwain, besan…) and common label wording. Modifiers ("roasted", "iodised") and forms ("powder", "extract") are ignored when matching.
+4. **Misspellings**: OCR slips and typos are tolerated for words of 7+ letters: 1 edit up to 10 letters, 2 edits from 11, same first letter. A misspelt rule ingredient still triggers its rule; "carageenan" is flagged as carrageenan, and the chip shows how it was read. Misspelt ordinary foods ("tumeric") count as recognised.
+
+Anything left is **not recognised**. It isn't scored, so it never earns a bonus. The "short, simple ingredient list" bonus is withheld when anything is unrecognised, and confidence drops when 20% or more of the ingredients are unknown. The result screen lists unrecognised ingredients with a one-tap **Add as trigger**. Once added, the ingredient is flagged on every product from then on.
+
+`npm run audit:ingredients` measures recognition against hundreds of real products from Open Food Facts. It writes [INGREDIENT-COVERAGE.md](INGREDIENT-COVERAGE.md), with the most common unrecognised ingredients to review. A test fails if coverage drops below its threshold.
+
 ## Pillars
 
 | Pillar             | Starts at                          | Looks at                                                                                         |

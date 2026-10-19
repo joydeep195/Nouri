@@ -1,0 +1,2741 @@
+{
+ "source": "Open Food Facts (ODbL), fetched 2026-10-19",
+ "products": [
+  {
+   "code": "90162602",
+   "name": "Red Bull Energy Drink",
+   "country": "india",
+   "ingredients": "Water, Sucrose, Glucose, Acidifier (Citric Acid), Carbon Dioxide, Taurine (0.4%), Acidity Regulators (Sodium Bicarbonate, Magnesium Carbonate), Flavourings, Colours (Caramel, Riboflavin), Caffeine (0.03%), Vitamins (Niacin, Pantothenic Acid, B6, B12)."
+  },
+  {
+   "code": "54491496",
+   "name": "Diet Coke",
+   "country": "india",
+   "ingredients": "csd water, caramel color, aspartame, phosphoric acid, potassium benzoate (to protect taste), natural flavors, citric acid, caffeine, contains phenylalaline \nwater gazeifiée, caramel colour e150d, sweeteners : aspartame, acesulfame k, flavourings, natural caffeine, phosphoric acid, citric acid"
+  },
+  {
+   "code": "8901499010216",
+   "name": "Corn Flakes1.20 kg",
+   "country": "india",
+   "ingredients": "Corn Grits (90%), Sugar, Cereal Extract, Iodized Salt, Vitamins, Minerals and Antioxidant (INS 307b). CONTAINS GLUTEN. MAY CONTAIN TRACES OF TREENUT."
+  },
+  {
+   "code": "3168930007432",
+   "name": "Chips barbecue",
+   "country": "india",
+   "ingredients": "potatoes 61%, sunflower oil, rapeseed oil, flavour (sugar, aroma ( soy ), bread crumbs ( wheat ), flavour enhancer (sodium glutamate), paprika, onion powder, tomato powder, garlic powder, corrector of acidity (citric acid, malic acid), colour(paprika extract), smoke flavourings), salt,"
+  },
+  {
+   "code": "8902080364565",
+   "name": "Mountain Dew",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, ACIDITY REGULATORS (330, 331), FLAVOUR (NATURAL FLAVOURING SUBSTANCES), PRESERVATIVE (211), CAFFEINE (1,3 mg/100 g), STABILIZERS (445), COULOUR (102)"
+  },
+  {
+   "code": "8901047816208",
+   "name": "Dal Makhani",
+   "country": "india",
+   "ingredients": "Water, Black Gram Lentils (33.3%), Tomato (8.4%), Red Kidney Beans (4%), Sunflower Oil, Garlic, Salt, Ginger (0.6%), Cumin Powder, Garam Masala, Red Chilli powder, Fenugreek Leaves, Cinnamon, Cardamom, Bay leaf, Nutmeg Powder, Mace Powder"
+  },
+  {
+   "code": "0051111407592",
+   "name": "Birthday Cake Protein Oats",
+   "country": "india",
+   "ingredients": "WHOLE GRAIN ROLLED OATS, PLANT PROTEIN BLEND (PEA PROTEIN, FAVA BEAN PROTEIN ISOLATE, BROWN RICE PROTEIN CONCENTRATE), CAKE FLAVORING POWDER (SWEET CREAM POWDER, MAPLE SUGAR CRYSTALS), POWDERED ORGANIC DATES, MONK FRUIT EXTRACT, CHIA SEEDS, FLAX SEEDS, CALCIUM, VITAMIN D, IRON, POTASSIUM CONTAINS: DAIRY"
+  },
+  {
+   "code": "8901491101837",
+   "name": "Lays Classics Salted 20rs",
+   "country": "india",
+   "ingredients": "Potato, Edible Vegetable Oil\n\n(Palmolein Oil), &quot;Seasoning (Maltodextrin, lodised Salt, &quot;Spices & Condiments, Sugar, Flavour (Natural and Nature Identical Flavouring Substances), Anticaking Agent (551), Flavour Enhancers (627, 631), Edible Vegetable Oil (Palm)).\n\n&quot;As flavouring agent. &quot;Contains Onion & Garlic"
+  },
+  {
+   "code": "8901764032271",
+   "name": "Sprite 750ml",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, ACIDITY REGULATORS (330, 331(i)), PRESERVATIVE(211), SWEETENER (960), FLAVOURS (NATURAL FLAVORING SUBSTANCES)"
+  },
+  {
+   "code": "8901719125478",
+   "name": "Parle-G gold 75g",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA) (68%), SUGAR, REFINED PALM OIL, INVERT SUGAR SYRUP* [SUGAR, CITRIC ACID], IODISED SALT, RAISING AGENTS [503 (ii), 500 (ii)], MILK SOLIDS, FLOUR TREATMENT AGENT [1101 (ii)] AND EMULSIFIER OF VEGETABLE ORIGIN [472e] CONTAINS ADDED FLAVOUR (ARTIFICIAL FLAVOURING SUBSTANCES VANILLA) (D-GLUCOSE, LEVULOSE) CONTAINS: WHEAT, MILK"
+  },
+  {
+   "code": "6009510806151",
+   "name": "classic salted chips",
+   "country": "india",
+   "ingredients": "Potatoes,Vegetable Oil,Salt,Maltodextrin,Spices,Sugar,Onion Powder,Mango Powder,Garlic Powder,Tomato Powder,Citric Acid,Paprika Extract,Yeast Extract,Natural Flavour"
+  },
+  {
+   "code": "8901491502030",
+   "name": "Lay's American Style Cream & Onion Flavour",
+   "country": "india",
+   "ingredients": "Potato, Edible Vegetable Oil (Palmolein, Sunflower Oil), 'Seasoning (Sugar, iodised Salt, Milk Solids, ^Spices & Condiments, Maltodextrin, Flavour (Natural and Nature Identical Flavouring Substances), Cheese Powder, Hydrolysed Vegetable Protein, Flavour Enhancers (627, 631), Edible Vegetable Oil (Palm, Coconut), Anticaking Agent (551)).Contains Onion ALLERGEN ADVICE: Contains Soy, Milk May Contain Sulphite\n'As flavouring agent ,^Contsins onion"
+  },
+  {
+   "code": "3948764032271",
+   "name": "Sprite Lemon-Lime Flavoured",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, ACIDITY REGULATORS (330, 331(1), PRESERVATIVE (211), SWEETENER (960), FLAVOURS (NATURAL FLAVORING SUBSTANCES)."
+  },
+  {
+   "code": "8906066200564",
+   "name": "Keya Mixed Herbs",
+   "country": "india",
+   "ingredients": "Mixed Herbs [Rosemary (30%) Thyme (30%), Oregano (20%, Basil (20%))"
+  },
+  {
+   "code": "8906017290026",
+   "name": "Bisleri Water 250ml",
+   "country": "india",
+   "ingredients": "Treated Water, Magnesium Sulfate, Potassium Bicarbonate"
+  },
+  {
+   "code": "8901030922787",
+   "name": "Mixed Fruit Jam",
+   "country": "india",
+   "ingredients": "SUGAR, MIXED FRUIT PULP BLEND-60% (PAPAYA PULP, PEAR PULP, APPLE JUICE, BANANA PULP, PINEAPPLE JUICE, ORANGE JUICE, MANGO PULP, GRAPE JUICE), ACIDITY REGULATOR-E330, THICKENER-E440, IODISED SALT, VITAMINS & MINERAL, PRESERVATIVE-E202, NATURAL FLAVOURING SUBSTANCES, FOOD COLOUR-E122."
+  },
+  {
+   "code": "8904043901015",
+   "name": "Tata Salt",
+   "country": "india",
+   "ingredients": "Edible Common Salt, Potassium Iodate (2mg) and Anticaking Agent (INS 536)"
+  },
+  {
+   "code": "8901491103800",
+   "name": "Oats",
+   "country": "india",
+   "ingredients": "Rolled Oats Flakes"
+  },
+  {
+   "code": "8901491380010",
+   "name": "Solid Masti Masala",
+   "country": "india",
+   "ingredients": "Gram Pulse flour, Edible vegetable oil (Cotton Seed, Corn, Palmolein, Ground Nut and Rice Bran) Gram Pulse (9%), Lentil (9%), Peanuts (6%), Rice Flakes\n(5%), Potatoes, Tepary Beans Four, Iodised Salt, Blac Sat Powder, Spinach Powder, Rice Powder, Edible Sarch *Spices & Condiments (Red Chill Powder, Turmeric powder\nMango Powder, Black Pepper Powder, Ginger Powder Clove Powder, Mace Powder, Nutmeg Powder, Cumin Powder\nFenugreek Seeds Powder, Coriander Powder, Bay leaves Powder, Mint Leaves Powder, Cardamom Powder, Asafoedq\nPowder), Acidty Regulator (ins330), Anticaking Agert (ins551) and Synthetic Food Colour (INS 133)\n&quot;Used as natural flavouring substances\nAllergern Information: Contains Peanuts"
+  },
+  {
+   "code": "8901233030548",
+   "name": "Cadbury Dairy Milk",
+   "country": "india",
+   "ingredients": "Sugar, Milk Solids16%, Cocoa Butter, Cocoa Solids, Lactose, Emulsifiers 442, 476"
+  },
+  {
+   "code": "8901058901511",
+   "name": "2-minute Noodles Masala",
+   "country": "india",
+   "ingredients": "refined wheat flour, palm oil, calcium carbonate, potassium chloride, sodium phosphate, potassium carbonate, sodium carbonate, guar gum"
+  },
+  {
+   "code": "8901764092206",
+   "name": "Maaza",
+   "country": "india",
+   "ingredients": "WATER, MANGO PULP (19.5%), SUGAR, ACIDITY REGULATORS (330, 331(iii)), ANTIOXIDANT (300), PRESERVATIVE (202), COLOUR (110), MANGO FLAVOURS (NATURAL, NATURE-IDENTICAL & ARTIFICIAL FLAVOURING SUBSTANCES)."
+  },
+  {
+   "code": "8901764042270",
+   "name": "Thumbs Up 750ml",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, ACIDITY REGULATOR (338), CAFFEINE (8.3 mg/100 g), COLOUR (1506) FLAVOURS (NATURAL, NATURE-IDENTICAL & ARTIFICIAL (COLA) FLAVOURING SUBSTANCES). &quot;CONTAINS CAFFEINE&quot;"
+  },
+  {
+   "code": "8901063017252",
+   "name": "50-50",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA), EDIBLE VEGETABLE OIL (PALM) SUGAR, LIQUID GLUCOSE, RAISING AGENTS 503(), 500(i), 450(1)1, BUTTER (1.2%), BLACK SALT, MILK SOLIDS, EDIBLE VEGETABLE PRODUCT (1%), IODISED SALT, ACIDITY REGULATOR (341(ii), DOUGH CONDITIONER (223) AND IMPROVER [1101(i)]. CONTAINS ADDED FLAVOUR (ARTIFICIAL FLAVOURING SUBSTANCE (BUTTER)]. (Numbers in brackets as per International Numbering System) CONTAINS WHEAT, MILK AND SULPHITE."
+  },
+  {
+   "code": "8901491981521",
+   "name": "",
+   "country": "india",
+   "ingredients": "Potato, edible vegetable oil (palmolein oil), seasoning (sugar, iodised salt, flavour (natural and nature identical flavouring substances), spices & condiments, maltodextrin, lime juice powder, anticaking agent (551), edible vegetable oil (sunflower seed oil), flavour enhancers (627, 631), corn syrup solids)."
+  },
+  {
+   "code": "5410942104158",
+   "name": "Passendale classic",
+   "country": "india",
+   "ingredients": "pasteurized cow's milk, salt, lactic acid ferments, rennet, natural dye: annatto,"
+  },
+  {
+   "code": "8902080000227",
+   "name": "Sting Energy",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, ACIDITY REGULATORS (330, 331), SEQUESTERANTS (452(1), 385),TAURINE, CAFFEINE (0.03%), PRESERVATIVES (211, 202), SWEETENERS (955, 950), INOSITOL, VITAMINS PREMIX. CONTAINS PERMITTED SYNTHETIC FOOD COLOUR (129) AND ADDED FLAVOUR (NATURAL AND NATURE IDENTICAL FLAVOURING SUBSTANCES)"
+  },
+  {
+   "code": "8901063093522",
+   "name": "Good Day - Cashew Cookies",
+   "country": "india",
+   "ingredients": "INGREDIENTS REFINED WHEAT FLOUR (MAIDA), EDIBLE VEGETABLE OIL (PALM), SUGAR, CASHEW NUTS (4.5%), INVERT SYRUP, MILK SOLIDS, BUTTER (96%), RAISING AGENTS (503&5000TH 100ISED SALT AND EMULSIFIERS (322,471,472) CONTAINS ADDED FLAVOURS (NATURE IDENTICAL AND ARTIFICIAL (MILK AND VANILLA) FLAVOURING SUBSTANCES! (Numbers in brackets as per laternational Numbering System) CONTAINS WHEAT, NUTS, MILK AND SOYA."
+  },
+  {
+   "code": "8902080104055",
+   "name": "Pepsi Drink 750ml",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, COLOUR (150d), ACIDITY REGULATOR (338), CAFFEINE (10 mg/100g), FLAVOUR (NATURAL FLAVOURING SUBSTANCES), STABILZER (436)"
+  },
+  {
+   "code": "8901030824227",
+   "name": "Boost",
+   "country": "india",
+   "ingredients": "Cereal Extract (50%) (Barley, Wheat, Millet), Malted Barley (21%). Sugar, Wheat Flour (Atta), Milk Solids (6%), Minerals, Natural Colour (INS 150c), Wheat Gluten, Acidity Regulators [INS 501(ii), INS 500 (ii)), Edible lodised Salt, Cocoa Powder, Vitamins, Nature Identical Flavouring Substances, Soy Protein Isolate. Allergen Information: Contains Wheat, Barley Milk and Soy"
+  },
+  {
+   "code": "8901764032905",
+   "name": "Sprite",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, ACIDITY REGULATORS (330, 331(iii)), PRESERVATIVE (211), SWEETENER (960), FLAVOURS (NATURAL FLAVOURING SUBSTANCES)."
+  },
+  {
+   "code": "8901491001076",
+   "name": "American Style Cream and onion chips",
+   "country": "india",
+   "ingredients": "Potato, Edible Vegetable Oil (Palmolein, Sunflower Oil), Seasoning (Sugar, Iodised Salt, Milk Solids, Spices & Condiments, Maltodextrin, Flavour (Natural and Nature Identical Flavouring Substances), Cheese Powder, Hydrolysed Vegetable Protein, Flavour Enhancers (627, 631), Edible Vegetable Oil (Palm, Coconut), Anticaking Agent (551))."
+  },
+  {
+   "code": "8901764012273",
+   "name": "Coca Cola Coke Brand 750ml",
+   "country": "india",
+   "ingredients": "Carbonated water, sugar, acidity regulator (338), caffeine. Contains permitted natural colour (150d) and added flavours (natural flavouring substances)."
+  },
+  {
+   "code": "8901719128462",
+   "name": "Parle-G",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA ) - 68%, SUGAR, REFINED PALM OIL, INVERT SUGAR SYRUP# [SUGAR, CITRIC ACID], IODISED SALT, RAISING AGENTS [503 (ii), 500 (ii)], MILK SOLIDS, FLOUR TREATMENT AGENT [1101 (i)] AND EMULSIFIER OF VEGETABLE ORIGIN [472e], CONTAINS ADDED FLAVOUR ( ARTIFICIAL FLAVOURING SUBSTANCES - VANILLA) (D-GLUCOSE, LEVULOSE)"
+  },
+  {
+   "code": "8902080001286",
+   "name": "Pepsi black",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, COLOUR (150d), ACIDITY REGULATORS (338,330), SWEETENERS (955, 950), PRESERVATIVE (211), CAFFEINE (13mg/100g), FLAVOUR (NATURAL FLAVOURING SUBSTANCES), STABILIZER (436)."
+  },
+  {
+   "code": "7622201149406",
+   "name": "Cadbury Dairy Milk Chocolate",
+   "country": "india",
+   "ingredients": "Sugar , Milk Solids(22%), Cocoa butter, Cocoa Solids ,Edible vegetable fat, Emulsifiers(442,476)."
+  },
+  {
+   "code": "8901491367219",
+   "name": "kurkure",
+   "country": "india",
+   "ingredients": "Cereal Products (67%) (Rice Meal (44%), Corn Meal (23%)), Edible Vegetable Oil (Rice Bran Oil, Sesame Oil), *Seasoning Spices & Condiments, lodised Salt, Sugar, Flavour (Natural and Nature Identical Flavouring Substances), Black Salt, Tomato Powder, Acidity Regulators (330, 296, 334), Colour (160c), Maltodextrin), Gram Meal (0.4%). As Flavouring Agent. &quot;Contains Onion and Garlic LERGEN ADVICE: Contains Sulphite."
+  },
+  {
+   "code": "8901764032912",
+   "name": "Sprite",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, ACIDITY REGULATORS (330, 331(iii)), PRESERVATIVE (211), SWEETENER(960), FLAVOURS (NATURAL FLAVORING SUBSTANCES)."
+  },
+  {
+   "code": "8901246005373",
+   "name": "TOMATO KETCHUP CLASSIC BLEND",
+   "country": "india",
+   "ingredients": "Water, tomato paste (25%), sugar, iodized salt, thickeners (INS 1422, INS 415), acidity regulator (INS 260), spice & condiments (garlic powder, onion powder, mixed spices), preservative (INS 211), spice extract, sweetener {steviol glycoside (INS 960)}."
+  },
+  {
+   "code": "8901764042911",
+   "name": "Thums up",
+   "country": "india",
+   "ingredients": "Carbonated water, sugar, acidity regulator (338), caffeine (8.1 mg/100 g), sweetener (960), colour (150 d), flavours (natural, nature-identical & artificial (cola) flavouring substances)."
+  },
+  {
+   "code": "7622201428501",
+   "name": "Oreo",
+   "country": "india",
+   "ingredients": "SUGAR, UNBLEACHED ENRICHED FLOUR (WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE {VITAMIN B1}, RIBOFLAVIN {VITAMIN B2}, FOLIC ACID), PALM AND/OR CANOLA OIL, COCOA (PROCESSED WITH ALKALI), HIGH FRUCTOSE CORN SYRUP, LEAVENING (BAKING SODA AND/OR CALCIUM PHOSPHATE), SALT, SOY LECITHIN, CHOCOLATE, ARTIFICIAL FLAVOR."
+  },
+  {
+   "code": "8901262260121",
+   "name": "Amul Taaza Milky Milk",
+   "country": "india",
+   "ingredients": "PASTEURISED HOMOGENISED TONED MILK"
+  },
+  {
+   "code": "8906002482481",
+   "name": "Snickers",
+   "country": "india",
+   "ingredients": "Milk chocolate (36.5%): Sugar, Milk solids, Cocoa butter. Cocoa solids, Edible vegetable fats &lt;5% (Sal fat, Palm oil), Dextrose, Emulsifier (322); Centre filling (63.5%): Liquid glucose, Peanuts (18%), Sugar, Fractionated vegetable fat, Milk solids, lodized salt, Cocoa butter, Cocoa solids, Edible vegetable fats &lt;5% (Sal fat, Palm oil), Dextrose, Emulsifier (322).\nCONTAINS COCOA BUTTER EQUIVALENT IN ADDITION TO COCOA BUTTER. \nContains Peanuts, Milk & Soy. \nMay contain Treenuts."
+  },
+  {
+   "code": "8901491100519",
+   "name": "Kurkure",
+   "country": "india",
+   "ingredients": "Cereal Products (66%) (Rice Meal (43.5%), Corn Meal (23%)), Edible Vegetable Oil (Palmolein),*Seasoning (~Spices and Condiments, lodised Salt, Sugar, Flavour (Natural and Nature Identical Flavouring Substances), Black Salt, Tomato Powder, Acidity Regulators (330, 296, 334), Colour(160c), Maltodextrin) , Gram Meal (0.5%)."
+  },
+  {
+   "code": "8902080364022",
+   "name": "Mountain Dew",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, ACIDITY REGULATORS (330 ,331), FLAVOUR (NATURAL FLAVOURING SUBSTANCES), PRESERVATIVE (211), CAFFEINE (13 mg/100 g), STABILIZER (445), COLOUR (102)."
+  },
+  {
+   "code": "8996001312506",
+   "name": "Malkist Cheese Flavoured Crunchy Layered Cracker Biscuits",
+   "country": "india",
+   "ingredients": "Refined Wheat Flour Edible Vegetable Oil (Palmolein) Sugar (15.8%), Whey Powder, Glucose Syrup, Milk Solids (1.67%)(SMP), Cheese Powder (Cheese, Maltodextrin)(1.62%), Tapioca Starch, Leavening Agent (E503(ii), E500(ii)), Edible Common Salt, Baker's Yeast, Malt Extract (0.42%), Butter, Artificial Flavouring Substance (Cheese), Emulsifier (Soy Lecithin E322(i)), Vitamin Premix (Thiamine Mononitrate, Riboflavin, Pyridoxine Hydrochloride, Cyanocobalamin), Permitted Synthetic Food Colour (E102, E110)."
+  },
+  {
+   "code": "8902579000370",
+   "name": "Frooti mango drink",
+   "country": "india",
+   "ingredients": "WATER, SUGAR, MANGO PULP (11.2%), ACIDITY REGULATORS [INS 330, INS 331(iii)], NATURE IDENTICAL FLAVOURING SUBSTANCES (MANGO), STABILIZER (INS 466), ANTIOXIDANT (INS 300) AND FOOD COLOUR (INS 110)."
+  },
+  {
+   "code": "8902579001360",
+   "name": "Frooti 125ml",
+   "country": "india",
+   "ingredients": "Water, Sugar, Mango Pulp, Acidity Regulators (INS 330, INS 331iii), Stabilizer (INS 466), Nature-Identical Flavouring Substances (Mango), Antioxidant (INS 300), Food Colour (INS 110)"
+  },
+  {
+   "code": "8904246910012",
+   "name": "Amla pickle",
+   "country": "india",
+   "ingredients": "Amla Berries (48%), Refined Rice Bran Oil, Tamarind Paste (Tamarind, Water), Chilli Powder, Lime Juice, Mixed spices Mustard Seeds, Dry Chillies, Acidity Regulator-Acetic Acid,  Curry Leaves and Asafoetida"
+  },
+  {
+   "code": "8901063017702",
+   "name": "50 50 Gol Maal",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA), REFINED PALM & PALMOLEIN OIL, SUGAR (20.5%), RAISING AGENTS (503(ii), 500(ii) & 341(i)), CUMIN BLACK (KALONJI) (0.9%), IODISED SALT, INVERT SUGAR SYRUP, MILK SOLIDS, EMULSIFIERS [322(1) & 4711, NATURE IDENTICAL FLAVOURING SUBSTANCES, DOUGH CONDITIONER (223), IMPROVER [1101(i)] AND COLOUR (102)."
+  },
+  {
+   "code": "8901764082405",
+   "name": "Kinley Mineral Water 1ltr",
+   "country": "india",
+   "ingredients": "Treated Water, Salts of Sodium and Magnesium"
+  },
+  {
+   "code": "8901063139374",
+   "name": "BOURBON",
+   "country": "india",
+   "ingredients": "EDIBLE MAIZI CH, 122, 110, 13 & 102), COCOA SOLIDS (2.7%), MILK SOUDS, RAISING AGENTS (500) & 503(1) NATURE IDENTICAL & ARTIFICIAL (VANILU CHOCOLATE MILK & MILKY COCOA) FLAVOUING SUBSTANCES, EMULSIFIERS [471 & 322(1), M.K CHOCOLATE (0.1%) [EMULSIFIER (322(1) AD IODSED SALT."
+  },
+  {
+   "code": "8901063139336",
+   "name": "Britannia bourbon 100g",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA), SUGAR (33%), REFINED PALM OIL, EDIBLE MAIZE STARCH, COLOURS (150a, 150d, 122, 110,133&102), COCOA SOLIDS (2.7%), MILK SOLIDS, RAISING AGENTS [500(ii)&503(ii)], NATURE IDENTICAL&ARTIFICIAL (VANILLA, CHOCOLATE MILK&MILKY COCOA) SUBSTANCES, FLAVOURING EMULSIFIERS [471 & 322(1)], MILK CHOCOLATE (0.1%) [EMULSIFIER (322(1))) AND IODISED SALT. (Numbers in brackets as per International Numbering System) CONTAINS WHEAT, MILK AND SOYA."
+  },
+  {
+   "code": "8904063220431",
+   "name": "Taka tak",
+   "country": "india",
+   "ingredients": "Rice Meal, Edible Vegetable Oil (Palmol Cotton Seed, Rice Bran), Corn Meal (23%), Gram Meal, and Condiments (Red Chilli Powder (0.8%), Raw Powder, Coriander Powder (0.25%), Cumin Powder, Powder, Anise Powder (0.1%) Black Pepper Powder, (L Nutmeg Powder, Cinnamon Powder, Onion Powder, S Extract), lodised Salt, Whey Powder, Maltodextrin, De Sugar Powder, Acidity Regulators (INS 296 & INS 330), N and Nature Identical Flavouring Substances *Used as natural flavouring agent"
+  },
+  {
+   "code": "19010588",
+   "name": "Chicken noodles",
+   "country": "india",
+   "ingredients": "Tastemaker: Mixed spices (Dehydrated onion, Dehydrated onion bits, Dried garlic powder (3%), Red chilli flakes (3%), Black pepper powder (2.3%), Dried garlic bits (2%), Red chilli powder (0.9%), Spice extract blend (Capsicum extract, Coriander extract, Cumin extract), Turmeric powder, Nutmeg powder), Sugar, Noodle powder (Refined wheat flour (Maida), Palm oil, Iodised salt, Gluten, Thickeners (508, 412), Acidity Regulators (501(i), 500 (i)), Humectant (451(i))), Iodised salt, Starch, Dehydrated chicken powder (Chicken meat (5.7%), Chicken fat (0.3%), Humectant 420(ii), Iodised salt, Onion, Dehydrated bread, Acidity regulator (330)), Thickener (508), Flavour enhancer (635), Liquid chicken fat (Chicken fat (1.9%), Acidity Regulator (330), Sunflower oil, Antioxidants (307(b), 320)), Caramel salt mix (Iodised salt, Colour (150d), Palm oil), Palm oil, Acidity Regulator (330), Mineral (Ferric pyrophosphate) and Dehydrated kasuri methi leaves. CONTAINS PERMITTED NATURAL COLOUR AND ADDED FLAVOURS (NATURAL FLAVOUR AND NATURE IDENTICAL FLAVOURING SUBSTANCES). May contain Eggs, Milk solids and Soya."
+  },
+  {
+   "code": "8901063092686",
+   "name": "Good Day Butter Cookies (25)",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA), REFINED PALM OIL, SUGAR, INVERT SUGAR SYRUP, MILK PRODUCTS [MILK SOLIDS & BUTTER (0.5%)], RAISING AGENTS [503(ii) & 500(ii)], 1ODISED SALT, ARTIFICIAL (BUTTER, MILK & VANILLA) & NATURAL FLAVOURING SUBSTANCES AND EMULSIFIERS [472e & 322(i)]. (Numbers in brackets as per International Numbering System) CONTAINS WHEAT, MILK AND SOY. 15"
+  },
+  {
+   "code": "8901764111259",
+   "name": "Coca cola zero sugar 300ml",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, ACIDITY REGULATORS (338, 331), SWEETENERS (955, 950), PRESERVATIVE (211), CAFFEINE (9.2 mg/100 g), COLOUR (150d), FLAVOURS (NATURAL FLAVOURING SUBSTANCES"
+  },
+  {
+   "code": "8901030807176",
+   "name": "Classic Malt",
+   "country": "india",
+   "ingredients": "Malt (66.7%) [Barley (32%), Wheat Flour (Atta), Wheat, Millet], Milk Solids (14%), Sugar, Wheat Gluten, Minerals, Edible lodized Salt, Soy Protein Isolate, Acidity Regulators [INS 501(ii), 500(ii)], Vitamins. Allergen Information: Contains Wheat, Barley, Milk & Soy."
+  },
+  {
+   "code": "8904004403718",
+   "name": "Moong Dal",
+   "country": "india",
+   "ingredients": "Split Pulse Moong (Moong Dal) (77 %), Cotton Seed Oil Refined & lodised Salt."
+  },
+  {
+   "code": "8906010500900",
+   "name": "Wheelos Masala Flavour",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA) (60%), EDIBLE VEGETABLE OIL (PALMOLEIN, RICE BRAN), TAPIOCA STARCH, CORN FLOUR, EDIBLE COMMON SALT, DEHYDRATED VEGETABLE POWDER (ONION, GARLIC, TAMARIND), SPICES & CONDIMENTS 2% (DRY MANGO, CHILLI, PEPPER, CUMIN), SUGAR, YEAST EXTRACT, ACIDITY REGULATOR (INS 296, INS 330, INS 334), NATURAL & NATURE IDENTICAL FLAVOURING SUBSTANCES (MASALA), FLAVOUR ENHANCER (INS 627, INS 631), ANTICAKING AGENT (INS 551, INS 341 (III)), PAPRIKA EXTRACT (INS 160C)."
+  },
+  {
+   "code": "8901014004935",
+   "name": "spiced chunky chicken",
+   "country": "india",
+   "ingredients": "Refined Wheat Flour (Maida), Edible Vegetable Oil (Palm Oil), Dehydrated Pieces 6.01% (Chicken, Carrot, French Beans, Cabbage & Curry I Leaves), lodised Salt, Hydrolysed Vegetable Protein Powder (Soya), Mixed Spices 1.49% (Red Chilli, Turmeric, Coriander, Black Pepper, Cumin, Fenugreek, Ginger, Clove, Nutmeg & Green Cardamom), Onion Powder, Sugar, Corn Starch, Maltodextrin, Yeast Extract Powder, Flavour Enhancers (INS 631, INS 627 & INS 620), Milk Solids, Acidity Regulators [INS 500(1), INS 451(1) & INS 330], Nature Identical Flavour, Edible Vegetable Oil (Coconut Oil), Thickener (INS 415) & Antioxidant (INS 319)."
+  },
+  {
+   "code": "8901058851304",
+   "name": "Maggi Noodles Masala 140Grm Pc",
+   "country": "india",
+   "ingredients": "Wheat flour, Palm oil, Salt, Wheat gluten, calcium carbonate, Thickeners(508 & 412), Acidity regulators (501i & 500i), Humectant (451i), Masala Tastemaker (hydrolysed groundnut protein, mixed spices, Noodle powder, Palm oil, Salt, Wheat gluten, Calcium carbonate, Thickeners (508 & 412), acidity regulators (501i & 500i), Sugar, Edible starch, Ferric pyrophosphate)"
+  },
+  {
+   "code": "00123456",
+   "name": "Potato sandwich",
+   "country": "india",
+   "ingredients": "Potato, onion, tomato, salt"
+  },
+  {
+   "code": "8901491103794",
+   "name": "Quaker Oats",
+   "country": "india",
+   "ingredients": "ROLLED OAT FLAKES ALLERGEN ADVICE: MAY CONTAIN WHEAT, BARLEY."
+  },
+  {
+   "code": "8901764092305",
+   "name": "Maaza Origina",
+   "country": "india",
+   "ingredients": "WATER, MANGO PULP (19.5%), SUGAR, ACIDITY REGULATOR (330), ANTIOXIDANT(300) AND PRESERVATIVE (202) CONTAINS PERMITTED SYNTHETIC FOOD COLOUR (110) AND ADDED MANGO FLAVOURS (NATURAL, NATURE-IDENTICAL AND ARTIFICIAL FLAVOURING SUBSTANCES)."
+  },
+  {
+   "code": "8901063142015",
+   "name": "Nutri Choice",
+   "country": "india",
+   "ingredients": "WHEAT FLOUR (63%), REFINED PALM OIL, SUGAR, WHEAT BRAN (4.7%), LIQUID GLUCOSE, MILK SOLIDS, MALTODEXTRIN, RAISING AGENTS (INS 500, INS 503), IODISED SALT, EMULSIFIERS (INS 322, INS 471, INS 472c), MALT EXTRACT AND DOUGH CONDITIONER (INS 223). CONTAINS WHEAT, MILK, SOYA, BARLEY AND SULPHITE"
+  },
+  {
+   "code": "3948764012273",
+   "name": "Coca cola Soft Drink 750ml",
+   "country": "india",
+   "ingredients": "Carbonated water ,Sugar, Acidity Regulator (338), Caffeine (8.7 mg/100g), Colour (150d), Flavours (Natural Flavoring substances)"
+  },
+  {
+   "code": "8901058902839",
+   "name": "Veg Atta Masala Noodles",
+   "country": "india",
+   "ingredients": "Wheat flour (atta) (85.3%), Palm oil, lodised salt, Thickeners (508, 412), Humectants (451(1), 452(i)) and Acidity regulators (501(i), 500 (i)),Mixed spices (22,5%), (&quot;Roasted spice mix powder (6.6%) (Coriander, Turmeric, Cumin, Aniseed, Black pepper, Fenugreek, Ginger, Green cardamom, Cinnamon, Clove, Nutmeg, Bay leaf & Black cardamom), Onion powder, Garlic powder, Red chilli powder, Red chilli bib, Coriander powder, Turmeric powder, Ginger powder, Aniseed powder, Black pepper powder, Cumin powder, Cumin, fenugreek powder, Capsicum extract, Compounded asafoetida, Star anise powder, Coriander extract & Cumin extract) Dehydrated Vegetables (16.7%) (Carrot bits (8.5%) & Green peas (8.2%)), Toasted onion flakes (Onion (12.4%) & Corn oil), Refined wheat flour (Maida), Sugar, lodised salt, Toasted onion powder (Onion (5.9%) & Corn oil), Thickener (508), Palm oil, Flavour enhancer (635), Yeast extract powder, Dehyciated kasuri methi leaves Starch, Acidity regulator (330), Mineral and Wheat gluten. Contains Wheat. May contains Milk Oats and Soy."
+  },
+  {
+   "code": "8908004415177",
+   "name": "MARCO CRUNCHY PEANUT BUTTER",
+   "country": "india",
+   "ingredients": "Roasted Peanut, Sugar, Salt, Hydrogenated soya oil"
+  },
+  {
+   "code": "8902080304059",
+   "name": "7up Super Duper 750ml",
+   "country": "india",
+   "ingredients": "up added natur lemon CARBONATED WATER"
+  },
+  {
+   "code": "8901058903164",
+   "name": "KitKat win gold",
+   "country": "india",
+   "ingredients": "Sugar, Milk solids (16.2%),Fractionated vegetable fat,  Hydrogenated vegetable fats,Refined Wheat flour (Maida), Cocoa solids (4.5%), Emulsifier (Soya lecithin), Yeast,Raising agent (500(ii))Artificial (Vanilla)flavouring substance, lodized salt, Flour treatment agent (516), and Nature-Identical flavouring substances Contains Wheat, Milk, Sesame and Soy. May Contains Nut."
+  },
+  {
+   "code": "89009802",
+   "name": "Munch",
+   "country": "india",
+   "ingredients": "Sugar, Refined Wheat flour (Maida), Hydrogenated vegetable fats (contain sesame oil), Milk solids, Edible vegetable fats, Cocoa solids (3.8%), Emulsifier (Soya lecithin), Raising agent (500 (ii)), Yeast, Flour treatment agents (516 and 1101(i)) and lodized salt. CONTAINS ADDED FLAVOUR (ARTIFICIAL (VANILLA) FLAVOURING SUBSTANCES). MAY CONTAIN PEANUTS MAHA CRUNCH ilicious"
+  },
+  {
+   "code": "3948764042911",
+   "name": "thums up",
+   "country": "india",
+   "ingredients": "Carbonated water, sugar, acidity regulator (338), caffeine, sweetener (INS 960), colour (150d), flavours (natural, nature-identical & artificial (cola) flavouring substances)."
+  },
+  {
+   "code": "8901764022272",
+   "name": "Fanta Orange Flv 750ml",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, ACIDITY REGULATOR (330), STABILIZERS (414, 445), PRESERVATIVE (211), COLOUR (110), FLAVOURS (NATURAL & NATURE-IDENTICAL FLAVORING SUBSTANCES)."
+  },
+  {
+   "code": "8901719121746",
+   "name": "Parle G",
+   "country": "india",
+   "ingredients": "Refined wheat flour - 68%, Sugar, refined palm oil, invert sugar syrup, iodised salt, raising agents, milk solids, vanilla"
+  },
+  {
+   "code": "8901764042300",
+   "name": "Thums Up",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, ACIDITY REGULATOR (330 CAFFEINE (8.1 mg/100 g), SWEETENER (960), COLOUR (150 d), FLAVOURS NATURAL, NATURE-IDENTICAL & ARTIFICIAL (COLA) FLAVOURING SUBSTANCES)."
+  },
+  {
+   "code": "8901233013091",
+   "name": "Cadbury Oreo Small Pack",
+   "country": "india",
+   "ingredients": "Refined Wheat Flour (Maida), Sugar, Edible Vegetable Fat, Palmolein, Invert Sugar, Cocoa Solids (2.3%), Leavening Agents (500(ii), 503(ii)), Edible Salt, Emulsifier (322). CONTAINS ADDED FLAVOUR (NATURE IDENTICAL FLAVOURING SUBSTANCES)."
+  },
+  {
+   "code": "8901071706834",
+   "name": "HERSHEY'S SYRUP 623g",
+   "country": "india",
+   "ingredients": "Sugar, water, invert sugar, liquid glucose, cocoa solids (5%), malt extract, thickening agent (415), preservative (202) and salt,"
+  },
+  {
+   "code": "8901058901832",
+   "name": "Masala Veg Atta Noodles",
+   "country": "india",
+   "ingredients": "Noodles: Wheat flour (atta) (85.2%), Palm oil, lodised salt, Thickeners (508&412), Humectants (451)&452) and Acidity regulators (501() & 500 ()). Masala *TASTEMAKER: Mixed spices (22.5%), (&quot;Roasted spice mix powder (66%) (Coriander, Turmeric, Cumin, Aniseed, Black pepper, Fenugreek, Ginger, Green cardamom Cinnamon, Clove, Nutmeg, Bay leaf & Black cardamom), Onion powder, Garlic powder Red chil powder, Red chilli bits, Coriander powder, Turmeric powder, Ginger powder, Aniseed powder Black pepper powder, Cumin powder, Cumin, Fenugreek powder, Capsicum extract, Compounded asafoetida, Star anise powder, Coriander extract & Cumin extract) Dehydrated Vegetables (16.7%) (Carrot bits (8.5%) & Green peas (8.2%)), Toasted onion flakes (Onion (12.4%) & Com oil), Refined wheat flour (Maida), Sugar, lodised salt, Toasted onion powder (Onion (59%) & Corn oil), Thickener (508), Palm oil, Flavour enhancer (635), Yeast extract powder, Dehydrated kasuri methi leaves, Starch, Acidity regulator (330), Mineral and Wheat gluten Contains Wheat May contains Milk, Oats and Soy. C i ^ C"
+  },
+  {
+   "code": "8901207036989",
+   "name": "Chyawanprash",
+   "country": "india",
+   "ingredients": "Each 100g is prepared fr Bit derived from the following (Stereospermum suaveolens, St. B Agnimantha (Clerodendrum phlomidis, St. Bk) Gambhari (Gmelina arborea, St. Bk.), Bilva (Aegle marmelos, St. Bk.), Shyonaka (Oroxylum indicum, St. Bk.), Gokshura (Tribulus terrestris, Fr.), Shalapai (Desmodium gangeticum, Pl.), Prishnipami (Uraria picta, Pl.), Brihati (Solanum indicum, PL.), Kantakari (Solanum surattense, PL), Pippali (Piper longum, Fr.), Karkatshringi (Pistacia integerrima, Gl.), Draksha (Vitis vinifera, Dr.Fr.), Guduchi (Tinospora cordifolia, St.), Haritaki (Terminalia chebula, P.), Bala (Sida cordifolia, Rt.), Tamalaki (Phyllanthus niruri, PL), Vasa (Adhatoda vasica If) Jiwanti (Leptadenia reticulata, Pl.), Shati (Hedychium spicatum, Rz.), Musta (Cyperus rotundus, Rz.), Pushkara (Inula recemosa, Rt.), Kakanasika (Martynia annua, Fr.), Mudgapami (Phaseolus trilobus, Pl.), Mashaparni (Teramnus labialis PL Vidari (Pueraria tuberosa, Rt. Tr.). Punarnava (Boerhavia diffusa, Rt.), Utpala lymphaea stellata, Fl.). Sukshamalla (Elettaria mum 3/"
+  },
+  {
+   "code": "8902050000028",
+   "name": "LaxmiNarayan Patal Poha Chiwda (Indian snack)",
+   "country": "india",
+   "ingredients": "Nylon Poha, Chana Dal, Groundnut (Peanuts), Groundnut Oil, Sugar, Sesame, Green Chilli, Black Salt, Salt, Turmeric Powder, Cumin Powder, Mango Powder, Asafoetida, Mustard Powder, Curry Leaves."
+  },
+  {
+   "code": "8901042968711",
+   "name": "Hing - compounded asafoetida powder",
+   "country": "india",
+   "ingredients": "Wheat flour (63.5%), Gum Arabic, Asafoetida"
+  },
+  {
+   "code": "8906021129961",
+   "name": "lemon pickle",
+   "country": "india",
+   "ingredients": "Lemon (79%), Salt, Edible Vegetable Oil - Refined Rice Bran Oil, Red Chilli Powder, Fenugreek, Mustard, Asafoetida, Turmeric Powder, Acidity Regulators - (INS 330 & INS 260) and Curry Leaves. CONTAINS PERMITTED CLASS II PRESERVATIVE INS 211"
+  },
+  {
+   "code": "8901764011252",
+   "name": "Coca cola Original Taste 300ml can",
+   "country": "india",
+   "ingredients": "CARBONATED\nWATER, SUGAR, ACIDITY REGULATOR (338), CAFFEINE (8.7 mg/100 g), COLOUR (150d), FLAVOURS (NATURAL FLAVOURING SUBSTANCES)."
+  },
+  {
+   "code": "8902080002085",
+   "name": "Tropicana Orange Delight 180ml",
+   "country": "india",
+   "ingredients": "WATER, CONCENTRATED ORANGE JUICE (8.2%), SUGAR, ACIDITY REGULATOR (E 330), iodised salt, STABILIZERS (E 440), FLAVOUR (NATURAL AND NATURE IDENTICAL FLAVOURING SUBSTANCES), COLOUR(E 160a(i)),ORANGE JUICE 45% (RECONSTITUTED) BEVERAGE"
+  },
+  {
+   "code": "8906017290033",
+   "name": "Bisleri",
+   "country": "india",
+   "ingredients": "Treated Water, Minerals (Salts of Calcium (1.0*mg), Magnesium (0.5*mg), Pottasium (0.1*mg)\n*Added Quantity Per 100ml"
+  },
+  {
+   "code": "7622201756789",
+   "name": "Oreo Strawberry Biscuit",
+   "country": "india",
+   "ingredients": "Refined Wheat Flour (Maida), Sugar, Fractionated Fat Palm olein, Invert Sugar, Cocoa Solids (2%*), Bicarbonate of soda and baking soda, Ammonium bicarbonate, Starch, lodised Salt, Nature Identical Flavouring Substances (Strawberry), Emulsifier (322), Colour (122), Allergen Information: Contains Wheat, Sulphites, Soy, Milk, Barley"
+  },
+  {
+   "code": "7622201756741",
+   "name": "Sandwich Biscuit",
+   "country": "india",
+   "ingredients": "Refined Wheat Flour (Maida), Sugar, Fractionated Fat, Palmolein, Cocoa Solids (3%*), Invert Sugar, Leavening Agents (500(ii),503 (ii)), Starch, lodised Salt, Emulsifier (322), Nature Identical Flavouring Substances"
+  },
+  {
+   "code": "8901786090501",
+   "name": "Chhole Masala",
+   "country": "india",
+   "ingredients": "Coriander, Dried Mango, Chilli, Cumin, Cassia Leaf, Mint Leaf, Pomegranate seed, Mustard, Cassia Bark (Taj), Clove, Black Pepper, Fennel, Dried Ginger, Iodized Salt, Black Salt, Nutmeg, Mace, Caraway, Black Cardamom, Turmeric, Bishop's Weed, Compounded Asafoetida, Tamarind and Citric Acid."
+  },
+  {
+   "code": "8901725001308",
+   "name": "Bingo Potato Chips Cream & Onion",
+   "country": "india",
+   "ingredients": "POTATO (57.9%), REFINED PALMOLEIN, SEASONING MIX [MILK SOLIDS (1.8%), REFINED SUGAR, DEXTROSE, ONION POWDER (1.0%), IODISED SALT, DRIED PARSLEY LEAVES (0.4%), SOY SAUCE POWDER, CHEESE POWDER (0.2%), ACIDITY REGULATOR (INS 330), ANTICAKING AGENT (INS 551) & FLAVOUR ENHANCER (INS 627, INS 631)] AND IODISED SALT. CONTAINS ADDED FLAVOURS(S) (NATURAL FLAVOURS & NATURAL FLAVOURING SUBSTANCES - CREAM & NATURE IDENTICAL FLAOURING SUBSTANCES - CHEESE)"
+  },
+  {
+   "code": "8901764042805",
+   "name": "Thums Up",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, ACIDITY REGULATOR (338), CAFFEINE (81 mg/100 g), SWEETENER (960), COLOUR (150 d), FLAVOURS (NATURAL, NATURE-IDENTICAL & ARTIFICIAL (COLA) FLAVORING SUBSTANCES)"
+  },
+  {
+   "code": "8901491366052",
+   "name": "Puffcorn",
+   "country": "india",
+   "ingredients": "Cereal Products (67%) (Corn Meal (53%). Rice Meal), Edible Vegetable Oil (Palmolein), ++Seasoning (Sugar, lodised Salt, Maltodextrin, &quot;Spices and Condiments, Milk Solids, Cheese, Salt Substitute (Potassium Chloride), Flavour (Natural and Nature Identical Flavouring Substances), Flavour Enhancers (627, 631), Acidity Regulators (296, 330), Emulsifying & Stabilising Agent (331 (iii), 471, 327), Gram Meal, Firming Agent (170(i)), lodised Salt. **As flavouring agent. ~Contains Onion and Garlic ALLERGEN ADVICE: Contains Soy, Milk, Wheat"
+  },
+  {
+   "code": "8901063023901",
+   "name": "Marie Gold",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA)(73%), SUGAR, REFINED PALM OIL, INVERT SUGAR SYRUP, MILK SOLIDS, RAISING AGENTS [503(ii) & 500 (ii)], IODIZED SALT, EMULSIFIER(472e), CALCIUM SALT, DOUGH CONDITIONER(223), VITAMINS*, FERROUS SALT AND POTASSIUM IODATE. CONTAINS PERMITTED NATURAL COLOUR (150d) AND ADDED FLAVOURS NATURE IDENTICAL & ARTIFICIAL (MILK & VANILLA) FLAVOURING SUBSTANCES] (Numbers in brackets as per International Numbering System) CONTAINS WHEAT, MILK AND SULPHITE."
+  },
+  {
+   "code": "8901063035102",
+   "name": "milk bikis",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA), SUGAR, INTERESTERIFIED VEGETABLE FAT & REFINED PALM OIL, MILK PRODUCTS (8.7%) [MILK SOLIDS & SWEETENED CONDENSED PARTLY SKIMMED MILK], LIQUID GLUCOSE, EDIBLE MAIZE STARCH, RAISING AGENTS [503(ii), 500(ii) & 341(i)], EMULSIFIERS [322(i) & 471], IODISED SALT, MINERALS, ARTIFICIAL (MILK) FLAVOURING SUBSTANCES AND VITAMINS."
+  },
+  {
+   "code": "8901499010513",
+   "name": "Muesli Fruit, Nut & Seeds",
+   "country": "india",
+   "ingredients": "multigrain (66.4%) (wheat (24.6%), corn grits (15.7%) rice (10.1%), rolled barley (8 %), rolled oats (8%)), candied & dry fruits, nut & seed (21%) (candied papaya (6%), candied cranberry (4%), Raisins (4%), almonds (4%), pumpkin Seeds (3%), sugar. Cereal Extract, wheat bran, lodized Salt, vitamins, Flavour (Artificial (Coconut)), Minerals and Antioxidants (INS 320, INS 307b)"
+  },
+  {
+   "code": "0786162002969",
+   "name": "acai blueberry pomegranate nutrient enhanced water beverage",
+   "country": "india",
+   "ingredients": "Reverse osmosis water, less than 0.5% of: vitamins A, C, B3, B5, B6, B12 (beta-carotene, ascorbic acid, niacinamide, calcium pantothenate, pyridoxine hydrochloride, cyanocobalamin), fruit and vegetable juices (for color), natural flavors, citric acid, stevia leaf extract, electrolytes (calcium and magnesium lactates and potassium phosphate), monk fruit extract, sodium selenate, manganese citrate."
+  },
+  {
+   "code": "8901063016873",
+   "name": "50-50",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR MAIDA), REFINED (PALMOLEIN & PALM) OIL, SUGAR (18%), RAISING AGENTS [503(ii), 500(ii) & 341 (i)], IODISED SALT (0.8%), INVERT SUGAR SYRUP, YEAST, ACIDITY REGULATORS (270 & 330), EMULSIFIER (472e), NATURE IDENTICAL AND ARTIFICIAL (VANILLA) FLAVOURING SUBSTANCES AND DOUGH CONDITIONER (223). (Numbers in brackets as per International Numbering System)"
+  },
+  {
+   "code": "89006733",
+   "name": "Nescafe Classic Pure Coffee",
+   "country": "india",
+   "ingredients": "COFFEE BEANS"
+  },
+  {
+   "code": "8904132918351",
+   "name": "Get real Coconut Oil",
+   "country": "india",
+   "ingredients": "COCONUT OIL"
+  },
+  {
+   "code": "8901088000345",
+   "name": "Coconut oil",
+   "country": "india",
+   "ingredients": "Coconut Oil"
+  },
+  {
+   "code": "8901499009289",
+   "name": "Cornflakes Almond Honey (Kellogg's)",
+   "country": "india",
+   "ingredients": "Corn Grits (61.7%), Sugar, Sliced Almonds (9.0%), Cereal Extract, Dextrose, Honey (1.6%) , Iodized Salt, Vitamins, Minerals, Colour (INS 150d) & Antioxidants (INS 320). CONTAINS PERMITTED NATURAL COLOUR & ADDED FLAVOUR (NATURE-IDENTICAL FLAVOURING SUBSTANCES)"
+  },
+  {
+   "code": "8901725118938",
+   "name": "Bingo Tedhe Medhe",
+   "country": "india",
+   "ingredients": "chili powder extra"
+  },
+  {
+   "code": "8901063162426",
+   "name": "Marie gold",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA) (73%), SUGAR, REFINED PALM OIL, INVERT SUGAR STRUP, MILK PRODUCTS [MILK SOLIDS & SWEETENED CONDENSED PARTLY SKIMMED MILK], RAISING AGENTS [503 (ii) & 500 (ii)], IODIZED SALT, NATURE IDENTICAL & ARTIFICIAL (MILK & VANILLA) FLAVOURING SUBSTANCES, EMULSIFIER (472e), CALCIUM SALT, DOUGH CONDITIONER (223), VITAMINS, FERROUS SALT, COLOUR (150D) AND POTASSIUN IODATE"
+  },
+  {
+   "code": "8901491502023",
+   "name": "Lay's - India's Magic Masala",
+   "country": "india",
+   "ingredients": "Potato, Edible Vegetable Oil (Palmolein Oil), *Seasoning (&quot;Spices & Condiments, Iodised Salt, Maltodextrin, Black Salt, Sugar, Tomato Powder, Acidity Regulators (330, 296, 334), Flavour (Natural and Nature Identical Flavouring Substances), Anticaking Agent (551), Colour (160c)). *As flavouring agent. ~Contains Onion and Garlic"
+  },
+  {
+   "code": "8901725121129",
+   "name": "Shudh Chakki Atta",
+   "country": "india",
+   "ingredients": "Whole Wheat"
+  },
+  {
+   "code": "8901725192327",
+   "name": "Potato chips",
+   "country": "india",
+   "ingredients": "POTATO (60.0%), REFINED PALMOLEIN, SEASONING {IODIZED SALT, RED CHILLI POWDER (1.1%), MALTODEXTRIN, SPICES AND CONDIMENTS, ONION POWDER, REFINED WHEAT FLOUR (MAIDA), NATURE IDENTICAL FLAVOURING SUBSTANCES, BLACK SALT, MILK SOLIDS, NATURAL FLAVOURS AND NATURAL FLAVOURING SUBSTANCES, SUGAR, TOMATO POWDER, HYDROLYZED VEGETABLE PROTEIN, GARLIC POWDER AND FLAVOUR ENHANCER (INS 508)} AND IODIZED SALT."
+  },
+  {
+   "code": "8904327600351",
+   "name": "Chocolate Peanut butter smooth",
+   "country": "india",
+   "ingredients": "Roasted Peanuts (83%). Dark Chocolate (10%), Sugar, Salt, Stabilizer (INS 471) Allergen Info: Contain Peanuts & Soya Produced in a facility that also handles nuts"
+  },
+  {
+   "code": "8902080000425",
+   "name": "Nimbooz",
+   "country": "india",
+   "ingredients": "WATER SUGAR CONCENTRATE PRESERVATIVE (202). *EQUIVALENT TO 5% LEMON JUICE (RECONSTITUTED) NUTRITIONAL INFORMATIONA Serve Size: 200 ml; 1.3 servings in this pack FOR MANUFACT Per % RDA 100 ml Per Serve SEE FIRST ONE LETTER LETTERS OF THE BATCH Energy"
+  },
+  {
+   "code": "8901725101381",
+   "name": "",
+   "country": "india",
+   "ingredients": "CHOCO CRÈME (38%) (SUGAR, REFINED PALMOLEIN, REFINED PALM OIL, COCOA SOLIDS (5.3%), EMULSIFIER [LECITHIN (FROM SOYABEAN)], NATURE IDENTICAL FLAVOURING SUBSTANCES - CHOCOLATE AND ARTIFICIAL FLAVOURING SUBSTANCES - VANILLA}, REFINED WHEAT FLOUR (MAIDA), HYDROGENATED VEGETABLE OILS, SUGAR, INVERT SYRUP, LIQUID GLUCOSE, RAISING AGENTS [INS 503(ii), INS 500(ii), INS 450(i)], COCOA SOLIDS (0.7%), BUTTER, MILK SOLIDS, IODIZED SALT AND EMULSIFIERS [LECITHIN (FROM SOYABEAN), MONO - AND DI-GLYCERIDES OF FATTY ACIDS (FROM PALM OIL)]. CONTAINS PERMITTED NATURAL COLOUR(S) (INS 150d, INS 150c) AND ADDED FLAVOUR(S) (NATURE IDENTICAL FLAVOURING SUBSTANCES - CHOCOLATE AND ARTIFICIAL FLAVOURING SUBSTANCES - VANILLA, MILK) CONTAINS WHEAT, MILK SOLIDS AND SOYA. MAY CONTAIN TRACES OF NUTS."
+  },
+  {
+   "code": "8901030865237",
+   "name": "Tomato Ketchup",
+   "country": "india",
+   "ingredients": "WATER, TOMATO PASTE* (28%), SUGAR, IODISED SALT, ACIDITY REGULATOR - E260, STABILIZERS - E1422, E415, PRESERVATIVE - E211, ONION POWDER, GARLIC POWDER, SPICES AND CONDIMENTS."
+  },
+  {
+   "code": "8904063204325",
+   "name": "Haldiram's Bhujia",
+   "country": "india",
+   "ingredients": "Tepary Beans Flour, Edible Vegetable Oil (Cotton Seed, Corn & Palmolein Oil), Gram Pulse Flour, Edible Common Salt Powder, Spices& Condiments (Red Chilli Powder, Black Pepper Powder, Ginger Clove Powder, Mace Powder, Nutmeg Powder and Cardamom Powder)."
+  },
+  {
+   "code": "8901595863280",
+   "name": "Schezwan Chutney",
+   "country": "india",
+   "ingredients": "Water, Cotton Seed Oil, Sugar, iodised Salt, Chilli, Garlic, Onion, Thickener (INS 1422), Ginger, Acidity Regulator (INS 260), Flavour Enhancer (INS 635), Spices (White Pepper, Schezwan Pepper), Preservatives (INS 202, INS 211), Natural Flavouring Substances. Contains: Celery. May contain: Wheat, Soy, Nuts, Sesame Seeds, Mustard and Milk."
+  },
+  {
+   "code": "8901764061257",
+   "name": "Diet Coke Can 250ml",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, ACIDITY REGULATOR (338), SWEETENERS (951,950), PRESERVATIVE (211), CAFFEINE. CONTAINS PERMITTED NATURAL COLOUR (150d) AND ADDED FLAVOURS (NATURAL FLAVOURING SUBSTANCÉS)."
+  },
+  {
+   "code": "8901262090315",
+   "name": "Dairy Whitener",
+   "country": "india",
+   "ingredients": "Milk solids, sucrose. Allergen Information: Contains milk."
+  },
+  {
+   "code": "8901262010016",
+   "name": "Amul Pasteurized Butter",
+   "country": "india",
+   "ingredients": "Butter, common salt. CONTAINS PERMITTED NATURAL COLOUR [ANNATTO]"
+  },
+  {
+   "code": "8902579002046",
+   "name": "Appy fizz",
+   "country": "india",
+   "ingredients": "WATER, SUGAR, CARBONATING AGENT (INS 290) ACIDITY REGULATORS [INS 296, INS 331(iii), INS 330], STABILIZER (INS 440), FOOD COLOUR (INS 150d), PRESERVATIVE (INS 211), ANTIOXIDANT (INS 300), NATURE-IDENTICAL FLAVOURING SUBSTANCE (APPLE)"
+  },
+  {
+   "code": "8901491503020",
+   "name": "Lays India's Magic Masala",
+   "country": "india",
+   "ingredients": "Potato (83%), Edible Vegetable Oil, *Seasoning (Spices and condiments, Maltodextrin, lodised Salt, Sugar, Flavour (Natural and Nature Identical Flavouring Substances), Edible Vegetable Oil (Sunflower Oil, Palm Oil), Flavour Enhancers (627, 631))."
+  },
+  {
+   "code": "89002940",
+   "name": "Coconut oil",
+   "country": "india",
+   "ingredients": "Coconut Oil"
+  },
+  {
+   "code": "8904004400731",
+   "name": "Aloo Bhujia Sev",
+   "country": "india",
+   "ingredients": "Potato, Edible Vegetable Oil (Palmolein, Cotton Seed, Corn, Sunflower, Rice Bran), Bengal Gram Flour (Besan), Potato Flakes, Potato Starch, Tapioca Starch, Tepary Beans (Moth Dal) Flour, lodised Salt, Red Chilli Powder, Black Salt, Acidity Regulator (INS 330), Black Pepper, Clove, Dried Ginger Powder, Dried Garlic Powder, Cumin Powder, Bay Leaf, Nutmeg, Cinnamon, Turmeric, Mint Leaves, Natural Flavours & Natural Flavouring Substances & Nature Identical Flavouring Substances. \nAllergen: May Contains Wheat, Milk, Nut & Soy."
+  },
+  {
+   "code": "8901491503013",
+   "name": "Yellow Salted Lays",
+   "country": "india",
+   "ingredients": "Potato, edible vegetable oil (palmolein rice bran oil), lodised salt"
+  },
+  {
+   "code": "8901063017627",
+   "name": "Brit 50-50 maska chaska 40g (20)",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA), REFINED PALM & PALMOLEIN OIL, SUGAR, LIQUID GLUCOSE, RAISING AGENTS [503(ii), 341(ii), 500(ii) & 450(i)], BUTTER (1.2%), BLACK SALT, MILK SOLIDS, DEHYDRATED VEGETABLE (CHIVES) (1%), IODISED SALT, NATURE IDENTICAL FLAVOURING SUBSTANCE, DOUGH CONDITIONER (223) AND IMPROVERS [1101(i)& XYLANASE]. (Numbers in brackets as per International Numbering System) CONTAINS WHEAT, MILK AND SULPHITE. STORE IN A COOL, HYGIENIC AND DRY PLACE. TRANSFER CONTENTS TO A CLEAN AIRTIGHT CONTAINER ONCE OPENED. JURUCTRIES LTD. 5/1 A HUNGERFORD"
+  },
+  {
+   "code": "8901058904741",
+   "name": "Nestle kit Kat (Ind)",
+   "country": "india",
+   "ingredients": "Sugar, Milk solids (16.1%), Fractionated vegetable fat, Hydrogenated vegetable fats, Refined Wheat flour (Maida), Cocoa solids (4.5%), Emulsifier (Soy lecithin), Raising agent (500(i)), Yeast, Iodized salt, Artificial (Vanilla) flavouring substance, Flour treatment agent (516) and Nature-Identical flavouring substance"
+  },
+  {
+   "code": "8901063019027",
+   "name": "Little Hearts Classic",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA), SUGAR (23%), REFINED PALMOLEIN&PALM OIL, RAISING AGENTS [503 (ii) & 500(ii)], MILK SOLIDS, IODISED SALT, YEAST AND EMULSIFIER [322(i)]. (Numbers in brackets as per International Numbering System) CONTAINS WHEAT, MILK AND SOYA."
+  },
+  {
+   "code": "8901063093287",
+   "name": "Good Day Cashew Cookies",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR, SUGAR, EDIBLE VEGETABLE OIL (PALM), CASHEW NUTS (4.5%), BUTTER (3%), INVERT SYRUP, MILK SOLIDS, RAISING AGENTS (INS 503, INS 500), EDIBLE COMMON SALT AND EMULSIFIERS (INS 322, INS 471, INS 472e)"
+  },
+  {
+   "code": "8901719105913",
+   "name": "parle hide & seek 120g",
+   "country": "india",
+   "ingredients": "Refined wheat flour (maida), chocolate 23% (sugar, cocoa solids, cocoa butter, dextrose), sugar, refined palm oil, invert sugar syrup, raising agent, cocoa solids, iodised salts"
+  },
+  {
+   "code": "8906001387114",
+   "name": "Multi Grain High Fibre Bread",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA), WATER, MULTIGRAIN MIX (20% - OAT FLAKES, SUNFLOWER, LINSEED, SESAME SEED, SOYA GRIT, MELON SEEDS), YEAST, SUGAR, EDIBLE VEGETABLE OILS (PALM), WHEAT GLUTEN, EDIBLE COMMON SALT, MALT FLOUR, BROKEN WHEAT, SOYA FLOUR, CLASS II PRESERVATIVE (282), ACIDITY REGULATOR (260), EMULSIFIERS [471,472e, 481 (0)1, IMPROVERS [1700), 510, 923, 1100] AND ANTIOXIDANT (300). (NUMBERS IN BRACKETS ARE AS PER INTERNATIONAL NUMBERING SYSTEM) ALLERGEN DECLARATION: PRODUCT CONTAINS WHEAT FLOUR (GLUTEN), SEEDS, OATS, SOYA FLOUR AS ALLERGENS."
+  },
+  {
+   "code": "19017198",
+   "name": "Parle Cream Cracker Original",
+   "country": "india",
+   "ingredients": "WHEAT FLOUR, EDIBLE VEGETABLE OIL, YEAST, MALT EXTRACT, SALT, EMULSIFIER OF VEGETABLE ORIGIN (DI-ACETYL TARTARIC ACID ESTERS OF MONO AND DIGLYCERIDES [E 472 e]), SODIUM META BISULPHITE [E 2231 AND AMYLASE [E 1100]"
+  },
+  {
+   "code": "8901725132873",
+   "name": "dark fantasy Choc Fills",
+   "country": "india",
+   "ingredients": "choco crème (38%) [sugar, refined palm oil, refined palmolein, cocoa solids, antioxidant (ins 3220)) ,contains added flavour(s) (nature identical flavouring substances - chocolate and artificial flavouring substances ethyl vanillin)], wheat flour, hydrogenated vegetable oil, sugar, invert syrup, liquid glucose, raising agents (ins 503(i), ins 500(i), ins 450()), cocoa solids (0,7%), butter, milk solids, edible common salt and emulsifiers (ins 322(0),  ins 471), contains permitted natural colour(s) (ins 150c, ins 150d) and added flavour(s) (nature identical flavouring substances-chocolate and mal artificial flavouring substances-vanilla, milk) do y da"
+  },
+  {
+   "code": "8901058001846",
+   "name": "Kitkat",
+   "country": "india",
+   "ingredients": "Sugar, Milk solids (16.2%), Fractionated vegetable fat, Hydrogenated vegetable fats, Refined Wheat flour (Maida), Cocoa solids (4.5%), Emulsifier (Soya lecithin), Yeast, Raising agent (500)). Artificial (Vanilla) flavouring substance, Iodised salt, Flour treatment agent (516) and Nature-Identical flavouring substance."
+  },
+  {
+   "code": "8901262170420",
+   "name": "Chocochips Ice Cream",
+   "country": "india",
+   "ingredients": "Milk solids, sugar, milk chocolate chips (8%) sugar, cocoa butter, milk solids, cocoa solids, emulsifiers (322,476)], cocoa solids, emulsifier (471), stabilizers (407, 466,415,412)."
+  },
+  {
+   "code": "8902080002528",
+   "name": "Sting Blue Current",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, ACIDITY REGULATORS (330, 331), FLAVOUR (NATURAL AND NATURE IDENTICAL FLAVOURING SUBSTANCES), SEQUESTRANTS (452(i), 385), CAFFEINE (29 mg/100 ml), PRESERVATIVES (211, 202), SWEETENERS (955, 950), COLOUR (133)"
+  },
+  {
+   "code": "8906010500269",
+   "name": "Poprings Masala flavour",
+   "country": "india",
+   "ingredients": "CORN MEAL (68%), EDIBLE VEGETABLE OIL (PALMOLEIN, RICE BRAN), SUGAR, EDIBLE COMMON SALT, SPICES & CONDIMENTS 1% (CUMIN, CHILLI, DRY MANGO), MALTODEXTRIN, DEHYDRATED VEGETABLE POWDER (ONION, GARLIC), STABILIZER (INS 170 (1), ACIDITY REGULATOR (INS 330, INS 340), EMULSIFIER (INS 471, INS 414), ANTICAKING AGENT (INS 551), FLAVOUR ENHANCER (INS 627, INS 631), NATURAL & NATURE IDENTICAL FLAVOURING SUBSTANCES (CHILLI, DRY MANGO), HYDROLYZED VEGETABLE PROTEIN (SOYA), PAPRIKA EXTRACT (INS 160C). PROPRIETARY FOOD NAMKEEN INDIAN SNACKS & SAVOURIES ALLERGEN ADVICE: CONTAINS SOY."
+  },
+  {
+   "code": "8904004400069",
+   "name": "Halirams Bhujiya sev 1kg",
+   "country": "india",
+   "ingredients": "Tapary Beans Flour (43%), Edible Vegetable Oil, Gram Pulse Flour (12%), Edible Common Salt Powder, Black Pepper Powder, Ginger Powder, Clove Powder, Mace Powder, Nutmeg Powder & Cardamom Powder"
+  },
+  {
+   "code": "8901030667756",
+   "name": "Fresh Tomato Ketchup",
+   "country": "india",
+   "ingredients": "WATER, TOMATO PASTE (28%), SUGAR, IODISED SALT, ACIDITY REGULATOR - 260, STABILISERS - 1422, 415, PRESERVATIVES - 211, ONION POWDER, GARLIC POWDER, SPICES AND CONDIMENTS."
+  },
+  {
+   "code": "8901207900631",
+   "name": "Chyawanprash",
+   "country": "india",
+   "ingredients": "Patala (Stenspermum suaveolens, St. Bk.), Agnatha (Clerodendrum phlomidis, St. B Gambhari (Gmelina arborea, St. Bk.) va (Aegle marmelos, St. Bk.), Shyon ika (Oroxylum indicum, St. BK.), Gokshura (Tribulus terrestris, Fr.), Shalaparni (Desmodium gangeticum, Pl.), Prishniparni (Uraria picta, Pl.), Brihati (Solanum indicum, Pl.), Kantakari (Solanum surattense, Pl.), Pippali (Piper longum, Fr.), Karkatshringi (Pistacia integerrima, Gl.), Draksha (Vitis vinifera, Dr.Fr.), Guduchi (Tinospora cordifolia, St.), Haritaki (Terminalia chebula, P.), Bala (Sida cordifolia, Rt.), Tamalaki (Phyllanthus niruri, Pl.), Vasa (Adhatoda vasica, Lf.), Jiwanti (Leptadenia reticulata, Pl.), Shati (Hedychium spicatum, Rz.), Musta (Cyperus rotundus, Rz.), Pushkara (Inula recemosa, Rt.), Kakanasika (Martynia annua, Fr.), Mudgaparni (Phaseolus trilobus, Pl.), Mashaparni (Teramnus labialis, Pl.), Reg Vidari (Pueraria tuberosa, Rt. Tr.), Punarnava (Boerhavia diffusa, Rt.), Utpala (Nymphaea stellata, Fl.), Sukshamaila (Elettaria cardamomum, Fr.), Agaru (Cinnamomum zeylanicum - official substitute, St.Bk.), Shweta Chandan (Santalum album, Ht. Wd.) Riddhi (Dioscorea bulbifera - official substitute, Rt. Tr.), Vriddhi (Dioscorea bulbifera - official substitute, Rt. Tr.), Meda (Asparagus recemosus - official substitute, Rt.), Mahameda (Asparagus recemosus - official substitute, Rt.), Jivaka (Pueraria tuberosa - official substitute, Rt. Tr.) Rishabhak (Pueraria tuberosa-official substitute, Rt. Tr.), Kakoli (Withania somnifera - official substitute, Rt.), Kshirkakoli (Withania somnifera - official substitute, Rt.) each 0.396g and Amalaki (Emblica officinalis, Fr., Fr. Pulp) 90.0g, Ghrita, Tila tail (Sesamum indicum, oil) each 1.389, Sharkara 59.5g, Madhu 4.76g and Powder of the following - Pippali (Piper longum, Fr.) 0.79g, Vamsha (Bambusa bambos, S.C.) 1.58g, Tvak (Cinnamomum zeylanicum, St.Bk.), Sukshamaila (Elettaria cardamomum, Fr.), Tvakpara (Cinnamomum tamala, Lf.), Nagkesara (Mesua ferrea, Stmn.), Abhrak Bhasma Akarkarabha (Anacyclus pyrethrum, RL) 0.126g, Lavanga (Syzygium aromaticum Fl. Bd.) 0.128g, Kumkum (Crocus sabvus Sty./Stg.) 0.00759. Preservative-Sodium Benzoate"
+  },
+  {
+   "code": "8902579203016",
+   "name": "Packaged Drinking Water",
+   "country": "india",
+   "ingredients": "TREATED WATER AND MINERALS (0.025%) (MAGNESIUM CHLORIDE, CALCIUM CHLORIDE AND SODIUM HYDROGEN CARBONATE)."
+  },
+  {
+   "code": "7622201150419",
+   "name": "Cadbury 5 Star",
+   "country": "india",
+   "ingredients": "Sugar, Liquid Glucose, Invert Sugar, Milk Solids, Hydrogenated Oil, Cocoa Butter, Cocoa Solids, Fractionated Fat, Lactose-rich Deproteinized Whey Permeate Powder, Emulsifiers (442, 471, 476), Hydrolyzed Vegetable Protein, lodised Salt, Flavours (Natural, Nature Identical and Artificial (Caramel and Vanilla) Flavouring Substances)"
+  },
+  {
+   "code": "8901499009623",
+   "name": "Chocos Fills",
+   "country": "india",
+   "ingredients": "Multi Grain Flour Mix (Rice Flour, Whole Oats Flour, Whole Wheat Flour), Choco Cream (Sugar, Edible Vegetable Oil (Sunflower Oil, Palm Oil), Cocoa Solids (63%), Milk Solids, Emulsifier (INS 322(i))). Sugar, Cocoa Powder (5.6%), Iodized Salt, Vitamins"
+  },
+  {
+   "code": "8906008811902",
+   "name": "Pro Immunity Multi-source Edible Oil",
+   "country": "india",
+   "ingredients": "Physically Refined Rice Bran Oil (80%), Refined Sunflower Oil (20%), Permitted Antioxidants TBHQ (E-319) & Citric Acid (E-330), Permitted antifoaming agent DMPS (E-900a), Vitamins A & D"
+  },
+  {
+   "code": "8901491101905",
+   "name": "Kurkure - Green Chutney Style",
+   "country": "india",
+   "ingredients": "Cereal Products (57%) (Rice Meal (38%), Corn Meal (19%)), Edible Vegetable Oil (Palmolein), *Seasoning (Spices & Condiments, lodised Salt, Sugar, Tamarind Powder, Flavour (Natural, Nature Identical and Artificial (Spearmint) Flavouring Substance), Maltodextrin, Acidity Regulator (330), Emulsifier (414), Color (160c), Flavour Enhancers (627, 631)), Gram Meal (6%). *As flavouring agent. ~Contains Onion and Garlic"
+  },
+  {
+   "code": "6942836717933",
+   "name": "COOKIES 'N' CREME",
+   "country": "india",
+   "ingredients": "Sugar, edible vegetable oil (sunflower and palm oil), cookies (19%) {refined wheat flour (maida), sugar, edible vegetable oil (palm oil), cocoa solids (2%), emulsifier (322 (i)), milk solids, raising agent (500ii)}, milk solids (18.6%), corn syrup solids, edible vegetable oil (palm and palm kernel oil), emulsifier (322 (i)) and flavor (artificial flavouring substance - vanillin)."
+  },
+  {
+   "code": "8901058900194",
+   "name": "2 minute noodle",
+   "country": "india",
+   "ingredients": "Noodles: Refined wheat flour (Maida), Palm oil, Iodised salt, Wheat gluten, Thickeners (508 & 412), Acidity Regulators (501(i) & 500 (i)) and Humectant (451(i)). Masala TASTEMAKER: Hydrolysed groundnut protein, Refined wheat flour (Maida), Mixed Spices (13.1%), Sugar, Onion powder, Starch, Palm oil, Garlic powder, Iodised salt, Thickener (508), Acidity Regulators (330 & 500(ii)), Mineral, Flavour enhancer (635), Colour (150d) and Wheat gluten."
+  },
+  {
+   "code": "0631661998704",
+   "name": "Pre X5",
+   "country": "india",
+   "ingredients": "Beta Alanine ,Creatine NITRATE, AAKG(Arginine, Alpha-Ketoglutarate), Arginine HOL, L-Citruline Aspartate,  Caffeine Anhydrous, Di-Caffeine Malate\nCaffeine Citric Acid Blend, Choline Bitartrate\n, Theanine, N-Acetyl Tyrosine, Theacrine (as Teacrine8), Gamma-aminobutyric Acid (GABAI"
+  },
+  {
+   "code": "8901030831720",
+   "name": "Kissan mix fruit jam 700g",
+   "country": "india",
+   "ingredients": "Sugar, mixed fruit pulp blend - 60% (papaya pulp, pear pulp, apple juice, banana pulp, pineapple juice, orange juice, mango pulp, grape juice), acidity regulator - E330, thickener - E440, iodised salt, vitamins & mineral, preservative - E202, natural flavouring substances, food colour - E122."
+  },
+  {
+   "code": "8908005144649",
+   "name": "Muesli+ (Fruits + Nuts & Seeds)",
+   "country": "india",
+   "ingredients": "60% Whole Grains (Rolled Oats, Brown Rice Flakes, Quinoa Flakes), 17% Dried Fruits (Raisins, Apricots, Cranberry, Blackcurrants), 14% Seeds & Nuts (Pumpkin, Almonds, Chia, Flax), Strawberry Powder, Date Syrup, Jaggery, Rice Bran Oil, Himalayan Pink Salt. \nCONTAINS ADDED NATURAL FLAVOUR"
+  },
+  {
+   "code": "8901088055772",
+   "name": "Oats",
+   "country": "india",
+   "ingredients": "Rolled Oats\nAllergen Advice: Contains Oats.\nMay contains traces of other Cereals containing gluten.\n100% Wholegrain"
+  },
+  {
+   "code": "8901262140065",
+   "name": "Lite Bread Spread",
+   "country": "india",
+   "ingredients": "Refined Vegetable Oils, Milk Fat, Common Salt, Milk Solids, Emulsifiers (E322), Stabilizer (E471), Class II Preservatives (E 202), Acidity Regulator (E 330) & Antioxidant (E 319)"
+  },
+  {
+   "code": "8901262071048",
+   "name": "Amul Sugar free chocolate",
+   "country": "india",
+   "ingredients": "Cocoa solids, maltitol, cocoa butter, emulsifiers (322, 476), artificial flavouring substances (cocoa, vanilla). 'CONTAINS NATURALLY OCCURRING SUGARS'."
+  },
+  {
+   "code": "8901058901542",
+   "name": "Maggie",
+   "country": "india",
+   "ingredients": "Refined wheat flour (Maida), Palm oil, Iodized salt, Wheat gluten, Thickeners (INS 508, INS 412), Acidity regulators (INS 501(i) & 500(i)) and Humectant (INS 451(i)), Mixed spices (25.6%) (Onion powder, Coriander powder, Turmeric powder, Red chilli powder, Garlic powder, Cumin powder, Aniseed powder, Ginger powder, Fenugreek powder, Black pepper powder, Clove powder, Green cardamom powder, Nutmeg powder), Refined wheat flour (Maida), Hydrolysed groundnut protein, Sugar, Palm oil, Iodized salt, Starch, Thickener (INS 508), Flavour enhancer (INS 635), Toasted onion flakes, Acidity regulator (INS 330), Mineral, Colour (INS 150d) and Wheat gluten. Contains Wheat and Nut May contains Milk, Mustard, Oats and Soy."
+  },
+  {
+   "code": "8901058897159",
+   "name": "Milkybar",
+   "country": "india",
+   "ingredients": "Milk solids (35%), Sugar, Hydrogenated vegetable fats, Fractionated vegetable fat, Emulsifier (Soya lecithin) and Nature-Identical flavouring substance. Contains Milk, Sesame and Soy.  May Contains Wheat."
+  },
+  {
+   "code": "8904327600405",
+   "name": "Myfitness Chocolate Peanut Butter",
+   "country": "india",
+   "ingredients": "Roasted Peanuts, Dark Chocolate, Brown Sugar, Salt, Stabilizer (INS471). Allergen Info: Contains Peanuts And Soya Peanut Butter (Proprietary Food-4.2.2.5)"
+  },
+  {
+   "code": "8901207025365",
+   "name": "Honey",
+   "country": "india",
+   "ingredients": "Honey (100%)"
+  },
+  {
+   "code": "8906144490498",
+   "name": "instant coffee",
+   "country": "india",
+   "ingredients": "INSTANT COFFEE (95%), ROASTED & GROUND COFFEE (5%)"
+  },
+  {
+   "code": "8901063162143",
+   "name": "marie Gold",
+   "country": "india",
+   "ingredients": "Refined Wheat Flour (maida) (74%), Sugar, Refined Palm Oil, Invert Sugar Syrup, Milk Products (sweetened Condensed Party Skimmed Milk And Milk Solids), Raising Agents [503(i) & 500(1)], Iodised Sali, Minerals** Emulsifier (472e), Artificial (milk & Vanilla) & Nature Identical Flavouring Substances, Dough Conditioner (223), Vitamins*, Colour (150d) And Improver (1101(i))."
+  },
+  {
+   "code": "8901063338685",
+   "name": "Brown bread",
+   "country": "india",
+   "ingredients": "FLOURS (WHEAT FLOUR (ATTA) (32%), REFINED WHEAT FLOUR (MAIDA), WATER, YEAST, SUGAR, VITAL GLUTEN, IODISED SALT, REFINED PALMOLEIN OIL, COLOUR (150a), PRESERVATIVE (282), EMULSIFIER (472e), IMPROVER [1100(i), ACIDITY REGULATOR (260), AND FLOUR TREATMENT AGENT (510), VITAMINS"
+  },
+  {
+   "code": "6281014110013",
+   "name": "Peanut Butter Creamy",
+   "country": "india",
+   "ingredients": "Fresh Roasted Peanuts, Sugar, Hydrogenated Vegetable Oil (Rapeseed, Cottonseed and Soybean) Salt"
+  },
+  {
+   "code": "8901262152952",
+   "name": "Protein Buttermilk",
+   "country": "india",
+   "ingredients": "Milk solids, water, iodized salt, stabilizers (440, 418), active culture"
+  },
+  {
+   "code": "8906143890107",
+   "name": "dark chocolate peanut butter",
+   "country": "india",
+   "ingredients": "Peanuts, Dates, Cocoa"
+  },
+  {
+   "code": "8908000097933",
+   "name": "Crunchy Muesli",
+   "country": "india",
+   "ingredients": "Wheat Flakes (51.85%), Corn Flakes (15.18%), Rolled Oats (14.26%), Invert Sugar Syrup (7.06%), Almond, Green Raisins, Black Raisins, Honey, Liquid Glucose, Honey Powder, Antioxidant (E310)"
+  },
+  {
+   "code": "8901491981552",
+   "name": "Lay’s Chile Limon 20rs",
+   "country": "india",
+   "ingredients": "ca, mirl lay's is the registereu cor feedback or queries, write to the consumer services manager, pepsico india holdings pvt, ltd,, p,o, box 27, dlf qutab enclave, phase-1, gurugram-122002, haryana, india, or call us at 1800 22 4020 cr email us at consumer,feedback@pepsico,com proprietary food - potato chips (15,1) as compared to previous lay's chile limón our packs,  limited period offer, valid in ct geographies, gredients: potato, edible vegetable oil molein oil), *seasoning (sugar, lodised salt, favour (natural and nature identical flavouring substances), ~spices , condiments, maltodextrin, lime juice powder, anticaking agent (551), edible vegetable oil (sunflower seed oil), flavour enhancers (627, 631), corn syrup solids), *as flavouring agent, contains onion and garlic"
+  },
+  {
+   "code": "8908005144618",
+   "name": "Yoga Bar Super Muesli 0% Added Sugar",
+   "country": "india",
+   "ingredients": "Whole Grains 50% (Rolled Oats, Brown Rice Flakes, Jowar Flakes), Seeds 24% (Pumpkin, Sesame, Watermelon, Chia, Flax), Natural Plant Based Dietary Fibre (Fructo-oligo Saccharides), Almonds 8%, Whole Milk Powder, Rice Bran Oil, Probiotics (Bacillus coagulans SNZ1969*).\n*500 million cfu per serving\n\nCONTAINS ADDED NATURAL FLAVOUR (ROSEMARY EXTRACT, CARAMEL)"
+  },
+  {
+   "code": "5020411121182",
+   "name": "Nutella & Go!",
+   "country": "india",
+   "ingredients": "sugar, palm oil, hazelnuts (13%), fat-reduced cocoa (7,4%), skimmed milk powder (6,6%), whey powder (milk), emulsifier: lecithin (soya), vanillin, breadsticks: wheat flour, palm oil, sait, malt extract, baker's yeast."
+  },
+  {
+   "code": "8904004400083",
+   "name": "Haldiram's Bhujia sev",
+   "country": "india",
+   "ingredients": "Tepary Beans (Moth Dal) Flour, Refined Cotton Seed Oil, Bengal Gram Flour (Besan), Edible Common Salt, Red Chilli Powder, Clove Powder, Black Pepper, Coriander Seed, Dried Ginger Powder, Cardamom, Bay Leaves, Nutmeg & Cinnamon. Allergen: May Contains Almond, Cashew, Wheat, Milk, Soy, Mustard Seed, Peanut & Sesame Seed."
+  },
+  {
+   "code": "9327693000294",
+   "name": "Moisturiser",
+   "country": "india",
+   "ingredients": "aloe,rosehip,cocoa,shea,jojoba,avocado,wheat,vitamin E,horsetail,burdock"
+  },
+  {
+   "code": "8901262200189",
+   "name": "Amul Lassi 200ml",
+   "country": "india",
+   "ingredients": "Milk solids, water, sugar, stabilizer (440), nature identical and artificial flavouring substances (rose), active culture. Allergen Information: Contains milk."
+  },
+  {
+   "code": "8901063029262",
+   "name": "Jim jam92 g",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA), SUGAR (24%), REFINED PALM OIL & INTERESTERIFIED VEGETABLE FAT, INVERT SUGAR SYRUP DEXTROSE, MILK PRODUCTS (MILK SOLIDS & SWEETENED CONDENSED MILK), EDIBLE MAIZE STARCH, MALTODEXTRIN, FRUIT PRODUCTS (0.7%) (APPLE JUICE CONCENTRATE, BANANA POWDER & PLUM JUICE CONCENTRATE), IODISED SALT, EMULSIFIERS [322(i) & 471], RAISING AGENTS [503(ii)&500(ii)], NATURE IDENTICAL AND ARTIFICIAL (MIXED FRUIT, VANILLA & BUTTER) FLAVOURING SUBSTANCES, ACIDITY REGULATORS [330&331(iii)], GELLING AGENT (440) AND COLOUR (122). (Numbers in brackets as per International Numbering System) CONTAINS WHEAT, MILK AND SOYA. Marketed By: BRITANNIA INDUSTRIES LTD., 5/1 A HUNGERFORD STREET, KOLKATA-700017, WEST BENGAL (A WADIA Enterprise) For Mfg. unit address & Lic. No. read the last two characters of the &quot;Lot No.&quot; and see address panel below. 06-J. B. MANGHARAM FOODS PVT. LTD., GOLA KA MANDIR, PO. RESIDENCY, GWALIOR-474005, MADHYA PRADESH Lic. No. 10012026000247, 9F-BRITANNIA INDUSTRIES LTD., PLOT NO. B-28, FIVE STAR MIDC, RANJANGAON, TAL SHIRUR, DIST. PUNE-412220, MAHARASHTRA Lic. No. 10018022007587, 9L-ANNIA INDUSTRIES LTD A13, A14, A15, A16, SIPCOT INDUSTRIAL GROWTH CENTRE, GANGAIKONDAN, TIRUNELVELI-627352, TAMIL NADU Lic. No. 12422999001583 For feedback Contact: Executive, Consumer Care Cell, Ph: (Tell Free 1-800-42544"
+  },
+  {
+   "code": "8902080364084",
+   "name": "Mountain Dew",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, ACIDITY REGULATORS (330, 331), FLAVOUR (NATURAL FLAVOURING SUBSTANCES), PRESERVATIVE (211), CAFFEINE (13 mg/100 g), STABILIZER (445), COLOUR (102)."
+  },
+  {
+   "code": "8904293721692",
+   "name": "Lime Pickle",
+   "country": "india",
+   "ingredients": "Lime(64%), Edible Vegetable Oil,Corn Oil, lodized Salt,Mustard, Red Chilli, Garlic, Fenugreek, Acidity Regulator(INS 330), Turmeric, Asafoetida"
+  },
+  {
+   "code": "8901058003079",
+   "name": "Maggi cheesy Tomato",
+   "country": "india",
+   "ingredients": "MA ##MACARONI (PASTA) Semolina (100%) [from Wheat]. CHEESY TOMATO *TASTEMAKER® Milk and sugar blend mix (Milk solids & Sugar), Sugar, Dehydrated tomato paste solids {Tomato paste (13.7%), Anticaking agent (551) & lodised salt), lodised salt, Mixed spices (Dehydrated onion, Dried garlic, Roasted garlic, Cumin powder, Red chilli, Capsicum extract, Black pepper, Coriander extract & Cumin extract), Dehydrated Green bell pepper (7.1%), Maltodextrin, Edible starch, Cheese powder (Cheese (3%) & Maltodextrin), Potato flakes (Potato, Margarine, lodised salt, Emulsifier (471) & Turmeric), Palm oil, Thickener (508), Flavour enhancer (635), Oregano bits and Acidity regulator (296)."
+  },
+  {
+   "code": "8908012271055",
+   "name": "Meetha Dahi",
+   "country": "india",
+   "ingredients": "Milk solids, Sugar and Lactic Culture"
+  },
+  {
+   "code": "5026489484761",
+   "name": "Quinoa chips",
+   "country": "india",
+   "ingredients": "Quinoa Flour (29%), Corn Flour, Rice Flour, Corn Starch, Lentil Flour, Pea Flour, Rapeseed Oil, Sugar, Salt, Chilli & Lime Seasoning (2.5%) (Sugar, Rice Flour, Salt, Dried Bell Pepper , Spices (Cayenne, Cumin), Garlic Powder, Citric Acid, Natural Flavourings, Herb (Parsley), Onion Powder, Natural Colour (E160c)"
+  },
+  {
+   "code": "8906002004133",
+   "name": "Fun Foods Chocolate Spread Fudge",
+   "country": "india",
+   "ingredients": "milk solids, sugar, cocoa solids (7%), water, Palm oil, liquid glucose, emulsifiers & stabilizers (INS 407, INS 1442, INS 322), iodised salt, preservative (INS 202)"
+  },
+  {
+   "code": "8901063029255",
+   "name": "Jimjam 57g (57)",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA), SUGAR (24%), REFINED PALM OIL & INTERESTERIFIED VEGETABLE FAT, INVERT SUGAR SYRUP, DEXTROSE, MILK PRODUCTS (MILK SOLIDS & SWEETENED CONDENSED MILK), EDIBLE MAIZE STARCH, MALTODEXTRIN, FRUIT PRODUCTS (0.7%) (APPLE JUICE CONCENTRATE, BANANA POWDER & PLUM JUICE CONCENTRATE), IODISED SALT, EMULSIFIERS [322(i) & 471], RAISING AGENTS [503(ii) & 500(ii)], NATURE IDENTICAL AND ARTIFICIAL (MIXED FRUIT, VANILLA & BUTTER) FLAVOURING SUBSTANCES, ACIDITY REGULATORS (330 & 331), GELLING AGENT (440) AND COLOUR (122). (Numbers in brackets as per International Numbering System) CONTAINS WHEAT, MILK AND SOYA. ydrate-73g, of which Total 31 Total Fat-19g/141 no unsaturated fatty acids-7.29 fss Lic. No. 10015 100120260N For Mfg unit address & Lic. No. read the last two characters of CWALIOR 474005, MADHYA PRADESH Lic. No. the &quot;Lot No. and see address panel. 06-1.8. MANGHARAM FOODS 01129"
+  },
+  {
+   "code": "8901725119423",
+   "name": "Moms magic Cashew & Almonds",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA), SUGAR, REFINED PALM OIL, INVERT SYRUP, CASHEW NUT AGENTS INS ALMOND BUTTER (0.3%), EMULSIFIERS [INS 471, INS 322(1), INS 472e) AND FLOUR TREATMENT AGENT (INS 223). CONTAINS PERMITTED SYNTHETIC FOOD COLOUR(S) (INS 102) AND ADDED FLAVOUR(S) (NATURE IDENTICAL FLAVOURING SUBSTANCES AND ARTIFICIAL FLAVOURING SUBSTANCES BUTTER, VANILLA) CONTAINS WHEAT, MILK SOLIDS, SOYA, NUTSAND SULPHITES."
+  },
+  {
+   "code": "7622201822163",
+   "name": "Dairy milk",
+   "country": "india",
+   "ingredients": "Sugar, Milk Solids (23%*), Cocoa Butter, Cocoa Solids, Emulsifiers (442, 476), Flavouring Substances (Natural, Nature Identical and Artificial (Vanilla)). \n\nAllergen Information: Contains Milk. May Contain Tree Nuts, Wheat, Barley and Soy."
+  },
+  {
+   "code": "8901262070539",
+   "name": "FRUIT N' NUT Dark Chocolate",
+   "country": "india",
+   "ingredients": "sugar, cocoa solids, cocoa butter, almonds(8%), raisins(5%), permitted emulsifiers (e322, e476),"
+  },
+  {
+   "code": "7622210624918",
+   "name": "Cheese Spread",
+   "country": "india",
+   "ingredients": "PASTEURIZED COW'S MILK, CREAM (FROM COW'S MILK), WHEY, SALT, THICKENER (E412), ACID (E330), LACTIC CULTURE"
+  },
+  {
+   "code": "8906080602092",
+   "name": "Swing Mixed Fruit Medley",
+   "country": "india",
+   "ingredients": "WATER, SUGAR, MANGO PULP (1%)* 0ml serving, APPLE JUICE CONCENTRATE ORANGE JUICE CONCENTRATE (0.6%)* %RDA per ACIDITY REGULATOR (CITRIC ACID), IODISED SALT FLAVOURS (NATURE-IDENTICAL AND NATURAL), STABILIZERS (CARBOXY METHYL CELLULOSE AND GUAR GUM) AND ANTIOXIDANT (ASCORBIC ACID) &quot;RECONSTITUTED 13% MIXED FRUIT JUICE 35% 0% 181 no GMOS** **no bio engineered ingredients. FOR MANUFACTURING DATE 2% MRP (INCL. OF ALL TAXES), energy USE BY DATE AND BATCH NUMBER: SEE BELOW Fi 260209 0"
+  },
+  {
+   "code": "8901262010511",
+   "name": "Peanut Spread Creamy",
+   "country": "india",
+   "ingredients": "Roasted peanut (91%), sugar (5%), edible vegetable oil (groundnut oil), iodized salt, stabilizer (471)."
+  },
+  {
+   "code": "8902080204342",
+   "name": "Pepsi Brand Mirinda orange flv 2ltr",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, ACIDITY REGULATORS E330 STABILIZERS (1450, 445), PRESERVATIVE (211), COLOUR (110), FLAVOUR NATURAL FLAVOURING SUBSTANCES"
+  },
+  {
+   "code": "7622201442019",
+   "name": "Dairy Milk",
+   "country": "india",
+   "ingredients": "Sugar, Milk Solids(23%), Cocoa Butter, Cocoa Solids, Emulsifiers(442,476), Flavors(Natural, Nature Identical and Artificial(Vanilla) Flavoring Substances) Milk. May contain Tree Nuts, Wheat, Barley and Soy"
+  },
+  {
+   "code": "8901207024559",
+   "name": "Real Fruit Power Alphonso Mango Nectar",
+   "country": "india",
+   "ingredients": "Water, Alphonso Mango Pulp (22 %)&quot;, Sugar, Acidity Regulator (INS 330), Stabilizer (INS 440), Antioxidant (INS 300), Colour [INS 160 a (iii)] and Flavours (Natural Flavouring Substances)."
+  },
+  {
+   "code": "8901030897542",
+   "name": "kissan fresh tomato",
+   "country": "india",
+   "ingredients": "water, tomato paste (28%), sugar, iodised salt, acidity regulator-E260, stabilizers - E1422, E415, Preservetive - E211, Onion power, garlic powder, spices and condiments."
+  },
+  {
+   "code": "8901491103442",
+   "name": "Kurkure Naughty Tomato",
+   "country": "india",
+   "ingredients": "Rice Meal (37.6%), Edible Vegetable Oil (Palmolein Oil), Corn Meal (18.8%), Gram Meal (6.2%), Sugar, Salt, Tomato Powder (1.2%), *Spices & Condiments (Chilli Powder, Onion Powder, Spices Extract, Black Pepper Powder, Cinnamon Powder, Clove Powder, Ginger Powder, Garlic Powder, Nutmeg Powder), Beetroot Powder, Citric Acid (INS 330). CONTAINS ADDED FLAVOURS (NATURAL AND NATURE IDENTICAL FLAVOURING SUBSTANCES) *Used as natural flavouring agent."
+  },
+  {
+   "code": "4897036691427",
+   "name": "Monster Energy Drink 350ml",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUCROSE, GLUCOSE ACIDITY REGULATORS (CITRIC ACID, SODIUM CITRATE), TAURINE (400 mg/100 ml), PRESERVATIVES (SORBIC ACID, BENZOIC ACID CAFFEINE (0.03%), COLOURS [(GRAPESKIN EXTRACT IN RIBOFLAVIN 101(1)), SWEETENER (SUCRALOSE), VITAMINS (83 812), GLUCURONOLACTONE, INOSITOL (2 mg/100 ml)"
+  },
+  {
+   "code": "8901719120800",
+   "name": "Parle-G 250",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA) (68%), SUGAR, REFINED PALM OIL, INVERT SUGAR SYRUP* [SUGAR, CITRIC ACID], 10DISED SALT, RAISING AGENTS (503 (ii), 500 (i)], MILK SOLIDS, FLOUR TREATMENT AGENT [1101 (ii)] AND EMULSIFIER OF VEGETABLE ORIGIN [472e] CONTAINS ADDED FLAVOUR (ARTIFICIAL FLAVOURING SUBSTANCES-VANILLA) (D-GLUCOSE, LEVULOSE) CONTAINS: WHEAT, MILK JOONSUMER CARE"
+  },
+  {
+   "code": "8901088081344",
+   "name": "Saffola Peanut Butter",
+   "country": "india",
+   "ingredients": "Roasted Peanuts (84%), Cane Jaggery Powder (13%), Stabilizer (INS 471), Hydrogenated Soyabean Oil, Iodised Salt, Natural and Nature-Identical Flavouring Substance."
+  },
+  {
+   "code": "8906000610701",
+   "name": "Smiles",
+   "country": "india",
+   "ingredients": "Potato 62.84%, Potato Flakes (13.76%), Palmolein Oil, Corn Flour, Edible Common Salt"
+  },
+  {
+   "code": "8901781000147",
+   "name": "Sunrise paneer butter masala",
+   "country": "india",
+   "ingredients": "Everest Turmeric powder,tikha lal"
+  },
+  {
+   "code": "3948764061257",
+   "name": "Diet coke",
+   "country": "india",
+   "ingredients": "carbonated water, caramel color, aspartame, phosphoric acid, potassium benzoate, natural flavors, citric acid, and caffeine"
+  },
+  {
+   "code": "8902080404094",
+   "name": "Mango Slice",
+   "country": "india",
+   "ingredients": "CREDIENTS: WATER, SUGAR, *CONCENTRATED MANGO PULP & NIPHONSO MANGO PULP (14% MANGO PULP), ACIDITY REGULATOR (330), STABILIZERS (466, 440), FLAVOUR(NATURAL AND NATURE IDENTICAL FLAVOURING SUBSTANCES), PRESERVATIVE/202), COLOUR(110) 14% MANGO PULP IN RECONSTITUTED BEVERAGE"
+  },
+  {
+   "code": "7622201442828",
+   "name": "Chocobakes",
+   "country": "india",
+   "ingredients": "Cake (45%*) - (Refined Wheat Flour (Maida), Sugar, Humectants (420 (ii), 422, 1520), Palmolein, Liquid Glucose, Milk Solids, Cocoa Solids, Starch, Emulsifiers (322, 475, 471, 491), Raising Agent (500(i),450(1), 341()), lodised Salt, Flavours (Natural Flavour, Nature Identical Flavouring Substances), Preservative (202), Stabilizer (415)); Chocolayer (29%*)-(Sugar, Hydrogenated Vegetable Oils, Lactose-Rich Deproteinized Whey Permeate Powder, Cocoa Solids, Emulsifiers (442, 476)), Flavours (Nature Identical, Artificial (Vanilla and Caramel) Flavouring Substances); Filling (26%*) - (Sugar, Fractionated Fat, Liquid Glucose, Humectant (422, 1520), Water, Emulsifiers (322, 475, 471, 491), Cocoa Solids, Flavours (Natural flavour, Nature Identical Flavouring Substances), lodised Salt, Preservative (202))."
+  },
+  {
+   "code": "8901491363020",
+   "name": "Chilli Chatka",
+   "country": "india",
+   "ingredients": "Cereal Products (66%) (Rice Meal (43%), Com Meal (23%)), Edible Vegetable Oil (Rice Bran Oil), *Seasoning (Sugar, &quot;Spices & Condiments, lodised Salt, Rice Flour, Flavour (Natural & Nature Identical Flavouring Substances), Acidity Regulators (330, 196), Black Salt, Flavour Enhancers (627, 631), Colours (160c 150d)), Gram Meal (0.5%). As Flavouring Agent. Contains Onion and Garlic Serve Size 20 g** MARK Per 100g %RDA Per Serve Pepsi"
+  },
+  {
+   "code": "8906028799198",
+   "name": "Krazy snacks sauce",
+   "country": "india",
+   "ingredients": "Vegetable Pulp (54%), Sugar, Tomato Paste (8%), Edible Common Salt, Acidity Regulator (INS 260), Stabilizer (INS 1422, INS 415), Onion Powder, Garlic Powder, Red Chilli Powder, Mixed Spices & Preservative (INS 211)."
+  },
+  {
+   "code": "8901088068741",
+   "name": "Masala Oats - Peppy Tomato",
+   "country": "india",
+   "ingredients": "Rolled Oats (75%), maltodexrin, Spices and Condiments (5.8%) (Onion, Pepper, Garlic, Coriander, Cumin, Fenugreek, Ginger, Turmeric, Cinnamon, Clove), Salt, Sugar, Dried Vegetables (Carrot (0.7% ), French Beans (0.5%), Tomato (0.3 %), Hydrolysed vegetable Protein, Wheat Powder, Flavour Enhancer (627, 631), Antioxidant (320). CONTAINS ADDED FLAVOUR - NATURAL AND NATURE IDENTICAL FLAVOURING SUBSTANCES."
+  },
+  {
+   "code": "8901088068772",
+   "name": "Masala oats",
+   "country": "india",
+   "ingredients": "Rolled Oats (74%), Maltodextrin, lodised Salt, Dried Vegetable [French Beans, Onion (0.69%), Green Peas (0.47%)], Spices and Condiments (1.3%) [Coriander (0.34%), Cumin, Turmeric, Black Pepper (0.3%), Chilly, Ginger, Fennel, Fenugreek, Curry Leaf Powder (0.2%)], Hydrolysed Vegetable Protein, Onion Powder, Garlic, Sugar, Wheat Flour, Flavour Enhancers (INS 627, INS 631), Yeast Extract, Acidity Regulators (INS 330), Natural and Nature - identical Flavouring Substances"
+  },
+  {
+   "code": "8901764012914",
+   "name": "Coca-Cola",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, ACIDITY REGULATOR (338), CAFFEINE (8.7 mg/100 g), COLOUR (150d), FLAVOURS (NATURAL FLAVORING SUBSTANCES)."
+  },
+  {
+   "code": "8903754313056",
+   "name": "Tata Gluco+ Orange",
+   "country": "india",
+   "ingredients": "Water, Sugar, Glucose, Concentrated Apple Juice, Acidity Regulator, Mineral Salts , Preservative , Emulsifier, Synthetic food colour, added flavour ( natural flavouring substances)"
+  },
+  {
+   "code": "8906009532813",
+   "name": "Max Protein Snack",
+   "country": "india",
+   "ingredients": "Millets & Pulses Blend Flour (55%) (Jowar /Sorghum, Chickpeas, Quinoa, Whole Grain Oats, Ragi, Soy, Urad), Rice Bran Oil, Soy Protein Concentrate, Dietary Fiber, Sugar, Ajwain Powder, Black Pepper, Rock Salt, Fenugreek Powder, Mixed Spices & Herbs (Chilli, Oregano), Garlic Powder, Tamarind Powder, Onion Powder, Soya Sauce Powder, Acidity Regulator (E330), Anti-Caking Agent (E551)."
+  },
+  {
+   "code": "8901233020273",
+   "name": "Cadbury 5 star",
+   "country": "india",
+   "ingredients": "park carbides"
+  },
+  {
+   "code": "3948764082764",
+   "name": "Packaged Drinking Water",
+   "country": "india",
+   "ingredients": "TREATED WATER, SALTS OF SODIUM, MAGNESIUM AND CALCIUM"
+  },
+  {
+   "code": "8901058000450",
+   "name": "2-minute Noodles Veggie Masala",
+   "country": "india",
+   "ingredients": "Noodles(Refined wheat flour (Maida),Palm oil, iodized salt, Wheat gluten,Thickeners (E 508,E 412), Acidity regulators(E 501(i),E 500(i)),Humectant (E 451)),Masala(Dehydrated vegetables (18.6%) (Carrot bits(9.3%),Green french beans (9.3%)), Mixed spices (17.6%), Refined wheat flour (Maida),iodized salt, Sugar, Starch, Palm oil, Dehydrated onion (4%), Toasted onion flakes (3.7%), Flavour enhancer(E 635), Dried garlic, Acidity regulator(E 330), Colour(E 150d),Yeast extract, Mineral and Wheat gluten). Contains Wheat,May contains Oats, Milk,Soy"
+  },
+  {
+   "code": "8904089915137",
+   "name": "Daily Health Toned Milk",
+   "country": "india",
+   "ingredients": "Milk Solids (Toned Milk), Vitamin A Palmitate & Vitamin D (Ergocalciferol) Allergens information: Contains Milk"
+  },
+  {
+   "code": "8906135451736",
+   "name": "organic apple cider vinegar",
+   "country": "india",
+   "ingredients": "Certified Organic Apple Juice Fermented to 4% Acidity"
+  },
+  {
+   "code": "8906024480311",
+   "name": "toned milk",
+   "country": "india",
+   "ingredients": "Milk solids, Vitamin A (Retinyl Palmitate) and Vitamin D (Ergocalciferol)"
+  },
+  {
+   "code": "7622201757212",
+   "name": "Original Oreo",
+   "country": "india",
+   "ingredients": "Refined Wheat Flour (Maida), Sugar, Fractionated Fat, Palmolein, Invert Sugar, Cocoa Solids (2%), Leavening Agents (500(ii), 503(ii)), Starch, lodised Salt, Emulsifier (322), Nature Identical Flavouring Substances. Allergen Information: Contains Wheat, Sulphites, Soy. May Contain Milk and Barley."
+  },
+  {
+   "code": "8902579103415",
+   "name": "Frooti Mango Drink",
+   "country": "india",
+   "ingredients": "WATER, MANGO PULP (19.5%), SUGAR, ACIDITY REGULATOR (INS330) AND ANTIOXIDANT (INS300). CONTAINS PERMITTED SYNTHETIC FOOD COLOUR (INS110) AND ADDED FLAVOUR [NATURE-IDENTICAL FLAVOURING SUBSTANCES (MANGO)] (INS-INTERNATIONAL NUMBERING SYSTEM) NO ADDED PRESERVATIVE"
+  },
+  {
+   "code": "8908009059154",
+   "name": "Whole Wheat Bread",
+   "country": "india",
+   "ingredients": "Chakki Fresh Atta (Whole Wheat Flour), Yeast, Wheat Gluten, Rice Bran Oil (Edible Vegetable Oil), Cane Sugar, Iodised Salt, Cultured Wheat Flour, Cultured Sweet Potato, Cultured Glucose."
+  },
+  {
+   "code": "8904089916134",
+   "name": "Goodness Standardised Milk",
+   "country": "india",
+   "ingredients": "Milk Solids (Standardised Milk), Vitamin A Palmitate & Vitamin D (Ergocalciferol)"
+  },
+  {
+   "code": "8906009077291",
+   "name": "Oatmeal cookies Sugar free",
+   "country": "india",
+   "ingredients": "Refined Wheat Flour (Maida), Sweetener (INS 965 - Maltitol), Butter, Edible Vegetable Oil (Palm), Rolled Oats (8%), Dextrin, Desiccated Coconut Powder, Leavening Agents (INS 503 ii, INS 500 ii), Emulsifier (INS 322 from Soy), lodised Salt."
+  },
+  {
+   "code": "8901764175091",
+   "name": "Fruit drink",
+   "country": "india",
+   "ingredients": "NGREDIENTS: WATER, MANGO PULP(11.5%), SUGAR, ACIDITY REGULATORS 030 33 STABILIZER (466), ANTIOXIDANT 300 ,SWEETENER (960), COLOUR (110), MANGO FLAVOURS NATURE-DENTICAL & ARTIFICIAL FLAVORING SUBSTANCES"
+  },
+  {
+   "code": "00024907",
+   "name": "Teriyaki Dip Sauce Marinade",
+   "country": "india",
+   "ingredients": "Sugar - Water Dark Soy Sauce (20%) (contains Water Soybeans. Roasted Wheat (contains Cluten)) Ginger Purée (10%) Garlic Purée. Cornflour Concentrated Lime Juice. Smoked Salt Crushed Red Chillies. Ground Ginger Mirin Rice Wine (contains Rice Water Alcohol Glucose Syrup)."
+  },
+  {
+   "code": "8901764032400",
+   "name": "Sprite Lemon Lime flv Coke Brand 2ltr",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, ACIDITY REGULATORS (330, 331(i)), PRESERVATIVE (211), FLAVOURS (NATURAL FLAVORING SUBSTANCES"
+  },
+  {
+   "code": "8908016029263",
+   "name": "natkhat",
+   "country": "india",
+   "ingredients": "Semolina (76%), Edible Vegetable Oil (Refined Palmolein Oill *Seasoning [lodised Salt, Amchur, Red Chilli, Cumin, Coriander, Kachari, Asafoetida, Black Pepper, Ginger, Clove, Mace, Nutmeg, Cinnamon, Mustard Seed, Mint Leaves, Black Cardamom, Acidity Regulator (INS 330), Flavour Enhancer (INS 635)], Wheat Bran, Flavour(s) (Natural & Nature Identical Flavouring Substances) &quot;Used as part of flavouring agent Contains Wheat May Contain Soy and Milk"
+  },
+  {
+   "code": "8901063012448",
+   "name": "",
+   "country": "india",
+   "ingredients": "Refined wheat flour (maida) (68.2%), sugar, refined palm oil, invert syrup, raising agents [INS 500 (ii), INS 503(ii), INS 450(i)], milk solids, iodized salt, flour treatment agent (INS 223), nature identical flavouring substances, artificial flavouring substances (milk, vanilla), emulsifier [diacetyl tartaric acid ester of mono-diglycerides (from sunflower and palm oil)], mineral (0.01%), colour (INS 150d) and vitamins (0.01%)."
+  },
+  {
+   "code": "8904004404630",
+   "name": "salted peanuts",
+   "country": "india",
+   "ingredients": "CHR Haldiram's SALTE PEANUT REDIENTS: Groundnut (Peanuts) (93%), Edil etable Oil (Palmolein, Cotton Seed, Corn, Sun Cran), Rock Salt (1%) & Refined Sugar. LERGEN: Contains Nut Contains Wheat, Milk & Soy. 1904004 404630 tritional Information (approx NET QUANTITY: SERVING PER POUCH:"
+  },
+  {
+   "code": "8906035030239",
+   "name": "Refined Sunflower oil",
+   "country": "india",
+   "ingredients": "With Vitamins A,D&E Freedom Refined Sunflower Oil Freedom to eat, Freedom to enjoy. 5Litre The image is for reforence only a source from wwhich the oil is etracted"
+  },
+  {
+   "code": "8901207014642",
+   "name": "Tomato Puree",
+   "country": "india",
+   "ingredients": "Water, Tomato Paste (37%), Acidity Regulator (INS 330) and Antioxidant (INS 300)."
+  },
+  {
+   "code": "8901491001854",
+   "name": "PEPSICO.",
+   "country": "india",
+   "ingredients": "Potato, Edible Vegetable Oil (Palmolein Oil, Sunflower Oil), *Seasoning (Maltodextrin, Spices & Condiments, lodised Salt, Sugar, Acidity Regulator (330), Beetroot Powder, Yeast Extract, Butter Milk Powder, Anticaking Agent (551), Flavour Enhancers (627 & 631))."
+  },
+  {
+   "code": "8904083302100",
+   "name": "Fruit Yogurt Blueberry",
+   "country": "india",
+   "ingredients": "Milk & Milk Solids, Sugar, Active Lactic Culture (Lbacillus delbrueckii subsp. bulgaricus, S.thermophilus), Stabilizing agent (INS 440), Fruit Content (6%) from Blueberry preparation (Blueberry Fruit, Sugar, Water, Stabilizer (INS 440), Acidifying agent (INS 330), Preservative (INS 202)), Colours (INS 122, INS 133), Flavor (Nature - Identical Flavoring Substances - Blueberry). Allergen Information: Contains Milk. Manufactured & Marketed by: MILKY MIST DAIRY FOOD PRIVATE LIMITED SF No.: 43/1,2,3, Pattakaranpalayam Village, Perundurai Taluk - 638 057, Erode District, fssai Tamil Nadu, India. Lic. No. 10017042003191 FOR FEEDBACK/ QUERIES CONTACT OUR CUSTOMER CARE EXECUTIVE TOLL FREE NUMBER 1800-419-9000 OR CONTACT AT MFD. & MARKETED BY ADDRESS Write to us: / visit us at: www.milkymist.com Net Quantity: 100 g For Batch No., Date of Packaging, Expiry Date MRP (incl. of all taxes) - SEE TOP OF THE PACK"
+  },
+  {
+   "code": "89006740",
+   "name": "NESCAFE",
+   "country": "india",
+   "ingredients": "Coffee beans"
+  },
+  {
+   "code": "8906004620751",
+   "name": "Refined Ricebran Oil",
+   "country": "india",
+   "ingredients": "Physically Refined Ricebran Oil, Antioxidant (Tertiary butylhydroquinone), Vitamin A & D2, Antifoaming Agent (Dimethyl Polysiloxane)"
+  },
+  {
+   "code": "00001101",
+   "name": "Organic Goat Feed - Mash",
+   "country": "india",
+   "ingredients": "Maida, sugar, edible veg fat, salt,milk solids, yeast, vanilla powder, improvers"
+  },
+  {
+   "code": "8904043553085",
+   "name": "Wow Pav",
+   "country": "india",
+   "ingredients": "Refined Wheat Flour (Maida), Sugar, Edible Vegetable Fat (Interesterified), Yeast, lodized Salt, Gluten, Soya Flour, Preservative (282), Emulsifier (471), Acidity Regulator (260), Flour Treatment Agents (510, 1100(i)) and Antioxidant (300)"
+  },
+  {
+   "code": "8906081810083",
+   "name": "manchurian rings",
+   "country": "india",
+   "ingredients": "total fat (g)  26g 40%"
+  },
+  {
+   "code": "8901063163331",
+   "name": "Tiger glucose biscuit",
+   "country": "india",
+   "ingredients": "Refined Wheat Flour (Maida) (66%), Sugar, Refined Palm Oil, Invert Sugar Syrup, Raising Agents [503(ii) & 500(ii)], Iodised Salt, Milk Solids (0.26%), Emulsifiers [471 & 322(i)], Nature Identical & Artificial (Vanilla) Flavouring Substances, Liquid Glucose (0.05%), Ferrous Salt, Dough Conditioner (223) And Vitamin*."
+  },
+  {
+   "code": "8904256727822",
+   "name": "sprouted ragi powder porridge",
+   "country": "india",
+   "ingredients": "Sprouted ragi, iodised salt"
+  },
+  {
+   "code": "8902268011830",
+   "name": "Kream Time",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA), SUGAR, EDIBLE VEGETABLE OIL (PALM), HYDROGENATED EDIBLE VEGETABLE FAT (PALM), LIQUID GLUCOSE, INVERT SYRUP, RAISING AGENTS [INS 503 (ii), INS 500 (ii)], STARCH, MILK SOLIDS, MALT EXTRACT, EDIBLE COMMON SALT, YEAST, EMULSIFIERS (INS 322, INS 472e), ACIDITY REGULATOR (INS 330), DOUGH CONDITIONER (INS 223) & FLOUR TREATMENT AGENT (INS 1101) GROPAT Rka EN CA CONTAINS PERMITTED SYNTHETIC FOOD COLOUR (INS AL 102) AND ADDED FLAVOUR (NATURE IDENTICAL FLAVOURING SUBSTANCE-LEMON) CONTAINS WHEAT, MILK AND SOYA"
+  },
+  {
+   "code": "8904293723153",
+   "name": "Instant Coffee Chicory Mixture",
+   "country": "india",
+   "ingredients": "Instant Coffee,Chicory"
+  },
+  {
+   "code": "8901233018362",
+   "name": "Bournvita",
+   "country": "india",
+   "ingredients": "Malt Extract (51%), Sugar, Cocoa Solids, Caramel, Liquid Glucose, Protein Isolate, Maltodextrin, Milk Solids, Vitamins, Emulsifiers (322, 471), Raising Agent (500(i)), Minerals, Edible Salt. CONTAINS PERMITTED NATURAL COLOUR (150C) AND ADDED FLAVOUR (ARTIFICIAL (ETHYL VANILLIN) FLAVOURING SUBSTANCES. Allergen information: Contains Milk, Wheat, Barley, Sulfites"
+  },
+  {
+   "code": "3948764175022",
+   "name": "Maaza",
+   "country": "india",
+   "ingredients": "water, mango pulp (11.5%). sugar, acidity regulators (330, 331(iii)), stabilizer (466) antioxidant (300) sweetener (950), colour (110) mango flavours (nature-identical & artificial flavoring substances). steviol glycosides."
+  },
+  {
+   "code": "8908005144632",
+   "name": "Muesli dark chocolate cranberry",
+   "country": "india",
+   "ingredients": "Whole Grains 66% {Rolled Oats, Rice Flakes, Quinoa Flakes), Dark Chocolate Paste 12% (Sugar, Edible Vegetable Fat, Cocoa Solids, Soy Lecithi &Natural Flavours), Seeds & Nuts 10.8% (Chia. Flax. Almond, Pumpkin). Dehydrated Fruits 6.5% (Raisins. Cranberry 2.5%). Dates Syrup. Cocoa Powder. Rice Br Oil, Natural Flavours, Jaggery Syrup. Cocoa Mass. Himalayan"
+  },
+  {
+   "code": "8901262300612",
+   "name": "Tender Coconut",
+   "country": "india",
+   "ingredients": "Milk solids, sugar, stabilizers (407, 466, 415, 412), coconut pieces (35%), water"
+  },
+  {
+   "code": "0016000122536",
+   "name": "Cinnamon Toast Crunch Cereal",
+   "country": "india",
+   "ingredients": "whole grain wheat, sugar, rice flour, canola oil, fructose, maltodextrin, dextrose, salt, cinnamon, trisodium phosphate, soy lecithin, caramel color, bht added to preserve freshness, vitamins and minerals: calcium carbonate, iron and zinc (mineral nutrients), vitamin c (sodium ascorbate), a b vitamin (niacinamide), vitamin b6 (pyridoxine hydrochloride), vitamin b2 (riboflavin), vitamin b1 (thiamin mononitrate), vitamin a (palmitate), a b vitamin (folic acid), vitamin b12, vitamin d3,"
+  },
+  {
+   "code": "7622201432263",
+   "name": "Oreo Cricket Edition",
+   "country": "india",
+   "ingredients": "Refined Wheat Flour (Maida), Sugar, Fractionated Fat, Palmolein, Cocoa Solids (3%*), Invert Sugar, Leavening Agents (500(ii),503 (ii)), Starch, lodised Salt, Emulsifier (322), Nature Identical Flavouring Substances."
+  },
+  {
+   "code": "8902080285020",
+   "name": "Pepsi Cola Zero Sugar 250ml Can",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, ACIDITY REGULATORS (338,330) SMEETENERS (955, 950), PRESERVATIVE (211), CAFFEINE\nCONTAINS PERMITTED NATURAL COLOUR (150d) AND ADDED FLAVOUR (NATURAL FLAVOURING SUBSTANCES)."
+  },
+  {
+   "code": "8904037212356",
+   "name": "Coconut Oil",
+   "country": "india",
+   "ingredients": "Froit of the Earth Coconut Oil is 100% pure and natural. tism he finest handpicked dried coconut (Copra) from the wotd e Malabar Coast of Kerala. There are no additives and chemicat tto ensure its purity. Multiple filtration process produces der di retaining all its natural goodness, freshness and aome Contents: Coconut Oil (Edible Grade) oproimate"
+  },
+  {
+   "code": "8901595972159",
+   "name": "Hakka noodles masala",
+   "country": "india",
+   "ingredients": "Iodised Salt, Mixed Spices (17.5%) (Chilli, Cumin, Coriander), Sugar, Garlic Powder, Onion Powder, Flavour Enhancer (INS 635), Soy Sauce Powder (Soybean, Wheat, Salt), Anticaking Agent (INS 551), Acidity Regulators (INS 330, INS 260), Sunflower Oil, Natural Flavouring Substances."
+  },
+  {
+   "code": "8904063253804",
+   "name": "Punjabi tadka",
+   "country": "india",
+   "ingredients": "Edible Vegetable Oil (Palmolein Oil), Potato Flakes, Gram Flour, Corn Flour, Tepary Beans Flour, Tapioca starch, Potato Starch *Spices and Condiments (Coriander Powder, Cumin Powder, Red Chilli powder, Black Pepper Powder, Turmeric Powder, Ginger Powder, Big Cardamom Powder, Clove Powder, Onion Powder, Garlic Powder, Spice Extract), Iodised Salt, Sugar Powder, Maltodextrin, Dextrose, Milk Solids, Acidity Regulators (INS 330 & INS 296), Flavour Enhancers (INS 627 & INS 631) and natural & nature identical flavouring substances."
+  },
+  {
+   "code": "8908000385061",
+   "name": "Kadalamavu Mixture",
+   "country": "india",
+   "ingredients": "Gram Flour, Peanut, Fried Gram Split, Palmolein Oil, Chilli Powder Asafoetida, Salt & Curry Leaves. ALLERGY ADVICE: CONTAINS PEANUT."
+  },
+  {
+   "code": "8904083306085",
+   "name": "Milky Mist Curd",
+   "country": "india",
+   "ingredients": "Pasteurized Toned Milk and Active Lactic Culture. Allergen Information: Contains Milk."
+  },
+  {
+   "code": "8906133310592",
+   "name": "Almond Bon Bon",
+   "country": "india",
+   "ingredients": "Sugar, Edible Vegetable Fat Mik Solids, Cocoa Solids, Cocoa Butter, Puffed Rice Crispy, Almond, Emulsifiers - INS 322 & INS 476, Natural Flavouring"
+  },
+  {
+   "code": "8904004404449",
+   "name": "haldirams Boondi 200g",
+   "country": "india",
+   "ingredients": "Boondi: Bengal Gram Flour (Besan), Refined Palmolein Oil, Tapioca Starch & Edible Common Salt Chat Masala: Cumin Powder, Edible Common Salt, Red Chilli & Black Salt."
+  },
+  {
+   "code": "8906002006410",
+   "name": "fun food peanut butter",
+   "country": "india",
+   "ingredients": "Roasted Peanuts (91%), Sugar, Edible Vegetable Fat (Soyabean), lodised Salt. CONTAINS NUT."
+  },
+  {
+   "code": "8906033950874",
+   "name": "Sev",
+   "country": "india",
+   "ingredients": "Bengal Gram Flour,Edible Vegetable (Palmolein) oil, salt"
+  },
+  {
+   "code": "8901764022913",
+   "name": "Fanta",
+   "country": "india",
+   "ingredients": "Carbonated Water, Sugar, Orange Juice From Concentrate (3.7%), Citrus Fruit From Concentrate (1.3%), Acids (Citric Acid, Malic Acid), Vegetable Extracts (Carrot, Pumpkin), Sweeteners (Acesulfame K, Sucralose), Preservative (Potassium Sorbate), Acidity Regulator (Sodium Citrates), Stabiliser (Guar Gum), Natural Orange Flavourings With Other Natural Flavourings, Antioxidant (Ascorbic Acid)."
+  },
+  {
+   "code": "8906002003242",
+   "name": "Veg Mayonnaise",
+   "country": "india",
+   "ingredients": "Water, Olive Oil (24%), Sugar, E Mustard Powder, Preservatives (INS211, INSZO CONTAINS ADDED FLAVOUR Serve Size 15 Nutritional FLAVOURING SUBSTANCES)"
+  },
+  {
+   "code": "8901764048319",
+   "name": "Charged berry bolt",
+   "country": "india",
+   "ingredients": "CARBONATED WATER, SUGAR, ACIDITY REGULATORS (330, 331(), CAFFEINE, COLOUR (129) AND FLAVOURS (NATURE IDENTICAL FLAVOURING SUBSTANCES)"
+  },
+  {
+   "code": "8901595851218",
+   "name": "Veg Hakka Noodles",
+   "country": "india",
+   "ingredients": "Refined Wheat Flour (Maida) (96%), Wheat Gluten, lodised Salt, Raising Agents (INS 500 (ii), INS 500(i)), Thickening & Stabilizing Agents (INS 452 (i), INS 451 (i), INS 471, INS 339 (ii), INS 412), Acidity Regulators (INS 450 (iii), INS 501 (i)). Allergen Advice: Contains Wheat. May contain Soy, Mustard, Milk and Celery"
+  },
+  {
+   "code": "2200000801494",
+   "name": "Idiyappam",
+   "country": "india",
+   "ingredients": "Rice Flour, Water, Salt"
+  },
+  {
+   "code": "8906010501570",
+   "name": "Balaji Wafers Crunchex",
+   "country": "india",
+   "ingredients": "POTATO (84%), EDIBLE VEGETABLE OIL (CONTAINS ONE OR MORE OF THE FOLLOWINGS: PALMOLEIN, GROUNDNUT), **SEASONING [SUGAR, MALTODEXTRIN, SALT, SPICES & CONDIMENTS (CHILLI (0.5%), PEPPER), DEHYDRATED VEGETABLE POWDER (ONION, GARLIC, TOMATO), BLACK SALT, ACIDITY REGULATOR (INS 330, INS 296, INS 334), MILK SOLIDS (0.1%), HYDROLYZED VEGETABLE PROTEIN SOYA), ANTICAKING AGENT (INS 551), FLAVOUR ENHANCER (INS 627, INS 631) FLAVOUR (NATURAL & NATURE IDENTICAL FLAVOURING SUBSTANCES), PAPRIKA EXTRACT (INS 160C), STABILIZER (INS 340), EMULSIFIER (INS 470)]"
+  },
+  {
+   "code": "8904004403725",
+   "name": "Moong Dal",
+   "country": "india",
+   "ingredients": "Split Pulse Moong (Moong Dal) (77%), Refined Cotton Seed Oil & Edible Common Salt."
+  },
+  {
+   "code": "8904246910173",
+   "name": "Priya ginger pickle",
+   "country": "india",
+   "ingredients": "Ginger Paste, Tamarind Extract, Jaggery, Refined Rice Bran Oil, Iodized Salt, Garlic, Chilli Powder, Mixed Spices, Mustard Seeds, Dry Chillies and Curry Leaves."
+  },
+  {
+   "code": "8901725193119",
+   "name": "bingo",
+   "country": "india",
+   "ingredients": "Water, Sugar, Orange Juice (11. 8%), Acidity Regulators (330, 331) And Antioxidants (300). Contains Permitted Synthetic Food Colours (110, 102) & Added Orange Flavours (Natural, Nature-Identical And Artificial Flavouring Substances). Contains Fruit."
+  },
+  {
+   "code": "8906005500083",
+   "name": "Bikaneri Bhujia",
+   "country": "india",
+   "ingredients": "Dew Bean Flour (Moth Flour) (47.5%), Edible Vegetable Oil (Palmolein Oil, Cottonseed Oil), Gram Flour (9%), Ground Spices and condiments (lodised Salt, Red Chilli, Ginger, Black Pepper, Cardamom, Clove, Nutmeg)"
+  },
+  {
+   "code": "7622201431594",
+   "name": "Oreo Cream Biscuit",
+   "country": "india",
+   "ingredients": "Refined Wheat Flour (Maida), Sugar, Edible Vegetable Fat, Palmolein, Cocoa Solids (3%*), Invert Sugar, Leavening Agents [500(ii), 503(ii)], lodised Salt, Emulsifier (322). CONTAINS ADDED FLAVOUR (NATURE IDENTICAL FLAVOURING SUBSTANCES). Allergen information: Contains Wheat. May Contain Milk."
+  },
+  {
+   "code": "8901499010773",
+   "name": "Chocos Moons and Stars",
+   "country": "india",
+   "ingredients": "Wheat Solids (54.2%) (Wheat Flour (Atta) (29.6%), Refined Wheat Flour (Maida) (24.6%)), Sugar, Corn Flour, Cocoa Solids (5.6%), Minerals, Cereal Extract, Edible Vegetable Oil (Palmolein), lodized Salt, Colour (INS 150d), Vitamins, Antioxidant (INS 320). CONTAINS PERMITTED NATURAL COLOUR & ADDED FLAVOURS (NATURE IDENTICAL & ARTIFICIAL CREAM FLAVOURING SUBSTANCES) CONTAINS GLUTEN. MAY CONTAIN TRACES OF TREENUT."
+  },
+  {
+   "code": "8902979050883",
+   "name": "Cavin's Vanilla Milkshake 180ml",
+   "country": "india",
+   "ingredients": "Toned Milk (89%), Sugar, Stabilizers (INS 415, INS 412, INS 407), Flavor (Nature Identical Flavoring Substances), Sequestrant (INS 451 (i)), lodized Salt, Emulsifier (INS 436), Mineral and Vitamin premix (Zinc, Vitamin A and D)."
+  },
+  {
+   "code": "8901123005403",
+   "name": "Lotto Choco Pie With Rich Marshmallow",
+   "country": "india",
+   "ingredients": "CHOCO COVERING (25%) [SUGAR, HYDROGENATED VEGETABLE FAT (PALM), COCOA SOLIDS, MILK SOLIDS, EMULSIFIERS (322,476), ARTIFICIAL FLAVOUR (VANILLA)], WHEAT FLOUR (MAIDA), SUGAR, LIQUID GLUCOSE, INTERESTERIFIED & HYDROGENATED VEGETABLE FAT (PALM), HUMECTANTS(420, 422), RAISING AGENTS 1500(ii), 503(ii)]. MILK SOLIDS, DEXTROSE, PRESERVATIVES (202, 281), 1ODISED SALT, STABILIZERS (407, 406, 440, 401, 461, 415), ACIDITY REGULATOR 1341(i)] AND ARTIFICIAL FLAVOUR (MILK). cal diet)"
+  },
+  {
+   "code": "8901063093355",
+   "name": "Good Day Cashew Cookies Medium Pack 600g",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA), REFINED PALM OIL, SUGAR, CASHEW NUTS (1.8%), INVERT SUGAR MILK SOLIDS, BUTTER (0.6%), RAISING AGENTS [503(ii) & 500(ii)], IODISED SALT, EMULSIFIERS (322(i), 471 & 472e] AND FLAVOURS [NATURE IDENTICAL AND ARTIFICIAL (MILK AND VANILLA) FLAVOURING SUBSTANCES]."
+  },
+  {
+   "code": "8906080600180",
+   "name": "Paper Boat Apple Drink 150ml",
+   "country": "india",
+   "ingredients": "WATER, SUGAR, APPLE PUREE CONCENTRATE (4.7%), ACIDITY REGULATOR (TRISODIUM CITRATE AND MALIC ACID) STABILIZERS (CAROB BEAN GUM AND CARRAGEENAN), FLAVOURS (NATURE-IDENTICAL AND NATURAL), ANTIOXIDANT (ASCORBIC ACID AND VITAMIN D2 (ERGOCALCIFEROL)"
+  },
+  {
+   "code": "8901030921797",
+   "name": "kissan fresh tomato",
+   "country": "india",
+   "ingredients": "water, tomato paste (28%), sugar, iodised salt, acidity regulator - E260, stabilizers - E1422, E415, preservative - E211, onion powder, garlic powder, spices, condiments"
+  },
+  {
+   "code": "8901207004421",
+   "name": "Real fruits juss anar",
+   "country": "india",
+   "ingredients": "Water, Pomegranate Pulp (30%), Sugar, Liquid Glucose, Pomegranate Juice Concentrate (0.95%), Acidity Regulator (INS 330), Iodized Salt, Antioxidant (INS 300), Colour [INS 162(ii)], and Flavour (Natural Flavouring Substances)"
+  },
+  {
+   "code": "8901030699085",
+   "name": "Tomato Ketchup Kissan",
+   "country": "india",
+   "ingredients": "WATER, TOMATO PASTE (28%), SUGAR, IODISED SALT, ACIDITY REGULATOR-E260, STABILIZERS-E1422, E415, PRESERVATIVE-E211, ONION POWDER, GARLIC POWDER, SPICES AND CONDIMENTS. MKTD. BY: HINDUSTAN UNILEVER LTD. (HUL), UNILEVER HOUSE, MAHARASHTRA. FOR MFR. & MFG. UNIT ADDRESS, READ THE FIRST B.D. SAWANT MARG, CHAKALA, ANDHERI (E), MUMBAI 400 099, CHARACTER OF THE BATCH NO. AND SEE BELOW: MFG. BY: (R) HINDUSTAN MRP PKD., U SEELA"
+  },
+  {
+   "code": "8901725118914",
+   "name": "Tedhe Medhe",
+   "country": "india",
+   "ingredients": "RICE GRITS, REFINED PALMOLEIN, SEASONING REFINED PALMOLEIN, SPICES AND CONDIMENTS, ONION POWDER, 1ODIZED SALT MALTODEXTRIN, BLACK SALT, FLAVOUR ENHANCER (INS 508), NATURE IDENTICAL FLAVOURING SUBSTANCES, TOMATO POWDER, SUGAR, HYDROLYZED VEGETABLE PROTEIN, NATURAL FLAVOURS AND NATURAL FLAVOURING SUBSTANCES AND GARLIC POWDER (0.1%)), DEGERMED CORN GRITS AND BENGAL GRAM GRITS (3.1%)."
+  },
+  {
+   "code": "8901063014299",
+   "name": "Britannia Vita Marie Gold Biscuits",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA) (66%), SUGAR, REFINED PALM OIL, MILK PRODUCTS [MILK SOLIDS&SWESTENED CONDENSED PARTLY SKIMMED MILK, INVERT SUGAR SYRUP, RAISING AGENTS [503(m) & 500(i)], IODISED SALT, EMULSIFIERS [471 & 322(i)] ARTIFICIAL (MILK, BUTTER&VANILLA) FLAVOURING SUBSTANCES, VITAMINS, DOUGH CONDITIONER (223), MINERALS AND IMPROVER [110101 (Numbers in brackets as per International Numbering System) CONTAINS WHEAT, MILK, SOYA AND SULPHITE."
+  },
+  {
+   "code": "8901262020015",
+   "name": "Cheese slices",
+   "country": "india",
+   "ingredients": "Cheese, milk solids, emulsifying salts (E452, E339, E341, E331), iodized salt, class II preservatives (E200, E234)"
+  },
+  {
+   "code": "8908001032124",
+   "name": "Multi Grain Bread",
+   "country": "india",
+   "ingredients": "WHOLE WHEAT FLOUR, LEGUMES AND OIL SEEDS (SOYA FLAKES, SUNFLOWER SEEDS, FLAX, MELON SEEDS. SESAME SEEDS), YEAST, ROLLED OATS, RAGI FLOUR, WHEAT BRAN, SUGAR, SALT, EDIBLE VEGETABLE OIL, WHEAT GRITS, CLASS II PRESERVATIVE (282), EMULSIFIERS (471), IMPROVER (1100), ACIDITY REGULATOR (260), ANTI OXIDANTS (300), FLOUR TREATMENT AGENT (510) :"
+  },
+  {
+   "code": "3948764012914",
+   "name": "Cocacola zero",
+   "country": "india",
+   "ingredients": "Carbonated water, acidity regulators (338, 331(iii)), sweeteners (955, 950), preservative (211), caffeine (9.2 mg/100 g), colour (150d), flavours (natural flavoring substances)."
+  },
+  {
+   "code": "8901012350041",
+   "name": "ORSL Plus Electrolyte Drink Orange",
+   "country": "india",
+   "ingredients": "Water, Sugars (Sucrose, Dextrose), Orange Juice (reconstituted), Sodium Citrate, Acidity Regulator (INS 330), Potassium Chloride, Sodium Chloride, Vitamin C, Antioxidant (INS 320),Taurine, Magnesium Sulphate and Calcium Lactate"
+  },
+  {
+   "code": "8901764092329",
+   "name": "Maaza",
+   "country": "india",
+   "ingredients": "Water, sugar, mango pulp (10.7%), acidity regulators (E330, E331(iii)), stabilizer (E466), antioxidant (E300), preservative (E202), colour (E160a(i)), added mango flavour (nature-identical and artificial flavouring substances), contains fruit"
+  },
+  {
+   "code": "8904063257581",
+   "name": "Lite Mixture",
+   "country": "india",
+   "ingredients": "Flaked Rice(46%),Edible Vegetable Oil(Palmolein/Cotton Seed),Black chickpea(14%),Edible Common Salt,Corn Flakes(6.5%),Black Salt Powder,Cumin Seed Powder, Turmeric Powder,Pomegranate Seed Powder,Dry Mango Powder,Ginger Powder,Cinnamon Powder,Celery,Mint Leaves Powder,Cardamom Powder,Black Cumin,Red Chilli Powder,Clove Powder,Acidity Regulator"
+  },
+  {
+   "code": "8906010501419",
+   "name": "poprings",
+   "country": "india",
+   "ingredients": "Corn Meal (68%), Edible Vegetable Oil (Palmolein), Sugar, iodized Salt, Maltodextrin, Cheese Powder (0.6%), Milk Solids, Soya Powder, Stabilizer (INS 1701) Flavour Enhancer (INS 627, INS 631), Acidity Regulator (INS 330), Anticaking Agent (INS 551)."
+  },
+  {
+   "code": "8901491103084",
+   "name": "Green chutney style",
+   "country": "india",
+   "ingredients": "Cereal Products (57%) (Rice Meal (38%), Corn Meal (19%)), Edible Vegetable Oil (Palmolein), *Seasoning (~Spices & Condiments, lodised Salt, Sugar, Tamarind Powder, Flavour (Natural, Nature Identical and Artificial (Spearmint) Flavouring Substances), Maltodextrin, Acidity Regulator (330), Emulsifier (414), Color (160c), Flavour Enhancers (627, 631)), Gram Meal (6%). *As flavouring agent. ~Contains Onion and Garlic enhances 627,631"
+  },
+  {
+   "code": "8901786030507",
+   "name": "Everest Pani Puri Masala",
+   "country": "india",
+   "ingredients": "Rock Salt, Dried Mango, Cumin, Chilli, Black Salt, Mint Leaf, Black Pepper, Dried Ginger, Tamarind and Citric Acid.Contain Mustard"
+  },
+  {
+   "code": "8901242176107",
+   "name": "Bambino Vermicelli",
+   "country": "india",
+   "ingredients": "Durum Wheat Semolina"
+  },
+  {
+   "code": "8906069400619",
+   "name": "veeba white pasta dressing",
+   "country": "india",
+   "ingredients": "Water, Refined Soyabean Oil (20.0%), Synthetic Vinegar [Water, Acetic Acid (INS260)], Milk Solids, Permitted Emulsifiers and Stabilizers (INS1442, INS1450, INS415), Sugar, lodised Salt, Cheese (2.0%), Spices and Condiments, Herbs, Permitted Preservatives (INS211, INS202), Permitted Acidity Regulator (INS330), Permitted Antioxidant (INS319) and Permitted Sequestrant (INS385) CONTAINS ADDED FLAVOUR (NATURE-IDENTICAL Lic. FLAVOURING SUBSTANCES)"
+  },
+  {
+   "code": "5000256014962",
+   "name": "malt vinegar",
+   "country": "india",
+   "ingredients": "barley malt vinegar"
+  },
+  {
+   "code": "8908005144014",
+   "name": "MULTIGRAIN ENERGY BAR CHOCOLATE CHUNK NUT",
+   "country": "india",
+   "ingredients": "Whole Grains 40.2% (Oats Flour, Millets 11% (Samal Flakes, Jowar Flakes), Rolled Oats, Rice Flakes), Fructo-oligosaccha - rides, Dark Chocolato Paste 10% (Sugar, Edible Vegetable Fat, Cocos Solids, Soy Lecithin & Natural Vanilla), Date Syrup, Almond Butter 5%, Millets 5% (Jowar Crispy), Dates Paste, Honey, Cocoa Powder, Peanut Butter, Seeds 2% (Sunflower, Chia), Glycerin, Natural Flavors (Chocolate, Rosemary Extract), Gum Acacia."
+  },
+  {
+   "code": "8901207032424",
+   "name": "Glucose D",
+   "country": "india",
+   "ingredients": "Dextrose Monohydrate (99.4%)\nCalcium Phosphates (0.6%)\nVitamin D(0.0036%)"
+  },
+  {
+   "code": "8902080000722",
+   "name": "Slice",
+   "country": "india",
+   "ingredients": "WATER, SUGAR, *CONCENTRATED MANGO PULP (5.1%), ACIDITY REGULATOR (330), FLAVOUR (NATURAL AND NATURE IDENTICAL FLAVOURING SUBSTANCES), STABILIZERS (466, 440), SWEETENER (960a), PRESERVATIVE (202), COLOUR (110). CONTAIN NON-CALORIC SWEETENER"
+  },
+  {
+   "code": "8904272600291",
+   "name": "Storia 100% Tender Coconut Water 1L",
+   "country": "india",
+   "ingredients": "Water and Coconut Water Concentrate (9.6%). CONTAINS PERMITTED CLASS II PRESERVATIVES (INS202)"
+  },
+  {
+   "code": "8901192226150",
+   "name": "Hing (Asafoetida)",
+   "country": "india",
+   "ingredients": "Wheat Flour (55%), Asafoetida, Edible Gum.\nALLERGN: Conatins Wheat Flour"
+  },
+  {
+   "code": "89006610",
+   "name": "Orbit Chewing Gum",
+   "country": "india",
+   "ingredients": "BULKING AGENTS (SORBITOL, MALTITOL, MANNITOL), GUM BASE (CONTAINS SOYBEAN LECITHIN), COLOUR [INS 170 (I)], THICKENERS [(INS 414), (INS 1401)), FLAVOURS [NATURAL, NATURE-IDENTICAL AND ARTIFICIAL (MINT)], HUMECTANT [INS 422], SWEETENER [INS 951], ANTICAKING AGENT (INS 553(III)], GLAZING AGENT [INS 903], ANTIOXIDANT (INS 320]."
+  },
+  {
+   "code": "8906066993879",
+   "name": "Masala Roasted Chana",
+   "country": "india",
+   "ingredients": "ROASTED BENGA GRAM, BLACK SALT, VEGETABLE OIL, MANGO SUNRICE. CORIANDER POWDER, JEERAVAN MASALA. COMPOUND ASAFOETIDA, ACIDITY REGULAR (INS-330) ETC."
+  },
+  {
+   "code": "8908010900995",
+   "name": "Pintola High Protien Peanut Butter",
+   "country": "india",
+   "ingredients": "Peanuts (60%), Dark Chocolate (30%) (Sugar, Cocoa Solids, Cocoa butter, Emulsifier (INS 322)), Whey Protein Concentrate (European Origin) (10%)"
+  },
+  {
+   "code": "8901246006189",
+   "name": "Pizza and pasta sauce",
+   "country": "india",
+   "ingredients": "Tomato Paste (41%), Water, Onions, Liquid Glucose, Sugar, Edible Vegetable Oil (Soyabean Oil), lodized Salt, Spices & Condiments (Garlic Powder (0.97%), Mixed Spices, Red Chilli Flakes (0.25%) and Red Paprika (0.19%)), Acidity Regulators (INS 260, INS 330), Milk Solids, Thickeners (INS 1422, INS 415) and Preservative (INS 211)."
+  },
+  {
+   "code": "8901725134310",
+   "name": "Sunfeast Nice, 75 g",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA), SUGAR (26.4%), REFINED PALM OIL, EDIBLE DESICCATED COCONUT, INVERT SYRUP, MILK SOLIDS, STARCH, RAISING AGENTS [INS 503(ii), INS 500(1), INS 450(i)], COCONUT MILK POWDER, IODIZED SALT, EMULSIFIERS [INS 322(i), INS 471] AND FLOUR TREATMENT AGENT (INS 223). CONTAINS PERMITTED SYNTHETIC FOOD COLOUR(S) (INS 102, INS 124) AND ADDED FLAVOUR(S) (ARTIFICIAL FLAVOURING SUBSTANCES-COCONUT, VANILLA, MILKO CONTAINS WHEAT, MILK SOLIDS, SOYA, NUTS AND SULPHITES."
+  },
+  {
+   "code": "8906029790033",
+   "name": "Snakker",
+   "country": "india",
+   "ingredients": "SUGAR, HYDROGENATED VEGETABLE OIL (PALM), WHEAT FLOUR, COCOA SOLIDS (6%), MILK SOLIDS (5%), EMULSIFIERS (E322, E442, E476), IODISED SALT, LEAVING AGENT [E 500(ii)],  DOUGH CONDITIONER (E223), CONTAINS ADDED FLAVOUR [NATURAL AND NATURE IDENTICAL AND ARTIFICIAL (ETHYL VANILLIN) FLAVOURING SUBSTANCE. HYDROGENATED VEGETABLE FAT USED CONTAINS TRANSFAT"
+  },
+  {
+   "code": "8906009070834",
+   "name": "Unibic cashew badam cookies 500g",
+   "country": "india",
+   "ingredients": "Refined Wheat Flour (Maida), Sugar, Edible Vegetable Oil (Palm), Milk Solids, Dry Nuts (1%) (Almond and Cashew), Golden Syrup, Leavening Agents (INS 503 ii, INS 500 ii), Emulsifiers (INS 322 from Soy, INS 472e, INS 435 and INS 471), Iodised Salt, Artificial Flavouring Substances (Saffron, Cashew, Almond & Milk). Allergen Advice: Contains Wheat, Milk, Soy and Nut."
+  },
+  {
+   "code": "6001065601083",
+   "name": "DAIRY MILK BISCUIT",
+   "country": "india",
+   "ingredients": "sugar, full cream milk powder, shortcake biscuit (18%) [wheat flour (gluten), sugar, salt, vegetable fat (palm fruit), corn flour, invert sugar syrup, raising agent (sodium bicarbonate), flavourings], cocoa mass, cocoa butter, vegetable fats [palm fruit, sunflower seed, shea nut, illipe seed, sal seed (soya) (citric acid)], whey permeate (cow's milk), whey powder (cow's milk), emulsifiers (e442,  e476, e322-soya), flavourings, contains: cow's milk, wheat (gluten), soya, may contain: treenuts ingre (18%) [fi (fruits de poudre à pâte de c palme, g d'illipe, lactoser vache), contie peute"
+  },
+  {
+   "code": "1233",
+   "name": "Coop Croissant Naturell 60g",
+   "country": "india",
+   "ingredients": "Hvetemel, smør (fløte (melk), melkesyrebakterier), vann, sukker, gjær, salt, egg, hvetegluten, enzym, melbehandlingsmiddel (E 300)."
+  },
+  {
+   "code": "8901499008275",
+   "name": "CHOCOS",
+   "country": "india",
+   "ingredients": "Wheat Solids (58.2%) (Wheat Flour (Aa) (29 196), Refined Wheat Flour (Maida) (29.1%)). Sugar, Com Flour, Coco Solids (2.7%, Minerals, Cereal Extract, Edible Vegetable Oil (Palmolein & Coconut Oil), lodized Salt, Colour (NS 150d). Vitamins, Antioxidant (INS 320) CONTAINS PERMITTED NATURAL COLOUR & ADDED FLAVOURS (NATURE IDENTICAL & ARTIFICIAL VANILA CREAM FLAVOURING SUBSTANCES) CONTAINS GLUTEN. MAY CONTAIN TRACES OF TREENUT. 2"
+  },
+  {
+   "code": "8906011145049",
+   "name": "B protein",
+   "country": "india",
+   "ingredients": "Proprietary blend of high quality protein (Whey protein concentrate, Soy protein isolate), Skdmmed milk powder, Sucrose, Maltodextrin, Malt extract, Natural cocoa powder, Inulin (Detary fibre), Oleic sunflower oil powder, Minerals, Vitamins Allergen Information: Contains Milk, Soy ingredients Calorific Distrihution Protein"
+  },
+  {
+   "code": "8906036670205",
+   "name": "Nandini Curd",
+   "country": "india",
+   "ingredients": "Milk solids(toned milk), active culture"
+  },
+  {
+   "code": "8901030818660",
+   "name": "Boost",
+   "country": "india",
+   "ingredients": "Cereal extract (49%) [Barley, Wheat, Millet), Malted Barley (Extracted solids) (21%), Sugar, Wheat Flour (Atta) (6.5%) Milk Solids (6%), Minerals, Wheat gluten, Natural Colour (INS 150 Acidity Regulators (INS 501, INS 500(ii)], Edible lodized Salt, Cocoa powder Vitamins, Soy Protein Isolate (0.28%), Nature-identical flavouring substances CONTAINS PERMITTED NATURAL COLOUR AND ADDED FLAVOUR (NATURE IDENTICAL FLAVOURING SUBSTANCES). 500100 Tengah +Based on an independent study conducted in 2009, the number of shuttles completed by Boost consuming children (aged 7-105 increased by 25% compared to 8% increase in children who consumed endurance. Study published in J Nutr. 141:2017-2023, 2011 fortified chocolate beverage, in a 20 m shuttle test measuring we A Boost is a nourishing beverage to be consumed as a part of your daily diet and exercise plan. PET"
+  },
+  {
+   "code": "8901063012608",
+   "name": "Milk Bikis",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA) (63%), SUGAR, REFINED PALM OIL, MILK PRODUCTS (4%) SWEETENED CONDENSED PARTLY SKIMMED MILK & MILK SOLIDS), INVERT SUGAR SYRUP, RAISING AGENTS [503(1) &500 IODISED SALT, EMULSIFIERS (322) & 471), NATURE IDENTICAL & ARTIFICIAL (MILK & VANILLA) FLAVOURING SUBSTANCES, CALCIUM SALT, VITAMINS AND POTASSIUM IODATE. (Numbers in brackets as per International Numbering System) CONTAINS WHEAT, MILK AND SOYA."
+  },
+  {
+   "code": "8901207005374",
+   "name": "Honey",
+   "country": "india",
+   "ingredients": "Honey (100%)"
+  },
+  {
+   "code": "8901063142022",
+   "name": "Britannia Nutrichoice Digestive",
+   "country": "india",
+   "ingredients": "WHEAT FLOUR (ATTA) (63%), REFINED PALM OIL, SUGAR, WHEAT BRAN (4.7%), LIQUID GLUCOSE, MILK SOLIDS, MALTODEXTRIN, RAISING AGENTS [500(ii) & 503(ii)], IODISED SALT, EMULSIFIERS (322(i), 471 & 472e], NATURAL, NATURE IDENTICAL & ARTIFICIAL (VANILLA) FLAVOURING SUBSTANCES, MALT EXTRACT AND DOUGH CONDITIONER (223)."
+  },
+  {
+   "code": "8901063325784",
+   "name": "Toastea Rusk",
+   "country": "india",
+   "ingredients": "REFINED WHEAT FLOUR (MAIDA) (7190). SUGAR, REFINED PALM AND PALMOLEIN OIL, SEMOLINA VEAST VITAL GLUTEN, COLOUR (150a), INVERT SUGAR SYRUP, IODISED SALT, EMULSIFIERS (472e, 471), SPICE (0.3%) (GREEN CARDAMOM SEEDS), BREAD IMPROVE STARCH, SOYA FLOUR, IMPROVERS [1100(1), 1104 1102]}, WHEAT FIBER, NATURE IDENTICAL & ARTIFICIAL (MILK) FLAVOURING SUBSTANCES AND ANTIOXIDANT (300)."
+  },
+  {
+   "code": "8901030779640",
+   "name": "Lipton GREEN TEA LEMON ZEST",
+   "country": "india",
+   "ingredients": "Green tea, natural flavouring substances."
+  },
+  {
+   "code": "8908010900070",
+   "name": "Pintola all natural peanut butter (crunchy)",
+   "country": "india",
+   "ingredients": "Peanuts (100%)"
+  },
+  {
+   "code": "8901262152303",
+   "name": "Camel Milk",
+   "country": "india",
+   "ingredients": "(Camel ) Milk"
+  },
+  {
+   "code": "8146066850127",
+   "name": "Organic Whole Wheat Chakki Atta",
+   "country": "india",
+   "ingredients": "Organic wheat."
+  },
+  {
+   "code": "3017620425035",
+   "name": "Nutella",
+   "country": "united-kingdom",
+   "ingredients": "UARE ALLE CAD be nutella FERRERO Da co 2252 336 KALE"
+  },
+  {
+   "code": "3017620422003",
+   "name": "Testglas",
+   "country": "united-kingdom",
+   "ingredients": "sugar, palm oil"
+  },
+  {
+   "code": "50184453",
+   "name": "Yeast Extract",
+   "country": "united-kingdom",
+   "ingredients": "yeast extract, barley, wheat, oats, rye, salt, vegetable juice concentrate, thiamin, riboflavin, niacin, vitamin B12, folic acid, natural flavouring, celery"
+  },
+  {
+   "code": "5449000000996",
+   "name": "Coca-Cola Original",
+   "country": "united-kingdom",
+   "ingredients": "carbonated water, sugar, colour (caramel e150d), acid (phosphoric acid), natural flavourings, caffeine flavouring,"
+  },
+  {
+   "code": "54491472",
+   "name": "Cola 500 Ml",
+   "country": "united-kingdom",
+   "ingredients": "water, fructose-glucose syrup, carbon dioxide, colorant: e150d, acid: phosphoric acid, natural flavors, caffeine flavoring,"
+  },
+  {
+   "code": "80177173",
+   "name": "Nutella",
+   "country": "united-kingdom",
+   "ingredients": "SUGAR, PALM OIL, HAZELNUTS (13%), SKIMMED COW MILK POWDER (8.7%), LOW FAT COCOA POWDER (7.4%), EMULSIFIER (LECITHIN - INS 322), NATURE-IDENTICAL FLAVOURING SUBSTANCE-VANILLIN."
+  },
+  {
+   "code": "80135463",
+   "name": "",
+   "country": "united-kingdom",
+   "ingredients": "sugar, palm oil, hazelnuts (13%), skimmed milk powder (8,7%), reduced-fat cocoa powder (7,4%), emulsifier: lecithins (soybeans), vanillin,"
+  },
+  {
+   "code": "3046920029759",
+   "name": "Excellence Noir Prodigieux 90% Cacao",
+   "country": "united-kingdom",
+   "ingredients": "Cocoa mass, cocoa butter, low fat cocoa powder, sugar. May contain hazelnuts, almonds, other nuts, milk and soya."
+  },
+  {
+   "code": "5411188112709",
+   "name": "Geröstete Mandel Ohne Zucker",
+   "country": "united-kingdom",
+   "ingredients": "water, almond (2,3%) calcium (tri - calcium phosphate), sea salt, stabilisers (locust bean gum, gellan gum), emulsifier (lecithins), natural flavouring, vitamins (b2, b12, e, d2),"
+  },
+  {
+   "code": "3168930010265",
+   "name": "cruesly mélange de noix",
+   "country": "united-kingdom",
+   "ingredients": "whole oats 32%, whole wheat 18%, glucose syrup, sunflower oil, sugar, toasted almonds 4, 2%, hazelnuts 4%, oligofructose, pecans 1, 5%, wheat flour, rice flour, brazil nuts 1%, honey, natural flavours, antioxidant tocopherol, may contain traces of milk, soy and sesame."
+  },
+  {
+   "code": "20047238",
+   "name": "Nussmix",
+   "country": "united-kingdom",
+   "ingredients": "25% Walnusskerne, 25% Haselnusskerne, 25% Cashewkerne, 25% blanchierte Mandeln."
+  },
+  {
+   "code": "20995553",
+   "name": "Шоколад 85% какаова маса",
+   "country": "united-kingdom",
+   "ingredients": "Cocao Mass, Fat Reduced Cocoa Powder, Cocoa Butter, Sugar, Emilsifier: Soya Lecithins; Vanilla Extract. Dark Chocolate contains: Cocoa Solids 85% Minimum"
+  },
+  {
+   "code": "7394376616228",
+   "name": "The original oat-ly barista edition oat drink",
+   "country": "united-kingdom",
+   "ingredients": "water,  oats  10%, rapeseed oil, acidity regulator (dipotassium phosphate), minerals (calcium carbonate, potassium iodide), salt, vitamins (d2, riboflavin and b12),"
+  },
+  {
+   "code": "3329770077003",
+   "name": "Skyr nature 0%",
+   "country": "united-kingdom",
+   "ingredients": "Fat free yogurt (Milk)."
+  },
+  {
+   "code": "3017620429484",
+   "name": "Nutella",
+   "country": "united-kingdom",
+   "ingredients": "Sucre, huile de palme, NOISETTES 13%, LAIT écrémé en poudre 8,7%, cacao maigre 7,4%, émulsifiants : lécithines [ SOJA ] vanilline"
+  },
+  {
+   "code": "5411188124689",
+   "name": "Oat No Sugars",
+   "country": "united-kingdom",
+   "ingredients": "Oat base (water, oats 8.7%), chicory root fiber, sunflower oil, calcium carbonate, sea salt, stabilizer (gellan gum), vitamins (B2 [riboflavin], B12 [cyanocobalamin], D [ergocalciferol])."
+  },
+  {
+   "code": "3046920028004",
+   "name": "Excellence 70% Cocoa Intense Dark",
+   "country": "united-kingdom",
+   "ingredients": "Pasta de cacao, azúcar, manteca de cacao, vainilla, almendras, avellanas, pistachos, leche,"
+  },
+  {
+   "code": "5010029000016",
+   "name": "Weetabix",
+   "country": "united-kingdom",
+   "ingredients": "Wholegrain Wheat (95%), Malted Barley Extract, Sugar, Salt, Niacin, Iron, Riboflavin (B2), Thiamin (B1), Folic Acid."
+  },
+  {
+   "code": "5449000131836",
+   "name": "Coca-Cola Zero 500ml",
+   "country": "united-kingdom",
+   "ingredients": "water, carbonic acid, colouring: e150d, sweeteners: cyclamate, acesulfame k and aspartame, acidifiers: e 338, acidity regulator: sodium citrates, natural flavourings, flavouring caffeine"
+  },
+  {
+   "code": "3256540000698",
+   "name": "Pains au lait",
+   "country": "united-kingdom",
+   "ingredients": "wheat flour 43%, sourdough 21%, wheat flour 11%, water, salt, fresh eggs 11%, sugar, pastry butter, rapeseed oil, yeast, skimmed milk powder equivalent to 10% reconstituted skimmed milk, emulsifier: mono and diglycerides of fatty acids, salt, wheat protein, wheat gluten, carrot extract, flavourings, antioxidant: ascorbic acid, milk protein"
+  },
+  {
+   "code": "3046920028363",
+   "name": "Excellence 85% Cacao Rich Dark",
+   "country": "united-kingdom",
+   "ingredients": "Cocoa mass, low fat cocoa powder, cocoa butter, demerara sugar, vanilla."
+  },
+  {
+   "code": "87157215",
+   "name": "Tomato Ketchup",
+   "country": "united-kingdom",
+   "ingredients": "tomatoes, vinegar, sugar, salt, extracts of herbs (celery), extracts of spices, spice"
+  },
+  {
+   "code": "80042556",
+   "name": "Polpa di pomodori gehackte Tomaten",
+   "country": "united-kingdom",
+   "ingredients": "Knuste tomater, salt."
+  },
+  {
+   "code": "3168930009078",
+   "name": "Flocons d'avoine complète",
+   "country": "united-kingdom",
+   "ingredients": "100 % oats"
+  },
+  {
+   "code": "20095291",
+   "name": "Cioccolato fondente",
+   "country": "united-kingdom",
+   "ingredients": "Cocoa Mass, Sugar, Cocoa Butter, Emulsifier: Soya Lecithins, Vanilla Extract."
+  },
+  {
+   "code": "5000157024671",
+   "name": "Beanz in a rich tomato sauce",
+   "country": "united-kingdom",
+   "ingredients": "Beans (50%), Tomatoes (36%), Water, Sugar, Modified Cornflour, Salt, Spice Extracts , Herb Extract"
+  },
+  {
+   "code": "3229820787015",
+   "name": "Amande sans sucres",
+   "country": "united-kingdom",
+   "ingredients": "almond milk (water, almonds 2.8%), rice starch, natural almond flavour, sea salt, stabilisers: guar gum, xanthan gum"
+  },
+  {
+   "code": "5411188119098",
+   "name": "Natur mit Kokosnuss",
+   "country": "united-kingdom",
+   "ingredients": "Soya base (Water, Hulled soya beans (10.4%)), Coconut milk (4.3%) (Coconut cream, Water), Sugar, Calcium (Tri-calciumcitrate), Acidity regulators (Sodium citrates, Citric acid), Stabiliser (Pectins), Natural flavouring, Sea salt, Antioxidants (Tocopherol-rich extract, Fatty acid esters of ascorbic acid), Vitamins (B12, D2), Yogurt cultures (S. thermophilus, L. bulgaricus)."
+  },
+  {
+   "code": "5000168198491",
+   "name": "Sablés Anglais L'Original",
+   "country": "united-kingdom",
+   "ingredients": "flour (55%) (wheat flour, calcium, iron, niacin, thiamine), palm oil, whole wheat flour (16%), sugar, baking powders (sodium carbonates, malic acid, ammonium carbonates), inverted sugar syrup, salt. may also contain milk."
+  },
+  {
+   "code": "8715700407760",
+   "name": "Tomato Ketchup BIO",
+   "country": "united-kingdom",
+   "ingredients": "tomatoes (180 g per 100 g of ketchup), sugar, vinegar, salt, spices (contain celery), onion powder, garlic powder,"
+  },
+  {
+   "code": "80052760",
+   "name": "Kinder bueno",
+   "country": "united-kingdom",
+   "ingredients": "Chocolat au LAIT31,5%, sucre, huile de palme, farine de blé, noisettes 10,8%, lait écrémé en poudre 8,5%, lait en poudre 5,5%, chocolat noir 1,5%, cacao maigre, lécithines, carbonate acide de sodium, sel, vanilline."
+  },
+  {
+   "code": "5449000267412",
+   "name": "Coca-Cola goût original",
+   "country": "united-kingdom",
+   "ingredients": "carbonated water, sugar, coloring: e150d, acidifier, phosphoric acid, natural flavourings including caffeine,"
+  },
+  {
+   "code": "3159470000120",
+   "name": "CORN FLAKES",
+   "country": "united-kingdom",
+   "ingredients": "corn, sugar, aroma of malt of barley, salt, vitamins and minerals : vitamin b3/pp, vitamin b6, vitamin b2, vitamin b1, vitamin b9, vitamin d, vitamin b12, iron,"
+  },
+  {
+   "code": "5411188103387",
+   "name": "ALPRO vanille",
+   "country": "united-kingdom",
+   "ingredients": "water, hulled soybeans (7.3%), sugar, glucose-fructose syrup, stabiliser (pectin), acidity regulators (citric acid, sodium citrate), tricalcium phosphate, carrot extract, sea salt, vitamins (riboflavin (b2), b12, d2), flavouring, natural flavouring, vanilla powder (0.03%), antioxidants (tocopherol extract, ascorbyl palminate), yoghurt cultures (s, thermophilus, l, bulgaricus)"
+  },
+  {
+   "code": "5010029000801",
+   "name": "Weetabix",
+   "country": "united-kingdom",
+   "ingredients": "Wholegrain Wheat (95%), Malted Barley Extract, Sugar, Salt, Niacin, Iron, Riboflavin (B2), Thiamin (B1), Folic Acid."
+  },
+  {
+   "code": "5411188110835",
+   "name": "Alpro Mandeldrink, Original 1L",
+   "country": "united-kingdom",
+   "ingredients": "Water, almond (2,3%), sugar, tri-calcium phosphate, sea salt, stabilisers (locust bean gum, gellan gum), emulsifier (lecithins (sunflower)], natural flavouring, vitamins (B2, B12, E, D2]. May contain traces of nuts (no peanuts)."
+  },
+  {
+   "code": "5000159461122",
+   "name": "Snickers",
+   "country": "united-kingdom",
+   "ingredients": "Milk Chocolate (sugar, cocoa butter, chocolate, skim milk, lactose, milkfat, soy lecithin), peanuts, corn syrup, sugar, palm oil, skim milk, lactose, salt, egg whites, artificial flavor."
+  },
+  {
+   "code": "8715035110106",
+   "name": "Sojasaus",
+   "country": "united-kingdom",
+   "ingredients": "water,  soybeans ,  wheat , salt,"
+  },
+  {
+   "code": "8076800195057",
+   "name": "Spaghetti Nº5",
+   "country": "united-kingdom",
+   "ingredients": "DURUM WHEAT SEMOLINA PASTA"
+  },
+  {
+   "code": "8410076801180",
+   "name": "Crunchy oats&amp;honey",
+   "country": "united-kingdom",
+   "ingredients": "whole grain oat flakes (60%),sugar, refined sunflower oil, honey (3%), salt, cane molasses, emulsifier (sunflower lecithin), gasifier (sodium acid carbonate),"
+  },
+  {
+   "code": "5411188115366",
+   "name": "Alpro smooth subtle creamy oat",
+   "country": "united-kingdom",
+   "ingredients": "Water, oats (9.8%), chicory root fiber, sunflower oil, tricalcium phosphate, sea salt, stabilizer (gellan gum), vitamins (B2 [riboflavin], B12 [cyanocobalamin], D [ergocalciferol])."
+  },
+  {
+   "code": "5740900404465",
+   "name": "Spreadable",
+   "country": "united-kingdom",
+   "ingredients": "butter (64%) (milk), rapeseed oil, water, lactic culture (milk), salt"
+  },
+  {
+   "code": "5449000000439",
+   "name": "Coca Cola Original taste",
+   "country": "united-kingdom",
+   "ingredients": "carbonated water, sugar, colour (caramel e150), acid (phosphoric acid), natural flavourings (including caffeine)"
+  },
+  {
+   "code": "50457236",
+   "name": "Tomato Ketchup",
+   "country": "united-kingdom",
+   "ingredients": "Tomatoes, Spirit Vinegar, Sugar, Salt, Spice and Herb Extracts (contain Celery), Spice"
+  },
+  {
+   "code": "5449000028921",
+   "name": "Coca Cola",
+   "country": "united-kingdom",
+   "ingredients": "water, sugar, carbon dioxide, colorant E150d, phosphoric acid, natural flavoring, flavoring including caffeine"
+  },
+  {
+   "code": "5013665108801",
+   "name": "Crunchy Peanut Butter",
+   "country": "united-kingdom",
+   "ingredients": "roasted peanuts 97%, sustainable palm oil, sea salt."
+  },
+  {
+   "code": "7394376616501",
+   "name": "Haver barista edition",
+   "country": "united-kingdom",
+   "ingredients": "Energy, sugar, fat, of which saturated fatty acids, carbohydrates, of which sugar, dietary fiber, salt, protein, vitamin D, riboflavin, vitamin B12, calcium, iodine."
+  },
+  {
+   "code": "5449000016645",
+   "name": "Coca-Cola",
+   "country": "united-kingdom",
+   "ingredients": "original ta herar"
+  },
+  {
+   "code": "20019907",
+   "name": "Succo di limone",
+   "country": "united-kingdom",
+   "ingredients": "lemon juice from concentrate, preservative (potassium metabisulphite)"
+  },
+  {
+   "code": "5010003064744",
+   "name": "Seed Sensations Seven Seeds",
+   "country": "united-kingdom",
+   "ingredients": "Wheat Flour (Calcium, Iron, Niacin, Thiamin), Water, Seed Mix 13% (Toasted Brown Linseed, Toasted Sunflower Seeds, Pumpkin Seeds, Sunflower Seeds, Millet Seeds, Golden Linseed, Poppy Seeds), Yeast, Wheat  Protein, Salt, Soya Flour, Malted Barley Flour, Granulated Sugar, Barley Flour, Preservative (E282), Caramelised Sugar, Barley Fibre, Emulsifier (E472e), Flour Treatment Agent (Ascorbic Acid)."
+  },
+  {
+   "code": "5059319014814",
+   "name": "Corn Flakes",
+   "country": "united-kingdom",
+   "ingredients": "Maize, barley malt extract, sugar, salt, niacin, iron, vitamin B6, riboflavin, thiamin, folic acid, vitamin D, vitamin B12."
+  },
+  {
+   "code": "5411188118961",
+   "name": "Nature aux Amandes - Végétal soja & amande",
+   "country": "united-kingdom",
+   "ingredients": "water, shelled soybeans (7,8%), sugar, almond 1,3%, tricalcalcic citrate, stabilizer (pectin), acidity correctors (sodium citrate, citric acid), natural aroma, sea salt, antioxygens (extract rich in tocopherols, fatty acid esters of ascorbic acid), aromas, vitamins (b12, d2, e), yogurt ferments (s, thermophilus, l, bulgari),"
+  },
+  {
+   "code": "3502110009357",
+   "name": "Pepsi Max",
+   "country": "united-kingdom",
+   "ingredients": "carbonated water,colour (caramel e150d),sweeteners (aspartame**, acesulfame k),acidifiers (phosphoric acid, citric acid),acidity regulator (sodium citrate),flavourings (including plant extracts and caffeine),**contains a source of phenylalanine,"
+  },
+  {
+   "code": "5013665100065",
+   "name": "Organic Lightly Salted Wholegrain Low Fat Rice Cakes",
+   "country": "united-kingdom",
+   "ingredients": "Organic wholegrain rice 99.8%, Sea Salt"
+  },
+  {
+   "code": "50457250",
+   "name": "Tomato Ketchup",
+   "country": "united-kingdom",
+   "ingredients": "Tomatoes, Spirit Vinegar, Sugar, Salt, Spice and Herb Extracts (Celery), Spice"
+  },
+  {
+   "code": "5411188118121",
+   "name": "Fermentiertes Sojaprodukt, Ungesüßt",
+   "country": "united-kingdom",
+   "ingredients": "water, hulled soya beans (10,7%), calcium (tri-calciumcitrate), acidity regulators (sodium citrates, citric acid), stabiliser (pectins), natural flavouring, sea salt, antioxidants (tocopherol-rich extract, fatty acid esters of ascorbic acid), vitamins (b12, d2), yogurt cultures (s, thermophilus, l,bulgaricus),"
+  },
+  {
+   "code": "87157239",
+   "name": "heinz Tomato Ketchup",
+   "country": "united-kingdom",
+   "ingredients": "tomato paste 55%, vinegar, sugar, salt, spice and herb extract (contains celery), spices,"
+  },
+  {
+   "code": "5034467000216",
+   "name": "NAKED ORGANIC TOFU",
+   "country": "united-kingdom",
+   "ingredients": "Organic Tofu (Water, Organic Soya Beans 36%, Nigari)."
+  },
+  {
+   "code": "8719200237902",
+   "name": "Bertolli",
+   "country": "united-kingdom",
+   "ingredients": "vegetable oils (rapeseed, palm, olive (10%)), water, salt (1,1%), buttermilk ( milk ), emulsifiers (mono - , diglycerides of fatty acids, lecithin), natural flavourings, vitamins a , d,"
+  },
+  {
+   "code": "5010265002911",
+   "name": "Dark Rye Crispbread",
+   "country": "united-kingdom",
+   "ingredients": "wholegrain rye flour, rye flour, and salt"
+  },
+  {
+   "code": "5000108022152",
+   "name": "PORRIDGE OATS",
+   "country": "united-kingdom",
+   "ingredients": "100% rolled oats"
+  },
+  {
+   "code": "5000184201199",
+   "name": "Marmite Yeast Extract",
+   "country": "united-kingdom",
+   "ingredients": "yeast extract (contains  barley, wheat, oats, rye ), salt, vegetable juice concentrate, vitamins (thiamin, riboflavin, niacin, vitamin b12 and folic acid), natural flavouring (contains  celery ),"
+  },
+  {
+   "code": "7622210578464",
+   "name": "Organic 70% Dark Chocolate Bar",
+   "country": "united-kingdom",
+   "ingredients": "Cocoa mass #, cane sugar #, cocoa butter #, vanilla extract #. # = Certified Organic. May contain nuts, milk."
+  },
+  {
+   "code": "3159470001424",
+   "name": "Céréales All Bran Kellogg's Fibre Plus",
+   "country": "united-kingdom",
+   "ingredients": "Wheat bran (86%), sugar, barley malt extract, salt, niacin, iron, vitamin B6, riboflavin, thiamin, folic acid, vitamin D, vitamin B12. For allergens see ingredients highlighted in bold."
+  },
+  {
+   "code": "5449000011527",
+   "name": "fanta Orange 0,33",
+   "country": "united-kingdom",
+   "ingredients": "carbonated water: concentrated orange juice (10%): sugar: concentrated lemon juice (2%): natural orange aromas with other natural aromas: preservative: potassium sorbate: stabilizing guar gum: honey extracts coloring: carotenoids,"
+  },
+  {
+   "code": "5000184321064",
+   "name": "Majoneesi",
+   "country": "united-kingdom",
+   "ingredients": "Rapsolje 78%, vann, EGG OG EGGEPLOMME 7,9%, eddik, salt, sukker,  sitronjuicekonsentrat, antioxidant (E 385), aroma, paprikaekstrakt"
+  },
+  {
+   "code": "4088600247519",
+   "name": "Wheat bisk",
+   "country": "united-kingdom",
+   "ingredients": "WHOLE WHEAT (95%), Barley Malt Extract, Sugar, Salt, Niacin, Iron, Riboflavin, Thiamin, Folic Acid"
+  },
+  {
+   "code": "50160884",
+   "name": "Vegan Bouillon powder",
+   "country": "united-kingdom",
+   "ingredients": "Sea salt, Potato starch, Hydrolysed vegetable protein (containing soya), Vegetable oil (sunflower, rapeseed), vegetables 7% (onion, parsnip, carrot, leek), Celery seed, Parsley, Turmeric, White pepper, Garlic, Mace, Lovage, Nutmeg."
+  },
+  {
+   "code": "8718114724485",
+   "name": "mayonnaise",
+   "country": "united-kingdom",
+   "ingredients": "rapeseed oil (78%), egg , egg yolk (7,9%), water, spirit vinegar, sugar, salt, lemon juice concentrate, flavourings, antioxidant (calcium disodium edta), paprika extract, sunflower oil,"
+  },
+  {
+   "code": "50457243",
+   "name": "Heinz Ketchup",
+   "country": "united-kingdom",
+   "ingredients": "Tomatoes, Spirit Vinegar, Sugar, Salt, Spice and Herb Extracts (contain Celery), Spice."
+  },
+  {
+   "code": "5036589255598",
+   "name": "Yogurt",
+   "country": "united-kingdom",
+   "ingredients": "Organic Milk, bifidobacterium live culture"
+  },
+  {
+   "code": "8722700479475",
+   "name": "REAL MAYONNAISE",
+   "country": "united-kingdom",
+   "ingredients": "rapeseed oil (78%),  egg  ,  egg  yolk (7,9%), water, spirit vinegar, sugar, salt, lemon juice concentrate, flavourings, antioxidant (calcium disodium edta), paprika extract, sunflower oil"
+  },
+  {
+   "code": "7622201693916",
+   "name": "Full fat soft cheese",
+   "country": "united-kingdom",
+   "ingredients": "full fat soft cheese, salt, stabiliser (guar gum), acid (citric acid),"
+  },
+  {
+   "code": "5018357012497",
+   "name": "simply nutty muesli",
+   "country": "united-kingdom",
+   "ingredients": "wholegrain oat flakes,  chopped dates, barley flakes, wholegrain wheat flakes, chopped roasted hazelnuts, whole almonds, chopped brazil nuts, sunflower seeds"
+  },
+  {
+   "code": "8719200237872",
+   "name": "Flora Vegan",
+   "country": "united-kingdom",
+   "ingredients": "plant oils (rapeseed, palm), sunflower 1%, linseed), water, salt 1,35%, plant based emulsifier (lecithin), fava bean protein, natural flavourings, vitamin a"
+  },
+  {
+   "code": "5201054017432",
+   "name": "Total 5% Fat Greek Yogurt",
+   "country": "united-kingdom",
+   "ingredients": "pasteurised skimmed milk, cream (milk), live active yoghurt cultures (l, bulgaricus, s, thermophilus, l, acidophilus, bifidus, l, casei),"
+  },
+  {
+   "code": "20006105",
+   "name": "Roggenvollkornbrot",
+   "country": "united-kingdom",
+   "ingredients": "Wholemeal Rye, Water, Sourdough (Water, Wholemeal Rye, Rye Flour, Wheat Flour), Wholegrain Rye Flour, Invert Sugar Syrup, Salt, Rye Flakes, Yeast."
+  },
+  {
+   "code": "5000373704289",
+   "name": "54% Vegetable Fat Spread",
+   "country": "united-kingdom",
+   "ingredients": "vegetable oils (sunflower (21%), rapeseed, palm), water, salt, emulsifiers (e471), sunflower lecithin, preservative (potassium sorbate), acid (lactic acid), vitamins (niacin, b6, b2, folic acid, b12), flavourings, colours (annatto, curcumin)"
+  },
+  {
+   "code": "5018357012411",
+   "name": "Simply Delicious Muesli",
+   "country": "united-kingdom",
+   "ingredients": "Wholegrain oat flakes, wholegrain wheat flakes, dried fruit (20%) [raisins, sultanas, chopped dates (4%)], barley flakes, wholegrain toasted wheat flakes, sunflower seeds (4.5%), nuts (2%) [chopped brazil nuts (1%), roasted whole hazelnuts]."
+  },
+  {
+   "code": "8000430138719",
+   "name": "mozzarella",
+   "country": "united-kingdom",
+   "ingredients": "pasteurized whole milk, salt, citric acid"
+  },
+  {
+   "code": "20177201",
+   "name": "Шоколад с 6% парченца малини",
+   "country": "united-kingdom",
+   "ingredients": "Cocoa Mass, Sugar, Cocoa Butter, Glucose-Fructose Syrup, Rice Flour, 0.5% Concentrated Raspberry Purée, Emulsifier: Soya Lecithins; Palm Fat, Natural Flavouring, Rice Starch, Thickener: Pectins; Acid: Citric Acid; Vanilla Extract, Black Carrot Concentrate. Dark Chocolate contains: Cocoa Solids 70% Minimum."
+  },
+  {
+   "code": "80176800",
+   "name": "Nutella",
+   "country": "united-kingdom",
+   "ingredients": "Sugar, vegetable fat (palm), hazelnuts (13%), skimmed milk powder (8.7%), fat-reduced cocoa powder (7.4%), emulsifier: lecithins (soya), flavouring (vanillin)."
+  },
+  {
+   "code": "7394376665035",
+   "name": "Oat Drink Whole",
+   "country": "united-kingdom",
+   "ingredients": "oat base (water, oats 10%), rapeseed oil, acidity regulator, (dipotassium phosphate), calcium carbonate, calcium phosphates, iodised salt, vitamins (d2, riboflavin and b12),"
+  },
+  {
+   "code": "5025125000112",
+   "name": "Proper Sourdough",
+   "country": "united-kingdom",
+   "ingredients": "Wheat Flour (Wheat Flour, Calcium Carbonate, Iron, Niacin, Thiamin), Water, Rye Flour, Salt, Fermented Wheat"
+  },
+  {
+   "code": "5014213711290",
+   "name": "Crunchy Peanut Butter",
+   "country": "united-kingdom",
+   "ingredients": "Roasted Peanuts (100%)."
+  },
+  {
+   "code": "8000500037560",
+   "name": "bueno",
+   "country": "united-kingdom",
+   "ingredients": "milk chocolate 31,5 % (sugar, cocoa butter, cocoa mass, skimmed milk powder, concentrated butter, emulsifiers: lecithins [soya], vanillin), sugar, palm oil, wheat flour, ground hazelnuts 10,8%, skimmed milk powder, milk powder, dark chocolate (sugar, cocoa mass, cocoa butter, emulsifiers: lecithins [soya], vanillin), lean cocoa, emulsifiers: lecithins [soya], raising agents (sodium acid carbonate, ammonium acid carbonate), salt, vanillin,"
+  },
+  {
+   "code": "5010029219326",
+   "name": "No Added Sugar Muesli imp",
+   "country": "united-kingdom",
+   "ingredients": "wholegrain  wheat  (42%), wholegrain rolled  oats  (36%), raisins (15%), skimmed  milk  powder,  milk  whey powder, roasted sliced  nuts  (2,5%) ( hazelnuts ,  almonds ), malted  barley  extract, salt,"
+  },
+  {
+   "code": "7622210584724",
+   "name": "Dark chocolate",
+   "country": "united-kingdom",
+   "ingredients": "cocoa mass, cocoa butter, fat-reduced cocoa powder, cane sugar, vanilla extract"
+  },
+  {
+   "code": "5013665108320",
+   "name": "Peanut Butter",
+   "country": "united-kingdom",
+   "ingredients": "roasted organic peanuts  (95%), organic sustainable palm oil, sea salt."
+  },
+  {
+   "code": "4056489244707",
+   "name": "Lait de riz et coco",
+   "country": "united-kingdom",
+   "ingredients": "water, 5.6% coconut milk¹, 3.5% rice¹, sea salt, stabilizers: guar gum, gellan, xanthan gum, natural coconut flavor, ¹from certified organic farming,"
+  },
+  {
+   "code": "5000168036755",
+   "name": "Digestives The ORIGINAL",
+   "country": "united-kingdom",
+   "ingredients": "Flour (55%) (Wheat Flour, Calcium, Iron, Niacin, Thiamin), Vegetable Oil (Palm), Wholemeal Wheat Flour (16%), Sugar, Partially Inverted Sugar Syrup, Raising Agents (Sodium Bicarbonate, Malic Acid, Ammonium Bicarbonate), Salt. For allergens, including cereals containing gluten, see ingredients in bold. May also contain Milk. BY APPOINTMENT TO HER MAJESTY THE QUEEN BISCUIT MANUFACTURERS UNITED BISCUITS (UIO LIMITED, LONDON FOR SUITABLE FEGETARIAN V Suitable for Vegans 360a4"
+  },
+  {
+   "code": "54491014",
+   "name": "Cocacola mini original taste",
+   "country": "united-kingdom",
+   "ingredients": "carbonated water, sugar, colour (caramel e150d), phosphoric acid, flavouring including caffeine"
+  },
+  {
+   "code": "5025125000037",
+   "name": "Sourdough grain and seeds",
+   "country": "united-kingdom",
+   "ingredients": "Sliced white sourdough bread with grains & seeds: Wheat flour (wheat flour, calcium, folic acid, iron, niacin, thiamin), water, mixed seeds (golden linseeds, sunflower seeds) (6%), sprouted whole spelt (wheat) (2.5%), salt, fermented wheat flour."
+  },
+  {
+   "code": "5013665109389",
+   "name": "Smooth Peanut Butter",
+   "country": "united-kingdom",
+   "ingredients": "Roasted peanuts, sustainable palm oil, sea salt."
+  },
+  {
+   "code": "5449000214799",
+   "name": "Coca-Cola sans sucres",
+   "country": "united-states",
+   "ingredients": "carbonated water, colouring (e150d), acidifier (phosphoric acid), sweeteners (aspartame, acesulfame-k), natural flavors, caffeine aroma, acidity regulator (sodium citrates)"
+  },
+  {
+   "code": "3451790988677",
+   "name": "Le Beurre Tendre",
+   "country": "united-states",
+   "ingredients": "cream (origin france), milk fat , lactic ferments,"
+  },
+  {
+   "code": "7622210601988",
+   "name": "Granola L'Original",
+   "country": "united-states",
+   "ingredients": "wheat flour 48%, milk chocolate 27% sugar, cocoa mass, cocoa butter, whey powder (from milk), skimmed milk powder, vegetable fats (palm, shea in varying proportions), concentrated butter, emulsifiers (soy lecithins, e476), lactose (milk), aromamel, vegetable oils (palm, copra), sugar, sugar syrup, wheat bran, baking powder (sodium carbonates,  ammonium carbonates), salt, wheat germ, acidity regulator (citric acid), may contain eggs, nuts, sesame,"
+  },
+  {
+   "code": "5010029000023",
+   "name": "Original",
+   "country": "united-states",
+   "ingredients": "Whole wheat (95%), malted barley extract, sugar, salt, niacin, iron, riboflavin (b2), thiamin (b1), folic acid."
+  },
+  {
+   "code": "3161711000622",
+   "name": "Caprice des Dieux",
+   "country": "united-states",
+   "ingredients": "pasteurized cow's milk of france, salt, lactic ferments (milk),"
+  },
+  {
+   "code": "20005832",
+   "name": "Dark chocolate 50% Cocoa",
+   "country": "united-states",
+   "ingredients": "sugar, cocoa mass, cocoa butter, emulsifier (sunflower lecithins), vanilla extract"
+  },
+  {
+   "code": "3245550078674",
+   "name": "SNACK POPPÉ",
+   "country": "united-states",
+   "ingredients": "SOYA flour (30%), tapioca starch, dehydrated potato (13%), sunflower oil, potato starch (5%), rice flour, lactose (MILK), sugar, onions, salt, natural flavouring (MILK), yeast extract, tomatoes, colour: paprika extract, acid: malic acid."
+  },
+  {
+   "code": "8000500003787",
+   "name": "Ferrero Rocher",
+   "country": "united-states",
+   "ingredients": "milk chocolate (sugar, cocoa butter, cocoa mass, skimmed milk powder, butter oil, soy lecithin, vanillin), hazelnuts, sugar, palm oil, wheat flour, whey, low-fat cocoa powder, soy lecithin, sodium bicarbonate, salt, vanillin"
+  },
+  {
+   "code": "3175681134904",
+   "name": "Sablé Nature sans sucres",
+   "country": "united-states",
+   "ingredients": "wheat flour 58.5%, sweetener: maltitols of vegetable origin, rapeseed oil, wheat starch, wheat fiber, natural flavour, sea salt, emulsifiers: rapeseed lecithins, baking powder: ammonium carbonates,"
+  },
+  {
+   "code": "8076809523509",
+   "name": "Pâtes linguine collezione 500g",
+   "country": "united-states",
+   "ingredients": "durum wheat semolina, water, may contain traces of soya,"
+  },
+  {
+   "code": "20000691",
+   "name": "Raspberry conserve",
+   "country": "united-states",
+   "ingredients": "Sugar, 50% raspberries, citric acid, pectins."
+  },
+  {
+   "code": "6191509900664",
+   "name": "Extra Virgin Olive Oil",
+   "country": "united-states",
+   "ingredients": "First Cold Pressed Extra Virgin Olive Oil"
+  },
+  {
+   "code": "5000137487908",
+   "name": "The Original Cracker",
+   "country": "united-states",
+   "ingredients": "Wheat flour, sunflower oil 22 %, sugar, glucose-fructose syrup, raising agents (calcium phosphates, ammonium carbonates, sodium carbonates, potassium carbonates), salt, barley malt flour. May contain egg, milk, sesame."
+  },
+  {
+   "code": "20621483",
+   "name": "Special Flakes Bran Flakes",
+   "country": "united-states",
+   "ingredients": "80% Shredded Wholegrain Wheat, 16% Wheat Bran, Sugar, Barley Malt Extract, Salt, Honey."
+  },
+  {
+   "code": "8076800195019",
+   "name": "2 x Capellini Nr. 1",
+   "country": "united-states",
+   "ingredients": "durum wheat semolina, water, may contain traces of eggs if produced in the plant indicated with letter (a),"
+  },
+  {
+   "code": "7394376620157",
+   "name": "Barista edition oat drink",
+   "country": "united-states",
+   "ingredients": "water, oats 10%, rapeseed oil, acidity regulator (dipotassium phosphate), minerals (calcium carbonate, potassium iodide), salt, vitamins (d2, riboflavin, b12),"
+  },
+  {
+   "code": "5021185201223",
+   "name": "Geeta's Mango Chutney imp",
+   "country": "united-states",
+   "ingredients": "Mangoes (56%), Sugar, salt, Acidity Regulator : Acetic Acid, Whole Baby Garlic Cloves, Cumin Seeds, Mixed Spices, Fenugreek Seeds, Nigella Seeds, Black Peppercorns, cardamom pods, Whole clove, herb."
+  },
+  {
+   "code": "3165440006702",
+   "name": "Couscous sachet cuisson",
+   "country": "united-states",
+   "ingredients": "100% durum wheat semolina (gluten), possible traces of milk, soy, celery, mustard and lupine,"
+  },
+  {
+   "code": "20403027",
+   "name": "Thon entier au naturel",
+   "country": "united-states",
+   "ingredients": "tuna, water, table salt"
+  },
+  {
+   "code": "5010029219494",
+   "name": "Redy Brek",
+   "country": "united-states",
+   "ingredients": "Wholegrain Rolled Oats, Wholegrain Oat Flour, Calcium, Niacin, Iron, Riboflavin (B2), Vitamin B6, Thiamin (B1), Folic Acid, Vitamin D, Vitamin B12."
+  },
+  {
+   "code": "20357146",
+   "name": "Unt de masă 65%",
+   "country": "united-states",
+   "ingredients": "table butter b, 65% fat, ingredients: pasteurized cream from cow's milk,"
+  },
+  {
+   "code": "20005573",
+   "name": "Jaffa Cakes",
+   "country": "united-states",
+   "ingredients": "sugar, glucose-fructose syrup, 15% orange juice from concentrated orange juice, wheat flour, cocoa mass, 6% liquid whole egg, palm oil, cocoa butter, stabiliser: sorbitols, gelling agent: pectins, acid: citric acid, raising agents: sodium carbonates, diphosphates, whey powder (milk), emulsifiers: lecithins, mono - and diglycerides of fatty acids, natural orange flavouring, natural vanilla flavouring with other natural flavourings,   salt, wheat starch,"
+  },
+  {
+   "code": "3270190136880",
+   "name": "Moutarde de Dijon",
+   "country": "united-states",
+   "ingredients": "water, organic mustard seeds 30%, organic alcohol vinegar, salt,"
+  },
+  {
+   "code": "3228850006035",
+   "name": "Pain de mie longue conservation",
+   "country": "united-states",
+   "ingredients": "wheat flour 66.5%, water, rapeseed oil, sugar, wheat gluten, yeast, flavoring (contains alcohol), salt, vinegar, preservative: calcium propionate, bean flour, aceerula extract, may contain traces of egg, soy, milk, nuts, sesame seeds,"
+  },
+  {
+   "code": "80177616",
+   "name": "FILLED MILK CHOCOLATE WITH A MILKY FILLING",
+   "country": "united-states",
+   "ingredients": "fine  milk  chocolate 40% (sugar,  milk  powder, cocoa butter, cocoa mass, emulsifier (lecithins ( soya )), vanillin), sugar, skimmed  milk  powder, palm oil, concentrated  butter , emulsifier (lecithins ( soya )), vanillin,"
+  },
+  {
+   "code": "5060198820052",
+   "name": "Peter's Yard Original Sourdough Crackers",
+   "country": "united-states",
+   "ingredients": "Milk, rye flour, wheat flour, sourdough 11.5% (rye flour, water), wholewheat flour, honey, salt, yeast."
+  },
+  {
+   "code": "5900259094704",
+   "name": "Doritos Nachos Cheese Flavoured 100g",
+   "country": "united-states",
+   "ingredients": "corn flour 68,7%, corn oil, mix of cheese-flavoured ingredients (maltodextrin, whey milk powder, wheat flour, salt, milk powder cheese 0,7%, powdered tomatoes, flavors (containing milk), powdered onions, powdered milk fat, potassium chloride, flavour enhancer (sodium monoglutamate), garlic powder, milk protein, dextrose, acidity correctors (acid , citric acid), dyes (red pepper extract, annatto, plain caramel), spices, sugar, skimmed milk),"
+  },
+  {
+   "code": "3036811460259",
+   "name": "Velouté de légumes",
+   "country": "united-states",
+   "ingredients": "water, carrot 26%, leek 10%, onion 5.7%, potato 5.7%, tomato puree 2.1%, pumpkin, celeriac, cooking butter, fresh cream, salt, natural pepper extract,"
+  },
+  {
+   "code": "5000354800931",
+   "name": "Rice Pudding",
+   "country": "united-states",
+   "ingredients": "Full Cream Milk, Skimmed Milk, Whey (Milk), Rice (9%), Sugar."
+  },
+  {
+   "code": "0898999000503",
+   "name": "Coconut Water",
+   "country": "united-states",
+   "ingredients": "coconut water, less than 1% sugar, ascorbic acid (vitamin C)"
+  },
+  {
+   "code": "0078742040370",
+   "name": "Purified Drinking Water",
+   "country": "united-states",
+   "ingredients": "AGUA PURIFICADA, CLORURO DE CALCIO Y BICARBONATO DE SODIO"
+  },
+  {
+   "code": "3609200010726",
+   "name": "Tortilla Pops Finement Salé",
+   "country": "united-states",
+   "ingredients": "corn 57%, legume flour in variable proportion (peas, beans, lentils, chickpeas) 30%, corn oil, pea protein, sea salt, olive extract, may contain traces of soy and milk,"
+  },
+  {
+   "code": "20005559",
+   "name": "Bolachas Recheadas Framboesa",
+   "country": "united-states",
+   "ingredients": "sugar, glucose fructose syrup, wheat flour, chocolate liquor, eggs, palm oil, cocoa butter, concentrated raspberry juice, sorbitol, pectin, citric acid, leavening (sodium acid pyrophosphate, baking soda), emulsifier blend (soy lecithin, sunflower lecithin, mono - and diglycerides of fatty acids), whey protein concentrate, natural raspberry flavor, natural flavors, salt, wheat starch,"
+  },
+  {
+   "code": "3017760290692",
+   "name": "Napolitain l'Original",
+   "country": "united-states",
+   "ingredients": "wheat flour 24.4%, sugar, palm oil, glucose-fructose syrup, chocolate powder 6.7% (sugar, cocoa powder), eggs, stabilizer (glycerol), whey powder (milk), margarine (palm oil, water, rapeseed oil, emulsifier (e471), acidity corrector (sodium citrate), acidifier (citric acid), dye (beta-carotene)), glucose syrup, aromas (contains alcohol), lean cocoa powder, , shea butter, salt, emulsifiers (e472b, e472a, soy lecithin), skimmed milk powder, pastry butter, preservative (potassium sorbate), sunflower oil, dye (e160a)"
+  },
+  {
+   "code": "3664346304863",
+   "name": "Chocolate Orange Milk",
+   "country": "united-states",
+   "ingredients": "Sugar, cocoa mass, cocoa butter, skimmed milk powder, whey powder (from milk), vegetable fats (palm, shea), milk fat, emulsifiers (soya lecithins, E476), orange oil, flavouring. May contain nuts, wheat. MILK SOLIDS 14 % MINIMUM. COCOA SOLIDS 25% MINIMUM. CONTAINS VEGETABLE FATS IN ADDITION TO COCOA BUTTER. B Rec INSERT"
+  },
+  {
+   "code": "8850389100684",
+   "name": "Mogu lychee",
+   "country": "united-states",
+   "ingredients": "water, lychee juice from concentrate 25%, coconut 25%, fructose, sucrose, acidifiers (citric acid, calcium lactate), lychee flavor, preservative e211, gelling agent: gellan gum, color: e129 - 0.0001% (this dye may have adverse effects on activity and attention in children),"
+  },
+  {
+   "code": "0612322000202",
+   "name": "Fruit & Seed Oatcakes",
+   "country": "united-states",
+   "ingredients": "Wholegrain Oats (68%), Currants (12%) (Currants, Sunflower Oil), Brown Sugar, Sustainable Palm Fruit Oil, Brown Flaxseeds (6%), Raising Agent: Sodium Bicarbonate, Sea Salt."
+  },
+  {
+   "code": "8710637105390",
+   "name": "Wraps Multigrains",
+   "country": "united-states",
+   "ingredients": "wheat flour 66%, water, seed mixture 2.6% (brown flaxseed, golden flaxseed), rapeseed oil, stabilizers (glycerol, guar gum, e466), sugar, fermented wheat, salt, baking powders (e500, e450), acidifier (citric acid), emulsifiers (e471, e472e), natural flavour"
+  },
+  {
+   "code": "7802575034038",
+   "name": "pasta mix",
+   "country": "united-states",
+   "ingredients": "spaghetti 5\ntricolor\nCO\nIngredientes: Semola de trigos\nduros seleccionados, tomate\ndeshidratado (0,6%), espinaca\ndeshidratada (0,6%), niacina,\nhierro (sulfato ferroso), tiamina y\nriboflavina. Contiene gluten.\nElaborado en lineas que tambien\nprocesan huevo."
+  },
+  {
+   "code": "20333737",
+   "name": "Roasted Cashew-Peanut-Mix Honey & Salt",
+   "country": "united-states",
+   "ingredients": "33% cashews , 32% peanut kernels , sugar, 3% honey, vegetable oils (sunflower, oil palm), gelling agent: gum arabic, 0,8% table salt, glucose syrup, dye: ammonia sugar caramel,"
+  },
+  {
+   "code": "3228857001491",
+   "name": "Harrys pain de mie extra moelleux complet sans sucres ajoutés 500g",
+   "country": "united-states",
+   "ingredients": "Farine complète de blé (44 %), eau, farine de blé, huile de colza, levure, arôme (contient alcool), sel, vinaigre, gluten de blé, extrait d'acérioa"
+  },
+  {
+   "code": "8412600024485",
+   "name": "12 Seleção / Pão de Forma com Cereais e Sementes",
+   "country": "united-states",
+   "ingredients": "whole wheat flour, water, wheat flour, sugar, yeast, sunflower seeds (3,6%), wheat gluten, vegetable oil (sunflower), chopped wheat (2,7%), chopped rye (2,5%), salt, corn semolina (1,3%), oat flakes (0,8%), preservatives (e-282, e-200, e-202), emulsifiers (e-481,e-472e), wine vinegar,sliced oats (0,49%), chopped brown rice (0,4%), barley flakes (0,2%),  seeds of brown flax (0,2%), millet (0,2%), sliced triticale (0,1%),  spelt flour (0,1%), buckwheper flour (0,1%), flour treatment agent (e-300,e-341),"
+  },
+  {
+   "code": "3168930007340",
+   "name": "Bénénuts cacahuètes grillées & salées",
+   "country": "united-states",
+   "ingredients": "peanuts, sunflower oil, salt,"
+  },
+  {
+   "code": "8000320010118",
+   "name": "ROSII PULPA",
+   "country": "united-states",
+   "ingredients": "chopped tomatoes, tomato paste, salt, acidity regulator: citric acid,"
+  },
+  {
+   "code": "20399412",
+   "name": "Croissants Hazelnut",
+   "country": "united-states",
+   "ingredients": "wheat flour, hazelnut creme filling (sugar, palm oil, palm fat, hazelnuts, skim milk, cocoa, emulsifier blend [sunflower lecithin, mono and diglyceride of fatty acids], natural flavor), palm fat, water, sugar, egg, emulsifier blend (mono and diglyceride o"
+  },
+  {
+   "code": "7610900299072",
+   "name": "Onken Set Natural Yogurt",
+   "country": "united-states",
+   "ingredients": "Yogurt (MILK), Vitamin D. Contains live cultures: Lactobacillus Bulgaricus, Streptococcus Thermophilus, and Bifidobacterium."
+  },
+  {
+   "code": "20166076",
+   "name": "Erdnussbutter, creamy",
+   "country": "united-states",
+   "ingredients": "roasted peanut kernels 90.9%, sugar, fully hydrogenated rapeseed oil, table salt,"
+  },
+  {
+   "code": "7614500010617",
+   "name": "Dark Chocolate with Honey and Almond Nougat",
+   "country": "united-states",
+   "ingredients": "cocoa mass, sugar, milk fat, honey (3,0 %), almonds (1,6%), cocoa butter, emulsifier (soya lecithin), egg white, chocolate contains: cocoa solids: 50% minimum,"
+  },
+  {
+   "code": "0016000264694",
+   "name": "Oats 'N Honey Granola Bars",
+   "country": "united-states",
+   "ingredients": "Whole Grain Oats, Sugar, Canola Oil, Rice Flour, Honey, Salt, Brown Sugar Syrup, Baking Soda, Soy Lecithin, Natural Flavor. CONTAINS SOY; MAY CONTAIN PEANUT, ALMOND AND PECAN INGREDIENTS"
+  },
+  {
+   "code": "3449865367250",
+   "name": "Viande des GRISONS",
+   "country": "united-states",
+   "ingredients": "Viande des Grisons: Ingrédients : Viande de bœuf origine U.E. ou hors UE, sel, épices et plantes aromatiques, extrait d'épices, dextrose, sucre, conservateurs: ascorbate de sodium, citrates de sodium, nitrate de potassium. Présence possible de fruits à coques et de lait."
+  },
+  {
+   "code": "6191509903023",
+   "name": "Organic Extra Virgin Olive Oil",
+   "country": "united-states",
+   "ingredients": "First cold pressed organic extra virgin olive oil"
+  },
+  {
+   "code": "0013764027053",
+   "name": "Organic Bread 21 Whole Grains and Seeds",
+   "country": "united-states",
+   "ingredients": "organic whole wheat (organic whole wheat flour, organic cracked whole wheat), water, organic cane sugar, organic whole grains and seeds mix (organic whole flax seeds, organic sunflower seeds, organic tri-color quinoa (organic black quinoa, organic red quinoa, organic white quinoa), organic ground whole flax seeds, organic triticale, organic pumpkin seeds, organic rolled barley, organic rolled oats, organic rolled rye, organic blue cornmeal, organic millet, organic yellow cornmeal, organic kamut khorasan wheat, organic sorghum flour, organic buckwheat flour, organic quinoa, organic poppy seeds), organic wheat gluten, organic oat fiber, yeast, organic molasses, sea salt, organic cultured wheat flour, organic vinegar, organic acerola cherry powder, enzymes"
+  },
+  {
+   "code": "5018735224924",
+   "name": "Malt Lunchbox Loaves",
+   "country": "united-states",
+   "ingredients": "Fortified Wheat Flour (Wheat Flour, Calcium Carbonate, Iron, Niacin (B3), Thiamin (B1)), Water, Raisins (14%), Partially Inverted Sugar Syrup (Partially Inverted Sugar Syrup, Colour: E150c), Malted Barley Flour (5%), Barley Malt Extract (4.5%), Maize Starch, Rice Starch, Vegetable Fat (Rapeseed, Palm), Salt, Yeast, Preservative: Calcium"
+  },
+  {
+   "code": "5000147030125",
+   "name": "Robinsons Orange Squash",
+   "country": "united-states",
+   "ingredients": "Water, orange fruit from concentrate (10%), acid (citric acid), acidity regulator (sodium citrate), natural flavouring, sweeteners (aspartame, saccharin), preservatives (potassium sorbate, sodium metabisulphite), stabiliser (cellulose gum), emulsifier (gl"
+  },
+  {
+   "code": "0096619756803",
+   "name": "Purified Drinking Water",
+   "country": "united-states",
+   "ingredients": "Purified Water, Potassium Bicarbonate, Sodium Bicarbonate, Calcium Citrate, Sodium Chloride, Magnesium Oxide"
+  },
+  {
+   "code": "0633148100013",
+   "name": "",
+   "country": "united-states",
+   "ingredients": "chili peppers, sea salt, citric acid, dehydrated lime juice, silicon dioxide"
+  },
+  {
+   "code": "5035660138782",
+   "name": "Fine cut Oxford marmalade",
+   "country": "united-states",
+   "ingredients": "Glucose-Fructose Syrup, Seville Oranges, Sugar, Acid: Citric Acid, Acidity Regulator: Sodium Citrates, Gelling Agent: Pectin, Orange Oil."
+  },
+  {
+   "code": "8005110413520",
+   "name": "",
+   "country": "united-states",
+   "ingredients": "Organic diced tomatoes"
+  }
+ ]
+}

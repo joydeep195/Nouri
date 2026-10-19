@@ -1,8 +1,14 @@
 import type { ReactNode } from 'react';
 import type { Highlight } from '../model/types';
 
+export interface Mark {
+  start: number;
+  end: number;
+  kind: Highlight['kind'] | 'unknown';
+}
+
 /** Renders text with <mark>s around the highlighted ranges. Text is never parsed as HTML. */
-export function Highlighted({ text, marks }: { text: string; marks: Highlight[] }) {
+export function Highlighted({ text, marks }: { text: string; marks: Mark[] }) {
   const parts: ReactNode[] = [];
   let pos = 0;
   for (const m of marks) {

@@ -32,7 +32,12 @@ export function termRegex(terms: readonly string[]): RegExp {
 
 // "May contain traces of milk" is about cross-contamination, not a real ingredient.
 const TRACE_RE =
-  /(may contain|traces? of|trace amounts|made in a|produced in a|manufactured in a|same (?:line|facility)|factory (?:that|which))[^.;:]*$/i;
+  /(may contains?|traces? of|trace amounts|made in a|produced in a|manufactured in a|same (?:line|facility)|factory (?:that|which))[^.;:]*$/i;
+
+/** True when position `start` sits inside a "may contain traces of…" statement. */
+export function isTraceContext(text: string, start: number): boolean {
+  return TRACE_RE.test(text.slice(Math.max(0, start - 60), start));
+}
 
 /** All matches of `regex` (which must have the `g` flag) in `text`, minus ones excluded by context checks. */
 export function findMatches(regex: RegExp, text: string, ctx: MatchContext = {}): TextMatch[] {

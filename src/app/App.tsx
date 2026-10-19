@@ -12,6 +12,7 @@ import { DEFAULT_PROFILE } from '@/features/profile/model/profile';
 import Onboarding from '@/features/profile/ui/Onboarding';
 import Profile from '@/features/profile/ui/Profile';
 import { PROFILE_STORE } from '@/features/profile/model/profileStore';
+import { checkTrigger } from '@/features/profile/model/triggers';
 import { parseScan } from '@/features/scan/model/scan';
 import BarcodeEntry from '@/features/scan/ui/BarcodeEntry';
 import Scanner from '@/features/scan/ui/Scanner';
@@ -149,6 +150,12 @@ export default function App() {
           }}
           onLabel={(product) => {
             nav.go({ name: 'label', base: product });
+          }}
+          onAddTrigger={(name) => {
+            setProfile((p) => {
+              const check = checkTrigger(name, p.triggers);
+              return check.ok ? { ...p, triggers: [...p.triggers, check.value] } : p;
+            });
           }}
         />
       );
