@@ -1,0 +1,97 @@
+{
+  "coke": {
+    "name": "Coca-Cola",
+    "ingredientsText": "Carbonated water, sugar, colour (caramel E150d), phosphoric acid, natural flavourings including caffeine.",
+    "nutrition": { "kcal": 42, "sugars": 10.6, "fat": 0, "satFat": 0, "salt": 0, "protein": 0 },
+    "isBeverage": true,
+    "nova": 4
+  },
+  "dietCoke": {
+    "name": "Diet Coke",
+    "ingredientsText": "Carbonated water, colour (caramel E150d), sweeteners (aspartame, acesulfame K), natural flavourings including caffeine, phosphoric acid, citric acid.",
+    "nutrition": { "kcal": 0.4, "sugars": 0, "fat": 0, "satFat": 0, "salt": 0.02, "protein": 0 },
+    "isBeverage": true,
+    "nova": 4
+  },
+  "nutella": {
+    "name": "Nutella",
+    "ingredientsText": "Sugar, palm oil, hazelnuts (13%), skimmed milk powder (8.7%), fat-reduced cocoa (7.4%), emulsifier: lecithins (soya), vanillin.",
+    "nutrition": { "kcal": 539, "sugars": 56.3, "fat": 30.9, "satFat": 10.6, "salt": 0.107, "protein": 6.3, "fiber": 0 },
+    "allergens": ["en:milk", "en:nuts", "en:soybeans"],
+    "nova": 4
+  },
+  "oats": {
+    "name": "Rolled oats",
+    "ingredientsText": "Rolled oats",
+    "nutrition": { "kcal": 375, "sugars": 1, "fat": 8, "satFat": 1.5, "salt": 0.01, "protein": 13, "fiber": 10 },
+    "nova": 1
+  },
+  "water": {
+    "name": "Natural mineral water",
+    "ingredientsText": "Natural mineral water",
+    "nutrition": { "kcal": 0, "sugars": 0, "fat": 0, "satFat": 0, "salt": 0.01, "protein": 0 },
+    "isBeverage": true,
+    "nova": 1
+  },
+  "gum": {
+    "name": "Sugar-free chewing gum",
+    "ingredientsText": "Sweeteners (sorbitol, mannitol, maltitol syrup, aspartame, acesulfame K), gum base, flavourings, thickener (gum arabic), humectant (glycerol), emulsifier (soy lecithin), colour (E171), antioxidant (BHA).",
+    "nutrition": { "kcal": 155, "sugars": 0, "fat": 0.5, "satFat": 0.4, "salt": 0, "protein": 0 }
+  },
+  "yogurt": {
+    "name": "Plain Greek yogurt",
+    "ingredientsText": "Pasteurised milk, live cultures",
+    "nutrition": { "kcal": 97, "sugars": 3.6, "fat": 5, "satFat": 3.4, "salt": 0.1, "protein": 9 },
+    "allergens": ["en:milk"],
+    "nova": 1
+  },
+  "chips": {
+    "name": "Magic Masala potato chips",
+    "ingredientsText": "Potato, edible vegetable oil (palmolein, rice bran oil), seasoning (spices & condiments (onion powder, chilli powder, garlic powder, coriander, ginger), sugar, salt, black salt, tomato powder), flavour enhancers (627, 631), anticaking agent (551).",
+    "nutrition": { "kcal": 544, "sugars": 2.4, "fat": 34, "satFat": 15, "salt": 1.8, "protein": 6.5 },
+    "nova": 4
+  },
+  "bread": {
+    "name": "Whole wheat bread",
+    "ingredientsText": "Whole wheat flour (atta), water, yeast, sugar, salt, wheat gluten, vegetable oil.",
+    "nutrition": { "kcal": 250, "sugars": 4, "fat": 3, "satFat": 0.6, "salt": 1, "protein": 10, "fiber": 6 },
+    "nova": 3
+  },
+  "biscuitTyped": {
+    "name": "Cream biscuits",
+    "ingredientsText": "Sugar, refined wheat flour (maida), palm oil, cocoa solids, glucose syrup, emulsifier (471), raising agent (500(ii)), salt, artificial flavour."
+  },
+  "riceTyped": { "name": "Rice cakes", "ingredientsText": "Brown rice, salt" },
+  "almondMilk": {
+    "name": "Almond drink",
+    "ingredientsText": "Water, almonds (2%), calcium phosphate, stabiliser (407), salt",
+    "isBeverage": true
+  },
+  "proteinBar": {
+    "name": "Protein bar",
+    "ingredientsText": "Milk protein, maltitol, chicory root fibre, cocoa butter, polydextrose, almonds, sucralose, emulsifier (soy lecithin), salt",
+    "nutrition": { "kcal": 360, "sugars": 2, "fat": 14, "satFat": 7, "salt": 0.4, "protein": 30, "fiber": 12 }
+  },
+  "masalaNoodles": {
+    "name": "Masala instant noodles",
+    "ingredientsText": "Refined wheat flour (maida), palm oil, iodised salt, wheat gluten, thickeners (508 & 412), acidity regulators (501(i) & 500(i)), humectant (451(i)), tastemaker (mixed spices (onion powder, coriander, chilli powder, garlic powder, turmeric), sugar, hydrolysed groundnut protein, flavour enhancer (635), colour (150d))",
+    "nutrition": { "kcal": 427, "sugars": 2.7, "fat": 16, "satFat": 7.6, "salt": 2.9, "protein": 8.9, "fiber": 2 },
+    "nova": 4
+  },
+  "salmon": {
+    "name": "Smoked salmon",
+    "ingredientsText": "Salmon (99%), salt",
+    "nutrition": { "kcal": 180, "sugars": 0, "fat": 10, "satFat": 1.8, "salt": 3, "protein": 23 },
+    "nova": 3
+  },
+  "beer": {
+    "name": "Lager beer",
+    "ingredientsText": "Water, barley malt, hops",
+    "nutrition": { "kcal": 43, "sugars": 0, "fat": 0, "satFat": 0, "salt": 0, "protein": 0.5, "alcohol": 5 },
+    "isBeverage": true
+  },
+  "nutritionOnly": {
+    "name": "Mystery snack",
+    "nutrition": { "kcal": 480, "sugars": 30, "fat": 22, "satFat": 12, "salt": 0.5, "protein": 5 }
+  }
+}

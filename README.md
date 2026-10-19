@@ -1,16 +1,16 @@
 # Nouri
 
-*Know what's good before you bite.*
+_Know what's good before you bite._
 
 Nouri is a mobile web app (an installable PWA, so no App Store needed). Scan a packaged food and it tells you whether it's a good choice, with a score out of 100 and plain-English reasons.
 
 It was built for someone living with suspected Crohn's / IBD who is also trying to lose weight. Every food is judged on three things:
 
-| Pillar | What it looks at |
-|---|---|
-| **Overall health** | How processed it is (NOVA), additives, salt, saturated/trans fat, fibre |
-| **Gut comfort** | Ingredients linked to IBD symptoms: carrageenan, polysorbate 80, CMC, maltodextrin, sugar alcohols, artificial sweeteners, FODMAPs (onion, garlic, inulin, beans…), fizz, caffeine, alcohol, processed meat, plus personal sensitivities |
-| **Weight goals** | Calories, sugar (especially in drinks), fat, and whether it will keep you full (protein, fibre) |
+| Pillar             | What it looks at                                                                                                                                                                                                                         |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Overall health** | How processed it is (NOVA), additives, salt, saturated/trans fat, fibre                                                                                                                                                                  |
+| **Gut comfort**    | Ingredients linked to IBD symptoms: carrageenan, polysorbate 80, CMC, maltodextrin, sugar alcohols, artificial sweeteners, FODMAPs (onion, garlic, inulin, beans…), fizz, caffeine, alcohol, processed meat, plus personal sensitivities |
+| **Weight goals**   | Calories, sugar (especially in drinks), fat, and whether it will keep you full (protein, fibre)                                                                                                                                          |
 
 The overall score leans towards the weakest pillar, so a food can't hide one big problem behind good numbers. Anything marked as a personal trigger is always **Best avoided**.
 

@@ -1,0 +1,3478 @@
+{
+  "default": {
+    "coke": {
+      "overall": 39,
+      "verdict": "avoid",
+      "health": 42,
+      "gut": 62,
+      "weight": 32,
+      "bad": [
+        "sugar",
+        "nova-4",
+        "fizzy",
+        "kcal",
+        "colours",
+        "added-sugar",
+        "caffeine",
+        "phosphates"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 5,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d"
+      ]
+    },
+    "dietCoke": {
+      "overall": 57,
+      "verdict": "caution",
+      "health": 46,
+      "gut": 58,
+      "weight": 95,
+      "bad": [
+        "nova-4",
+        "artificial-sweeteners",
+        "fizzy",
+        "colours",
+        "added-sugar",
+        "caffeine",
+        "phosphates"
+      ],
+      "good": [
+        "kcal-low"
+      ],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d"
+      ]
+    },
+    "nutella": {
+      "overall": 24,
+      "verdict": "avoid",
+      "health": 37,
+      "gut": 60,
+      "weight": 4,
+      "bad": [
+        "sugar",
+        "nova-4",
+        "kcal",
+        "fat",
+        "sat-fat",
+        "added-sugar",
+        "dairy",
+        "palm-oil",
+        "artificial-flavours",
+        "not-filling"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 4,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "oats": {
+      "overall": 99,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 97,
+      "bad": [
+        "kcal"
+      ],
+      "good": [
+        "fibre",
+        "nova-1",
+        "simple",
+        "whole-grains",
+        "protein",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "water": {
+      "overall": 100,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 100,
+      "bad": [],
+      "good": [
+        "nova-1",
+        "simple",
+        "kcal-low"
+      ],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "gum": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 44,
+      "gut": 30,
+      "weight": 91,
+      "bad": [
+        "polyols",
+        "nova-4",
+        "artificial-sweeteners",
+        "titanium-dioxide",
+        "preservatives",
+        "kcal"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": [
+        "e171"
+      ]
+    },
+    "yogurt": {
+      "overall": 100,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "dairy",
+        "sat-fat"
+      ],
+      "good": [
+        "nova-1",
+        "simple",
+        "probiotics",
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 2,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "chips": {
+      "overall": 39,
+      "verdict": "avoid",
+      "health": 35,
+      "gut": 64,
+      "weight": 33,
+      "bad": [
+        "nova-4",
+        "kcal",
+        "fat",
+        "salt",
+        "sat-fat",
+        "added-sugar",
+        "spicy",
+        "onion-garlic",
+        "palm-oil",
+        "flavour-enhancers",
+        "not-filling"
+      ],
+      "good": [
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 7,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e551",
+        "e627",
+        "e631"
+      ]
+    },
+    "bread": {
+      "overall": 99,
+      "verdict": "great",
+      "health": 97,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "added-sugar",
+        "nova-3",
+        "kcal",
+        "salt"
+      ],
+      "good": [
+        "fibre",
+        "whole-grains",
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 2,
+      "nova": 3,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "biscuitTyped": {
+      "overall": 37,
+      "verdict": "avoid",
+      "health": 53,
+      "gut": 78,
+      "weight": 23,
+      "bad": [
+        "added-sugar",
+        "nova-4",
+        "oil-early",
+        "refined-flour",
+        "emulsifiers",
+        "palm-oil",
+        "artificial-flavours",
+        "dairy"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": [
+        "e471",
+        "e500"
+      ]
+    },
+    "riceTyped": {
+      "overall": 93,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 82,
+      "bad": [
+        "nova-3"
+      ],
+      "good": [
+        "simple",
+        "whole-grains",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 3,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": []
+    },
+    "almondMilk": {
+      "overall": 59,
+      "verdict": "caution",
+      "health": 64,
+      "gut": 63,
+      "weight": 76,
+      "bad": [
+        "carrageenan",
+        "nova-4"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": [
+        "e407"
+      ]
+    },
+    "proteinBar": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 80,
+      "gut": 33,
+      "weight": 96,
+      "bad": [
+        "polyols",
+        "artificial-sweeteners",
+        "inulin",
+        "kcal",
+        "sat-fat",
+        "dairy",
+        "nova-3",
+        "fat"
+      ],
+      "good": [
+        "fibre",
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 4,
+      "nova": 3,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": []
+    },
+    "masalaNoodles": {
+      "overall": 26,
+      "verdict": "avoid",
+      "health": 16,
+      "gut": 72,
+      "weight": 71,
+      "bad": [
+        "nova-4",
+        "kcal",
+        "salt",
+        "sat-fat",
+        "colours",
+        "refined-flour",
+        "many-additives",
+        "spicy",
+        "onion-garlic",
+        "phosphates",
+        "palm-oil",
+        "flavour-enhancers",
+        "added-sugar",
+        "fat"
+      ],
+      "good": [
+        "protein",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 9,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d",
+        "e412",
+        "e451",
+        "e500",
+        "e501",
+        "e508",
+        "e635"
+      ]
+    },
+    "salmon": {
+      "overall": 97,
+      "verdict": "great",
+      "health": 92,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "salt",
+        "nova-3",
+        "kcal"
+      ],
+      "good": [
+        "protein",
+        "simple",
+        "omega-3"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 3,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "beer": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 92,
+      "gut": 82,
+      "weight": 78,
+      "bad": [
+        "alcohol",
+        "kcal"
+      ],
+      "good": [
+        "simple"
+      ],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 2,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": []
+    },
+    "nutritionOnly": {
+      "overall": 40,
+      "verdict": "caution",
+      "health": 78,
+      "gut": 82,
+      "weight": 24,
+      "bad": [
+        "sugar",
+        "kcal",
+        "fat",
+        "sat-fat",
+        "not-filling"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": null,
+      "novaEstimated": false,
+      "confidence": "medium",
+      "additives": []
+    }
+  },
+  "lactose": {
+    "coke": {
+      "overall": 39,
+      "verdict": "avoid",
+      "health": 42,
+      "gut": 62,
+      "weight": 32,
+      "bad": [
+        "sugar",
+        "nova-4",
+        "fizzy",
+        "kcal",
+        "colours",
+        "added-sugar",
+        "caffeine",
+        "phosphates"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 5,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d"
+      ]
+    },
+    "dietCoke": {
+      "overall": 57,
+      "verdict": "caution",
+      "health": 46,
+      "gut": 58,
+      "weight": 95,
+      "bad": [
+        "nova-4",
+        "artificial-sweeteners",
+        "fizzy",
+        "colours",
+        "added-sugar",
+        "caffeine",
+        "phosphates"
+      ],
+      "good": [
+        "kcal-low"
+      ],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d"
+      ]
+    },
+    "nutella": {
+      "overall": 23,
+      "verdict": "avoid",
+      "health": 37,
+      "gut": 36,
+      "weight": 4,
+      "bad": [
+        "dairy",
+        "sugar",
+        "nova-4",
+        "kcal",
+        "fat",
+        "sat-fat",
+        "added-sugar",
+        "palm-oil",
+        "artificial-flavours",
+        "not-filling"
+      ],
+      "good": [],
+      "dealbreakers": [
+        "dairy"
+      ],
+      "highlights": 4,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "oats": {
+      "overall": 99,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 97,
+      "bad": [
+        "kcal"
+      ],
+      "good": [
+        "fibre",
+        "nova-1",
+        "simple",
+        "whole-grains",
+        "protein",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "water": {
+      "overall": 100,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 100,
+      "bad": [],
+      "good": [
+        "nova-1",
+        "simple",
+        "kcal-low"
+      ],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "gum": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 44,
+      "gut": 30,
+      "weight": 91,
+      "bad": [
+        "polyols",
+        "nova-4",
+        "artificial-sweeteners",
+        "titanium-dioxide",
+        "preservatives",
+        "kcal"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": [
+        "e171"
+      ]
+    },
+    "yogurt": {
+      "overall": 30,
+      "verdict": "avoid",
+      "health": 100,
+      "gut": 88,
+      "weight": 100,
+      "bad": [
+        "dairy",
+        "sat-fat"
+      ],
+      "good": [
+        "nova-1",
+        "simple",
+        "probiotics",
+        "protein"
+      ],
+      "dealbreakers": [
+        "dairy"
+      ],
+      "highlights": 2,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "chips": {
+      "overall": 39,
+      "verdict": "avoid",
+      "health": 35,
+      "gut": 64,
+      "weight": 33,
+      "bad": [
+        "nova-4",
+        "kcal",
+        "fat",
+        "salt",
+        "sat-fat",
+        "added-sugar",
+        "spicy",
+        "onion-garlic",
+        "palm-oil",
+        "flavour-enhancers",
+        "not-filling"
+      ],
+      "good": [
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 7,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e551",
+        "e627",
+        "e631"
+      ]
+    },
+    "bread": {
+      "overall": 99,
+      "verdict": "great",
+      "health": 97,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "added-sugar",
+        "nova-3",
+        "kcal",
+        "salt"
+      ],
+      "good": [
+        "fibre",
+        "whole-grains",
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 2,
+      "nova": 3,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "biscuitTyped": {
+      "overall": 30,
+      "verdict": "avoid",
+      "health": 53,
+      "gut": 54,
+      "weight": 23,
+      "bad": [
+        "dairy",
+        "added-sugar",
+        "nova-4",
+        "oil-early",
+        "refined-flour",
+        "emulsifiers",
+        "palm-oil",
+        "artificial-flavours"
+      ],
+      "good": [],
+      "dealbreakers": [
+        "dairy"
+      ],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": [
+        "e471",
+        "e500"
+      ]
+    },
+    "riceTyped": {
+      "overall": 93,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 82,
+      "bad": [
+        "nova-3"
+      ],
+      "good": [
+        "simple",
+        "whole-grains",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 3,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": []
+    },
+    "almondMilk": {
+      "overall": 59,
+      "verdict": "caution",
+      "health": 64,
+      "gut": 63,
+      "weight": 76,
+      "bad": [
+        "carrageenan",
+        "nova-4"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": [
+        "e407"
+      ]
+    },
+    "proteinBar": {
+      "overall": 24,
+      "verdict": "avoid",
+      "health": 80,
+      "gut": 9,
+      "weight": 96,
+      "bad": [
+        "dairy",
+        "polyols",
+        "artificial-sweeteners",
+        "inulin",
+        "kcal",
+        "sat-fat",
+        "nova-3",
+        "fat"
+      ],
+      "good": [
+        "fibre",
+        "protein"
+      ],
+      "dealbreakers": [
+        "dairy"
+      ],
+      "highlights": 4,
+      "nova": 3,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": []
+    },
+    "masalaNoodles": {
+      "overall": 26,
+      "verdict": "avoid",
+      "health": 16,
+      "gut": 72,
+      "weight": 71,
+      "bad": [
+        "nova-4",
+        "kcal",
+        "salt",
+        "sat-fat",
+        "colours",
+        "refined-flour",
+        "many-additives",
+        "spicy",
+        "onion-garlic",
+        "phosphates",
+        "palm-oil",
+        "flavour-enhancers",
+        "added-sugar",
+        "fat"
+      ],
+      "good": [
+        "protein",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 9,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d",
+        "e412",
+        "e451",
+        "e500",
+        "e501",
+        "e508",
+        "e635"
+      ]
+    },
+    "salmon": {
+      "overall": 97,
+      "verdict": "great",
+      "health": 92,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "salt",
+        "nova-3",
+        "kcal"
+      ],
+      "good": [
+        "protein",
+        "simple",
+        "omega-3"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 3,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "beer": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 92,
+      "gut": 82,
+      "weight": 78,
+      "bad": [
+        "alcohol",
+        "kcal"
+      ],
+      "good": [
+        "simple"
+      ],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 2,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": []
+    },
+    "nutritionOnly": {
+      "overall": 40,
+      "verdict": "caution",
+      "health": 78,
+      "gut": 82,
+      "weight": 24,
+      "bad": [
+        "sugar",
+        "kcal",
+        "fat",
+        "sat-fat",
+        "not-filling"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": null,
+      "novaEstimated": false,
+      "confidence": "medium",
+      "additives": []
+    }
+  },
+  "gluten": {
+    "coke": {
+      "overall": 39,
+      "verdict": "avoid",
+      "health": 42,
+      "gut": 62,
+      "weight": 32,
+      "bad": [
+        "sugar",
+        "nova-4",
+        "fizzy",
+        "kcal",
+        "colours",
+        "added-sugar",
+        "caffeine",
+        "phosphates"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 5,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d"
+      ]
+    },
+    "dietCoke": {
+      "overall": 57,
+      "verdict": "caution",
+      "health": 46,
+      "gut": 58,
+      "weight": 95,
+      "bad": [
+        "nova-4",
+        "artificial-sweeteners",
+        "fizzy",
+        "colours",
+        "added-sugar",
+        "caffeine",
+        "phosphates"
+      ],
+      "good": [
+        "kcal-low"
+      ],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d"
+      ]
+    },
+    "nutella": {
+      "overall": 24,
+      "verdict": "avoid",
+      "health": 37,
+      "gut": 60,
+      "weight": 4,
+      "bad": [
+        "sugar",
+        "nova-4",
+        "kcal",
+        "fat",
+        "sat-fat",
+        "added-sugar",
+        "dairy",
+        "palm-oil",
+        "artificial-flavours",
+        "not-filling"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 4,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "oats": {
+      "overall": 99,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 97,
+      "bad": [
+        "kcal"
+      ],
+      "good": [
+        "fibre",
+        "nova-1",
+        "simple",
+        "whole-grains",
+        "protein",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "water": {
+      "overall": 100,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 100,
+      "bad": [],
+      "good": [
+        "nova-1",
+        "simple",
+        "kcal-low"
+      ],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "gum": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 44,
+      "gut": 30,
+      "weight": 91,
+      "bad": [
+        "polyols",
+        "nova-4",
+        "artificial-sweeteners",
+        "titanium-dioxide",
+        "preservatives",
+        "kcal"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": [
+        "e171"
+      ]
+    },
+    "yogurt": {
+      "overall": 100,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "dairy",
+        "sat-fat"
+      ],
+      "good": [
+        "nova-1",
+        "simple",
+        "probiotics",
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 2,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "chips": {
+      "overall": 39,
+      "verdict": "avoid",
+      "health": 35,
+      "gut": 64,
+      "weight": 33,
+      "bad": [
+        "nova-4",
+        "kcal",
+        "fat",
+        "salt",
+        "sat-fat",
+        "added-sugar",
+        "spicy",
+        "onion-garlic",
+        "palm-oil",
+        "flavour-enhancers",
+        "not-filling"
+      ],
+      "good": [
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 7,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e551",
+        "e627",
+        "e631"
+      ]
+    },
+    "bread": {
+      "overall": 30,
+      "verdict": "avoid",
+      "health": 97,
+      "gut": 76,
+      "weight": 100,
+      "bad": [
+        "gluten",
+        "added-sugar",
+        "nova-3",
+        "kcal",
+        "salt"
+      ],
+      "good": [
+        "fibre",
+        "whole-grains",
+        "protein"
+      ],
+      "dealbreakers": [
+        "gluten"
+      ],
+      "highlights": 5,
+      "nova": 3,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "biscuitTyped": {
+      "overall": 30,
+      "verdict": "avoid",
+      "health": 53,
+      "gut": 50,
+      "weight": 23,
+      "bad": [
+        "gluten",
+        "added-sugar",
+        "nova-4",
+        "oil-early",
+        "refined-flour",
+        "emulsifiers",
+        "palm-oil",
+        "artificial-flavours",
+        "dairy"
+      ],
+      "good": [],
+      "dealbreakers": [
+        "gluten"
+      ],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": [
+        "e471",
+        "e500"
+      ]
+    },
+    "riceTyped": {
+      "overall": 93,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 82,
+      "bad": [
+        "nova-3"
+      ],
+      "good": [
+        "simple",
+        "whole-grains",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 3,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": []
+    },
+    "almondMilk": {
+      "overall": 59,
+      "verdict": "caution",
+      "health": 64,
+      "gut": 63,
+      "weight": 76,
+      "bad": [
+        "carrageenan",
+        "nova-4"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": [
+        "e407"
+      ]
+    },
+    "proteinBar": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 80,
+      "gut": 33,
+      "weight": 96,
+      "bad": [
+        "polyols",
+        "artificial-sweeteners",
+        "inulin",
+        "kcal",
+        "sat-fat",
+        "dairy",
+        "nova-3",
+        "fat"
+      ],
+      "good": [
+        "fibre",
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 4,
+      "nova": 3,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": []
+    },
+    "masalaNoodles": {
+      "overall": 25,
+      "verdict": "avoid",
+      "health": 16,
+      "gut": 44,
+      "weight": 71,
+      "bad": [
+        "gluten",
+        "nova-4",
+        "kcal",
+        "salt",
+        "sat-fat",
+        "colours",
+        "refined-flour",
+        "many-additives",
+        "spicy",
+        "onion-garlic",
+        "phosphates",
+        "palm-oil",
+        "flavour-enhancers",
+        "added-sugar",
+        "fat"
+      ],
+      "good": [
+        "protein",
+        "soothing"
+      ],
+      "dealbreakers": [
+        "gluten"
+      ],
+      "highlights": 11,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d",
+        "e412",
+        "e451",
+        "e500",
+        "e501",
+        "e508",
+        "e635"
+      ]
+    },
+    "salmon": {
+      "overall": 97,
+      "verdict": "great",
+      "health": 92,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "salt",
+        "nova-3",
+        "kcal"
+      ],
+      "good": [
+        "protein",
+        "simple",
+        "omega-3"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 3,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "beer": {
+      "overall": 30,
+      "verdict": "avoid",
+      "health": 92,
+      "gut": 54,
+      "weight": 78,
+      "bad": [
+        "gluten",
+        "alcohol",
+        "kcal"
+      ],
+      "good": [
+        "simple"
+      ],
+      "dealbreakers": [
+        "gluten"
+      ],
+      "highlights": 1,
+      "nova": 2,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": []
+    },
+    "nutritionOnly": {
+      "overall": 40,
+      "verdict": "caution",
+      "health": 78,
+      "gut": 82,
+      "weight": 24,
+      "bad": [
+        "sugar",
+        "kcal",
+        "fat",
+        "sat-fat",
+        "not-filling"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": null,
+      "novaEstimated": false,
+      "confidence": "medium",
+      "additives": []
+    }
+  },
+  "flare": {
+    "coke": {
+      "overall": 39,
+      "verdict": "avoid",
+      "health": 42,
+      "gut": 58,
+      "weight": 32,
+      "bad": [
+        "sugar",
+        "nova-4",
+        "caffeine",
+        "fizzy",
+        "kcal",
+        "colours",
+        "added-sugar",
+        "phosphates"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 5,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d"
+      ]
+    },
+    "dietCoke": {
+      "overall": 56,
+      "verdict": "caution",
+      "health": 46,
+      "gut": 54,
+      "weight": 95,
+      "bad": [
+        "nova-4",
+        "artificial-sweeteners",
+        "caffeine",
+        "fizzy",
+        "colours",
+        "added-sugar",
+        "phosphates"
+      ],
+      "good": [
+        "kcal-low"
+      ],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d"
+      ]
+    },
+    "nutella": {
+      "overall": 24,
+      "verdict": "avoid",
+      "health": 37,
+      "gut": 48,
+      "weight": 4,
+      "bad": [
+        "sugar",
+        "nova-4",
+        "kcal",
+        "rough-fibre",
+        "fat",
+        "sat-fat",
+        "added-sugar",
+        "dairy",
+        "palm-oil",
+        "artificial-flavours",
+        "not-filling"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 5,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "oats": {
+      "overall": 95,
+      "verdict": "great",
+      "health": 100,
+      "gut": 96,
+      "weight": 89,
+      "bad": [
+        "kcal",
+        "fibre-flare"
+      ],
+      "good": [
+        "nova-1",
+        "simple",
+        "protein",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "water": {
+      "overall": 100,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 100,
+      "bad": [],
+      "good": [
+        "nova-1",
+        "simple",
+        "kcal-low"
+      ],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "gum": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 44,
+      "gut": 24,
+      "weight": 91,
+      "bad": [
+        "polyols",
+        "nova-4",
+        "artificial-sweeteners",
+        "titanium-dioxide",
+        "preservatives",
+        "kcal"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": [
+        "e171"
+      ]
+    },
+    "yogurt": {
+      "overall": 100,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "dairy",
+        "sat-fat"
+      ],
+      "good": [
+        "nova-1",
+        "simple",
+        "probiotics",
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 2,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "chips": {
+      "overall": 37,
+      "verdict": "avoid",
+      "health": 35,
+      "gut": 46,
+      "weight": 33,
+      "bad": [
+        "nova-4",
+        "kcal",
+        "spicy",
+        "rough-fibre",
+        "fat",
+        "salt",
+        "sat-fat",
+        "added-sugar",
+        "onion-garlic",
+        "palm-oil",
+        "flavour-enhancers",
+        "not-filling"
+      ],
+      "good": [
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 8,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e551",
+        "e627",
+        "e631"
+      ]
+    },
+    "bread": {
+      "overall": 90,
+      "verdict": "great",
+      "health": 86,
+      "gut": 88,
+      "weight": 98,
+      "bad": [
+        "rough-fibre",
+        "added-sugar",
+        "nova-3",
+        "kcal",
+        "salt"
+      ],
+      "good": [
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 2,
+      "nova": 3,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "biscuitTyped": {
+      "overall": 37,
+      "verdict": "avoid",
+      "health": 53,
+      "gut": 78,
+      "weight": 23,
+      "bad": [
+        "added-sugar",
+        "nova-4",
+        "oil-early",
+        "refined-flour",
+        "emulsifiers",
+        "palm-oil",
+        "artificial-flavours",
+        "dairy"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": [
+        "e471",
+        "e500"
+      ]
+    },
+    "riceTyped": {
+      "overall": 92,
+      "verdict": "great",
+      "health": 98,
+      "gut": 100,
+      "weight": 80,
+      "bad": [
+        "nova-3"
+      ],
+      "good": [
+        "simple",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 3,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": []
+    },
+    "almondMilk": {
+      "overall": 59,
+      "verdict": "caution",
+      "health": 64,
+      "gut": 51,
+      "weight": 76,
+      "bad": [
+        "carrageenan",
+        "nova-4",
+        "rough-fibre"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": [
+        "e407"
+      ]
+    },
+    "proteinBar": {
+      "overall": 15,
+      "verdict": "avoid",
+      "health": 74,
+      "gut": 0,
+      "weight": 90,
+      "bad": [
+        "polyols",
+        "artificial-sweeteners",
+        "inulin",
+        "rough-fibre",
+        "kcal",
+        "fibre-flare",
+        "sat-fat",
+        "dairy",
+        "nova-3",
+        "fat"
+      ],
+      "good": [
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 5,
+      "nova": 3,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": []
+    },
+    "masalaNoodles": {
+      "overall": 26,
+      "verdict": "avoid",
+      "health": 16,
+      "gut": 66,
+      "weight": 71,
+      "bad": [
+        "nova-4",
+        "spicy",
+        "kcal",
+        "salt",
+        "sat-fat",
+        "colours",
+        "refined-flour",
+        "many-additives",
+        "onion-garlic",
+        "phosphates",
+        "palm-oil",
+        "flavour-enhancers",
+        "added-sugar",
+        "fat"
+      ],
+      "good": [
+        "protein",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 9,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d",
+        "e412",
+        "e451",
+        "e500",
+        "e501",
+        "e508",
+        "e635"
+      ]
+    },
+    "salmon": {
+      "overall": 97,
+      "verdict": "great",
+      "health": 92,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "salt",
+        "nova-3",
+        "kcal"
+      ],
+      "good": [
+        "protein",
+        "simple",
+        "omega-3"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 3,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "beer": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 92,
+      "gut": 82,
+      "weight": 78,
+      "bad": [
+        "alcohol",
+        "kcal"
+      ],
+      "good": [
+        "simple"
+      ],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 2,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": []
+    },
+    "nutritionOnly": {
+      "overall": 40,
+      "verdict": "caution",
+      "health": 78,
+      "gut": 82,
+      "weight": 24,
+      "bad": [
+        "sugar",
+        "kcal",
+        "fat",
+        "sat-fat",
+        "not-filling"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": null,
+      "novaEstimated": false,
+      "confidence": "medium",
+      "additives": []
+    }
+  },
+  "lowFodmap": {
+    "coke": {
+      "overall": 39,
+      "verdict": "avoid",
+      "health": 42,
+      "gut": 62,
+      "weight": 32,
+      "bad": [
+        "sugar",
+        "nova-4",
+        "fizzy",
+        "kcal",
+        "colours",
+        "added-sugar",
+        "caffeine",
+        "phosphates"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 5,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d"
+      ]
+    },
+    "dietCoke": {
+      "overall": 57,
+      "verdict": "caution",
+      "health": 46,
+      "gut": 58,
+      "weight": 95,
+      "bad": [
+        "nova-4",
+        "artificial-sweeteners",
+        "fizzy",
+        "colours",
+        "added-sugar",
+        "caffeine",
+        "phosphates"
+      ],
+      "good": [
+        "kcal-low"
+      ],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d"
+      ]
+    },
+    "nutella": {
+      "overall": 24,
+      "verdict": "avoid",
+      "health": 37,
+      "gut": 60,
+      "weight": 4,
+      "bad": [
+        "sugar",
+        "nova-4",
+        "kcal",
+        "fat",
+        "sat-fat",
+        "added-sugar",
+        "dairy",
+        "palm-oil",
+        "artificial-flavours",
+        "not-filling"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 4,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "oats": {
+      "overall": 99,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 97,
+      "bad": [
+        "kcal"
+      ],
+      "good": [
+        "fibre",
+        "nova-1",
+        "simple",
+        "whole-grains",
+        "protein",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "water": {
+      "overall": 100,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 100,
+      "bad": [],
+      "good": [
+        "nova-1",
+        "simple",
+        "kcal-low"
+      ],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "gum": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 44,
+      "gut": 24,
+      "weight": 91,
+      "bad": [
+        "polyols",
+        "nova-4",
+        "artificial-sweeteners",
+        "titanium-dioxide",
+        "preservatives",
+        "kcal"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": [
+        "e171"
+      ]
+    },
+    "yogurt": {
+      "overall": 100,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "dairy",
+        "sat-fat"
+      ],
+      "good": [
+        "nova-1",
+        "simple",
+        "probiotics",
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 2,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "chips": {
+      "overall": 38,
+      "verdict": "avoid",
+      "health": 35,
+      "gut": 55,
+      "weight": 33,
+      "bad": [
+        "nova-4",
+        "kcal",
+        "onion-garlic",
+        "fat",
+        "salt",
+        "sat-fat",
+        "added-sugar",
+        "spicy",
+        "palm-oil",
+        "flavour-enhancers",
+        "not-filling"
+      ],
+      "good": [
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 7,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e551",
+        "e627",
+        "e631"
+      ]
+    },
+    "bread": {
+      "overall": 98,
+      "verdict": "great",
+      "health": 97,
+      "gut": 98,
+      "weight": 100,
+      "bad": [
+        "wheat-fructans",
+        "added-sugar",
+        "nova-3",
+        "kcal",
+        "salt"
+      ],
+      "good": [
+        "fibre",
+        "whole-grains",
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 4,
+      "nova": 3,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "biscuitTyped": {
+      "overall": 36,
+      "verdict": "avoid",
+      "health": 53,
+      "gut": 72,
+      "weight": 23,
+      "bad": [
+        "added-sugar",
+        "nova-4",
+        "oil-early",
+        "refined-flour",
+        "emulsifiers",
+        "wheat-fructans",
+        "palm-oil",
+        "artificial-flavours",
+        "dairy"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": [
+        "e471",
+        "e500"
+      ]
+    },
+    "riceTyped": {
+      "overall": 93,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 82,
+      "bad": [
+        "nova-3"
+      ],
+      "good": [
+        "simple",
+        "whole-grains",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 3,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": []
+    },
+    "almondMilk": {
+      "overall": 59,
+      "verdict": "caution",
+      "health": 64,
+      "gut": 63,
+      "weight": 76,
+      "bad": [
+        "carrageenan",
+        "nova-4"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": [
+        "e407"
+      ]
+    },
+    "proteinBar": {
+      "overall": 34,
+      "verdict": "avoid",
+      "health": 80,
+      "gut": 21,
+      "weight": 96,
+      "bad": [
+        "polyols",
+        "inulin",
+        "artificial-sweeteners",
+        "kcal",
+        "sat-fat",
+        "dairy",
+        "nova-3",
+        "fat"
+      ],
+      "good": [
+        "fibre",
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 4,
+      "nova": 3,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": []
+    },
+    "masalaNoodles": {
+      "overall": 26,
+      "verdict": "avoid",
+      "health": 16,
+      "gut": 57,
+      "weight": 71,
+      "bad": [
+        "nova-4",
+        "onion-garlic",
+        "kcal",
+        "salt",
+        "sat-fat",
+        "colours",
+        "refined-flour",
+        "many-additives",
+        "wheat-fructans",
+        "spicy",
+        "phosphates",
+        "palm-oil",
+        "flavour-enhancers",
+        "added-sugar",
+        "fat"
+      ],
+      "good": [
+        "protein",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 10,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d",
+        "e412",
+        "e451",
+        "e500",
+        "e501",
+        "e508",
+        "e635"
+      ]
+    },
+    "salmon": {
+      "overall": 97,
+      "verdict": "great",
+      "health": 92,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "salt",
+        "nova-3",
+        "kcal"
+      ],
+      "good": [
+        "protein",
+        "simple",
+        "omega-3"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 3,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "beer": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 92,
+      "gut": 76,
+      "weight": 78,
+      "bad": [
+        "alcohol",
+        "kcal",
+        "wheat-fructans"
+      ],
+      "good": [
+        "simple"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 2,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": []
+    },
+    "nutritionOnly": {
+      "overall": 40,
+      "verdict": "caution",
+      "health": 78,
+      "gut": 82,
+      "weight": 24,
+      "bad": [
+        "sugar",
+        "kcal",
+        "fat",
+        "sat-fat",
+        "not-filling"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": null,
+      "novaEstimated": false,
+      "confidence": "medium",
+      "additives": []
+    }
+  },
+  "spicyCaffeine": {
+    "coke": {
+      "overall": 39,
+      "verdict": "avoid",
+      "health": 42,
+      "gut": 52,
+      "weight": 32,
+      "bad": [
+        "sugar",
+        "nova-4",
+        "caffeine",
+        "fizzy",
+        "kcal",
+        "colours",
+        "added-sugar",
+        "phosphates"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 5,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d"
+      ]
+    },
+    "dietCoke": {
+      "overall": 53,
+      "verdict": "caution",
+      "health": 46,
+      "gut": 48,
+      "weight": 95,
+      "bad": [
+        "nova-4",
+        "artificial-sweeteners",
+        "caffeine",
+        "fizzy",
+        "colours",
+        "added-sugar",
+        "phosphates"
+      ],
+      "good": [
+        "kcal-low"
+      ],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d"
+      ]
+    },
+    "nutella": {
+      "overall": 24,
+      "verdict": "avoid",
+      "health": 37,
+      "gut": 60,
+      "weight": 4,
+      "bad": [
+        "sugar",
+        "nova-4",
+        "kcal",
+        "fat",
+        "sat-fat",
+        "added-sugar",
+        "dairy",
+        "palm-oil",
+        "artificial-flavours",
+        "not-filling"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 4,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "oats": {
+      "overall": 99,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 97,
+      "bad": [
+        "kcal"
+      ],
+      "good": [
+        "fibre",
+        "nova-1",
+        "simple",
+        "whole-grains",
+        "protein",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "water": {
+      "overall": 100,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 100,
+      "bad": [],
+      "good": [
+        "nova-1",
+        "simple",
+        "kcal-low"
+      ],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "gum": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 44,
+      "gut": 30,
+      "weight": 91,
+      "bad": [
+        "polyols",
+        "nova-4",
+        "artificial-sweeteners",
+        "titanium-dioxide",
+        "preservatives",
+        "kcal"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": [
+        "e171"
+      ]
+    },
+    "yogurt": {
+      "overall": 100,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "dairy",
+        "sat-fat"
+      ],
+      "good": [
+        "nova-1",
+        "simple",
+        "probiotics",
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 2,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "chips": {
+      "overall": 38,
+      "verdict": "avoid",
+      "health": 35,
+      "gut": 52,
+      "weight": 33,
+      "bad": [
+        "spicy",
+        "nova-4",
+        "kcal",
+        "fat",
+        "salt",
+        "sat-fat",
+        "added-sugar",
+        "onion-garlic",
+        "palm-oil",
+        "flavour-enhancers",
+        "not-filling"
+      ],
+      "good": [
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 7,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e551",
+        "e627",
+        "e631"
+      ]
+    },
+    "bread": {
+      "overall": 99,
+      "verdict": "great",
+      "health": 97,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "added-sugar",
+        "nova-3",
+        "kcal",
+        "salt"
+      ],
+      "good": [
+        "fibre",
+        "whole-grains",
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 2,
+      "nova": 3,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "biscuitTyped": {
+      "overall": 37,
+      "verdict": "avoid",
+      "health": 53,
+      "gut": 78,
+      "weight": 23,
+      "bad": [
+        "added-sugar",
+        "nova-4",
+        "oil-early",
+        "refined-flour",
+        "emulsifiers",
+        "palm-oil",
+        "artificial-flavours",
+        "dairy"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": [
+        "e471",
+        "e500"
+      ]
+    },
+    "riceTyped": {
+      "overall": 93,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 82,
+      "bad": [
+        "nova-3"
+      ],
+      "good": [
+        "simple",
+        "whole-grains",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 3,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": []
+    },
+    "almondMilk": {
+      "overall": 59,
+      "verdict": "caution",
+      "health": 64,
+      "gut": 63,
+      "weight": 76,
+      "bad": [
+        "carrageenan",
+        "nova-4"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": [
+        "e407"
+      ]
+    },
+    "proteinBar": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 80,
+      "gut": 33,
+      "weight": 96,
+      "bad": [
+        "polyols",
+        "artificial-sweeteners",
+        "inulin",
+        "kcal",
+        "sat-fat",
+        "dairy",
+        "nova-3",
+        "fat"
+      ],
+      "good": [
+        "fibre",
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 4,
+      "nova": 3,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": []
+    },
+    "masalaNoodles": {
+      "overall": 26,
+      "verdict": "avoid",
+      "health": 16,
+      "gut": 60,
+      "weight": 71,
+      "bad": [
+        "spicy",
+        "nova-4",
+        "kcal",
+        "salt",
+        "sat-fat",
+        "colours",
+        "refined-flour",
+        "many-additives",
+        "onion-garlic",
+        "phosphates",
+        "palm-oil",
+        "flavour-enhancers",
+        "added-sugar",
+        "fat"
+      ],
+      "good": [
+        "protein",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 9,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d",
+        "e412",
+        "e451",
+        "e500",
+        "e501",
+        "e508",
+        "e635"
+      ]
+    },
+    "salmon": {
+      "overall": 97,
+      "verdict": "great",
+      "health": 92,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "salt",
+        "nova-3",
+        "kcal"
+      ],
+      "good": [
+        "protein",
+        "simple",
+        "omega-3"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 3,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "beer": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 92,
+      "gut": 82,
+      "weight": 78,
+      "bad": [
+        "alcohol",
+        "kcal"
+      ],
+      "good": [
+        "simple"
+      ],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 2,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": []
+    },
+    "nutritionOnly": {
+      "overall": 40,
+      "verdict": "caution",
+      "health": 78,
+      "gut": 82,
+      "weight": 24,
+      "bad": [
+        "sugar",
+        "kcal",
+        "fat",
+        "sat-fat",
+        "not-filling"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": null,
+      "novaEstimated": false,
+      "confidence": "medium",
+      "additives": []
+    }
+  },
+  "triggers": {
+    "coke": {
+      "overall": 39,
+      "verdict": "avoid",
+      "health": 42,
+      "gut": 62,
+      "weight": 32,
+      "bad": [
+        "sugar",
+        "nova-4",
+        "fizzy",
+        "kcal",
+        "colours",
+        "added-sugar",
+        "caffeine",
+        "phosphates"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 5,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d"
+      ]
+    },
+    "dietCoke": {
+      "overall": 57,
+      "verdict": "caution",
+      "health": 46,
+      "gut": 58,
+      "weight": 95,
+      "bad": [
+        "nova-4",
+        "artificial-sweeteners",
+        "fizzy",
+        "colours",
+        "added-sugar",
+        "caffeine",
+        "phosphates"
+      ],
+      "good": [
+        "kcal-low"
+      ],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d"
+      ]
+    },
+    "nutella": {
+      "overall": 22,
+      "verdict": "avoid",
+      "health": 37,
+      "gut": 30,
+      "weight": 4,
+      "bad": [
+        "trigger:hazelnuts",
+        "sugar",
+        "nova-4",
+        "kcal",
+        "fat",
+        "sat-fat",
+        "added-sugar",
+        "dairy",
+        "palm-oil",
+        "artificial-flavours",
+        "not-filling"
+      ],
+      "good": [],
+      "dealbreakers": [
+        "trigger:hazelnuts"
+      ],
+      "highlights": 5,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "oats": {
+      "overall": 99,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 97,
+      "bad": [
+        "kcal"
+      ],
+      "good": [
+        "fibre",
+        "nova-1",
+        "simple",
+        "whole-grains",
+        "protein",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "water": {
+      "overall": 100,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 100,
+      "bad": [],
+      "good": [
+        "nova-1",
+        "simple",
+        "kcal-low"
+      ],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "gum": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 44,
+      "gut": 30,
+      "weight": 91,
+      "bad": [
+        "polyols",
+        "nova-4",
+        "artificial-sweeteners",
+        "titanium-dioxide",
+        "preservatives",
+        "kcal"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": [
+        "e171"
+      ]
+    },
+    "yogurt": {
+      "overall": 100,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "dairy",
+        "sat-fat"
+      ],
+      "good": [
+        "nova-1",
+        "simple",
+        "probiotics",
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 2,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "chips": {
+      "overall": 30,
+      "verdict": "avoid",
+      "health": 35,
+      "gut": 34,
+      "weight": 33,
+      "bad": [
+        "trigger:salt",
+        "nova-4",
+        "kcal",
+        "fat",
+        "salt",
+        "sat-fat",
+        "added-sugar",
+        "spicy",
+        "onion-garlic",
+        "palm-oil",
+        "flavour-enhancers",
+        "not-filling"
+      ],
+      "good": [
+        "soothing"
+      ],
+      "dealbreakers": [
+        "trigger:salt"
+      ],
+      "highlights": 9,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e551",
+        "e627",
+        "e631"
+      ]
+    },
+    "bread": {
+      "overall": 30,
+      "verdict": "avoid",
+      "health": 97,
+      "gut": 74,
+      "weight": 100,
+      "bad": [
+        "trigger:salt",
+        "added-sugar",
+        "nova-3",
+        "kcal",
+        "salt"
+      ],
+      "good": [
+        "fibre",
+        "whole-grains",
+        "protein"
+      ],
+      "dealbreakers": [
+        "trigger:salt"
+      ],
+      "highlights": 3,
+      "nova": 3,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "biscuitTyped": {
+      "overall": 30,
+      "verdict": "avoid",
+      "health": 53,
+      "gut": 48,
+      "weight": 23,
+      "bad": [
+        "trigger:salt",
+        "added-sugar",
+        "nova-4",
+        "oil-early",
+        "refined-flour",
+        "emulsifiers",
+        "palm-oil",
+        "artificial-flavours",
+        "dairy"
+      ],
+      "good": [],
+      "dealbreakers": [
+        "trigger:salt"
+      ],
+      "highlights": 7,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": [
+        "e471",
+        "e500"
+      ]
+    },
+    "riceTyped": {
+      "overall": 30,
+      "verdict": "avoid",
+      "health": 100,
+      "gut": 77,
+      "weight": 82,
+      "bad": [
+        "trigger:salt",
+        "nova-3"
+      ],
+      "good": [
+        "simple",
+        "whole-grains",
+        "soothing"
+      ],
+      "dealbreakers": [
+        "trigger:salt"
+      ],
+      "highlights": 2,
+      "nova": 3,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": []
+    },
+    "almondMilk": {
+      "overall": 30,
+      "verdict": "avoid",
+      "health": 64,
+      "gut": 33,
+      "weight": 76,
+      "bad": [
+        "trigger:salt",
+        "carrageenan",
+        "nova-4"
+      ],
+      "good": [],
+      "dealbreakers": [
+        "trigger:salt"
+      ],
+      "highlights": 1,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": [
+        "e407"
+      ]
+    },
+    "proteinBar": {
+      "overall": 18,
+      "verdict": "avoid",
+      "health": 80,
+      "gut": 3,
+      "weight": 96,
+      "bad": [
+        "trigger:salt",
+        "polyols",
+        "artificial-sweeteners",
+        "inulin",
+        "kcal",
+        "sat-fat",
+        "dairy",
+        "nova-3",
+        "fat"
+      ],
+      "good": [
+        "fibre",
+        "protein"
+      ],
+      "dealbreakers": [
+        "trigger:salt"
+      ],
+      "highlights": 5,
+      "nova": 3,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": []
+    },
+    "masalaNoodles": {
+      "overall": 25,
+      "verdict": "avoid",
+      "health": 16,
+      "gut": 42,
+      "weight": 71,
+      "bad": [
+        "trigger:salt",
+        "nova-4",
+        "kcal",
+        "salt",
+        "sat-fat",
+        "colours",
+        "refined-flour",
+        "many-additives",
+        "spicy",
+        "onion-garlic",
+        "phosphates",
+        "palm-oil",
+        "flavour-enhancers",
+        "added-sugar",
+        "fat"
+      ],
+      "good": [
+        "protein",
+        "soothing"
+      ],
+      "dealbreakers": [
+        "trigger:salt"
+      ],
+      "highlights": 10,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d",
+        "e412",
+        "e451",
+        "e500",
+        "e501",
+        "e508",
+        "e635"
+      ]
+    },
+    "salmon": {
+      "overall": 30,
+      "verdict": "avoid",
+      "health": 92,
+      "gut": 76,
+      "weight": 100,
+      "bad": [
+        "trigger:salt",
+        "salt",
+        "nova-3",
+        "kcal"
+      ],
+      "good": [
+        "protein",
+        "simple",
+        "omega-3"
+      ],
+      "dealbreakers": [
+        "trigger:salt"
+      ],
+      "highlights": 2,
+      "nova": 3,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "beer": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 92,
+      "gut": 82,
+      "weight": 78,
+      "bad": [
+        "alcohol",
+        "kcal"
+      ],
+      "good": [
+        "simple"
+      ],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 2,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": []
+    },
+    "nutritionOnly": {
+      "overall": 40,
+      "verdict": "caution",
+      "health": 78,
+      "gut": 82,
+      "weight": 24,
+      "bad": [
+        "sugar",
+        "kcal",
+        "fat",
+        "sat-fat",
+        "not-filling"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": null,
+      "novaEstimated": false,
+      "confidence": "medium",
+      "additives": []
+    }
+  },
+  "noWeightGoal": {
+    "coke": {
+      "overall": 39,
+      "verdict": "avoid",
+      "health": 42,
+      "gut": 62,
+      "weight": 32,
+      "bad": [
+        "sugar",
+        "nova-4",
+        "fizzy",
+        "kcal",
+        "colours",
+        "added-sugar",
+        "caffeine",
+        "phosphates"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 5,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d"
+      ]
+    },
+    "dietCoke": {
+      "overall": 53,
+      "verdict": "caution",
+      "health": 46,
+      "gut": 58,
+      "weight": 95,
+      "bad": [
+        "nova-4",
+        "artificial-sweeteners",
+        "fizzy",
+        "colours",
+        "added-sugar",
+        "caffeine",
+        "phosphates"
+      ],
+      "good": [
+        "kcal-low"
+      ],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d"
+      ]
+    },
+    "nutella": {
+      "overall": 33,
+      "verdict": "avoid",
+      "health": 37,
+      "gut": 60,
+      "weight": 4,
+      "bad": [
+        "sugar",
+        "nova-4",
+        "kcal",
+        "fat",
+        "sat-fat",
+        "added-sugar",
+        "dairy",
+        "palm-oil",
+        "artificial-flavours",
+        "not-filling"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 4,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "oats": {
+      "overall": 100,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 97,
+      "bad": [
+        "kcal"
+      ],
+      "good": [
+        "fibre",
+        "nova-1",
+        "simple",
+        "whole-grains",
+        "protein",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "water": {
+      "overall": 100,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 100,
+      "bad": [],
+      "good": [
+        "nova-1",
+        "simple",
+        "kcal-low"
+      ],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "gum": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 44,
+      "gut": 30,
+      "weight": 91,
+      "bad": [
+        "polyols",
+        "nova-4",
+        "artificial-sweeteners",
+        "titanium-dioxide",
+        "preservatives",
+        "kcal"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": [
+        "e171"
+      ]
+    },
+    "yogurt": {
+      "overall": 100,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "dairy",
+        "sat-fat"
+      ],
+      "good": [
+        "nova-1",
+        "simple",
+        "probiotics",
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 2,
+      "nova": 1,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "chips": {
+      "overall": 42,
+      "verdict": "caution",
+      "health": 35,
+      "gut": 64,
+      "weight": 33,
+      "bad": [
+        "nova-4",
+        "kcal",
+        "fat",
+        "salt",
+        "sat-fat",
+        "added-sugar",
+        "spicy",
+        "onion-garlic",
+        "palm-oil",
+        "flavour-enhancers",
+        "not-filling"
+      ],
+      "good": [
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 7,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e551",
+        "e627",
+        "e631"
+      ]
+    },
+    "bread": {
+      "overall": 99,
+      "verdict": "great",
+      "health": 97,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "added-sugar",
+        "nova-3",
+        "kcal",
+        "salt"
+      ],
+      "good": [
+        "fibre",
+        "whole-grains",
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 2,
+      "nova": 3,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "biscuitTyped": {
+      "overall": 49,
+      "verdict": "caution",
+      "health": 53,
+      "gut": 78,
+      "weight": 23,
+      "bad": [
+        "added-sugar",
+        "nova-4",
+        "oil-early",
+        "refined-flour",
+        "emulsifiers",
+        "palm-oil",
+        "artificial-flavours",
+        "dairy"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 6,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": [
+        "e471",
+        "e500"
+      ]
+    },
+    "riceTyped": {
+      "overall": 98,
+      "verdict": "great",
+      "health": 100,
+      "gut": 100,
+      "weight": 82,
+      "bad": [
+        "nova-3"
+      ],
+      "good": [
+        "simple",
+        "whole-grains",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 3,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": []
+    },
+    "almondMilk": {
+      "overall": 59,
+      "verdict": "caution",
+      "health": 64,
+      "gut": 63,
+      "weight": 76,
+      "bad": [
+        "carrageenan",
+        "nova-4"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 4,
+      "novaEstimated": true,
+      "confidence": "medium",
+      "additives": [
+        "e407"
+      ]
+    },
+    "proteinBar": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 80,
+      "gut": 33,
+      "weight": 96,
+      "bad": [
+        "polyols",
+        "artificial-sweeteners",
+        "inulin",
+        "kcal",
+        "sat-fat",
+        "dairy",
+        "nova-3",
+        "fat"
+      ],
+      "good": [
+        "fibre",
+        "protein"
+      ],
+      "dealbreakers": [],
+      "highlights": 4,
+      "nova": 3,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": []
+    },
+    "masalaNoodles": {
+      "overall": 23,
+      "verdict": "avoid",
+      "health": 16,
+      "gut": 72,
+      "weight": 71,
+      "bad": [
+        "nova-4",
+        "kcal",
+        "salt",
+        "sat-fat",
+        "colours",
+        "refined-flour",
+        "many-additives",
+        "spicy",
+        "onion-garlic",
+        "phosphates",
+        "palm-oil",
+        "flavour-enhancers",
+        "added-sugar",
+        "fat"
+      ],
+      "good": [
+        "protein",
+        "soothing"
+      ],
+      "dealbreakers": [],
+      "highlights": 9,
+      "nova": 4,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": [
+        "e150d",
+        "e412",
+        "e451",
+        "e500",
+        "e501",
+        "e508",
+        "e635"
+      ]
+    },
+    "salmon": {
+      "overall": 96,
+      "verdict": "great",
+      "health": 92,
+      "gut": 100,
+      "weight": 100,
+      "bad": [
+        "salt",
+        "nova-3",
+        "kcal"
+      ],
+      "good": [
+        "protein",
+        "simple",
+        "omega-3"
+      ],
+      "dealbreakers": [],
+      "highlights": 1,
+      "nova": 3,
+      "novaEstimated": false,
+      "confidence": "high",
+      "additives": []
+    },
+    "beer": {
+      "overall": 35,
+      "verdict": "avoid",
+      "health": 92,
+      "gut": 82,
+      "weight": 78,
+      "bad": [
+        "alcohol",
+        "kcal"
+      ],
+      "good": [
+        "simple"
+      ],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": 2,
+      "novaEstimated": true,
+      "confidence": "high",
+      "additives": []
+    },
+    "nutritionOnly": {
+      "overall": 56,
+      "verdict": "caution",
+      "health": 78,
+      "gut": 82,
+      "weight": 24,
+      "bad": [
+        "sugar",
+        "kcal",
+        "fat",
+        "sat-fat",
+        "not-filling"
+      ],
+      "good": [],
+      "dealbreakers": [],
+      "highlights": 0,
+      "nova": null,
+      "novaEstimated": false,
+      "confidence": "medium",
+      "additives": []
+    }
+  }
+}

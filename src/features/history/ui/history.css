@@ -1,0 +1,49 @@
+/* ---------- History ---------- */
+.page-title {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  margin: 6px 0 16px;
+}
+.filters {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.filter {
+  flex: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: 99px;
+  padding: 8px 13px;
+  font-weight: 700;
+  font-size: 13.5px;
+  color: var(--text-2);
+}
+.filter.on {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
+.group-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 18px 4px 10px;
+}
+.group-label:first-of-type {
+  margin-top: 4px;
+}
+.clear-btn {
+  margin: 24px auto 0;
+  display: flex;
+}
+ul.rows {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
