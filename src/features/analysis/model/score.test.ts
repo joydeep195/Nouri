@@ -28,7 +28,26 @@ function summarize(a: Analysis): BaselineCase {
   };
 }
 
-describe('score regression against the v1 engine', () => {
+// `npm run baseline` re-records tests/fixtures/score-baseline.json after an intended scoring change.
+const RECORDING = import.meta.env.MODE === 'baseline';
+
+describe.runIf(RECORDING)('record score baseline', () => {
+  it('writes tests/fixtures/score-baseline.json', async () => {
+    const { writeFileSync } = await import('node:fs');
+    const { resolve } = await import('node:path');
+    const out: Record<string, Record<string, BaselineCase>> = {};
+    for (const [profileKey, over] of Object.entries(BASELINE_PROFILES)) {
+      const row: Record<string, BaselineCase> = {};
+      for (const [productKey, product] of Object.entries(PRODUCTS)) {
+        row[productKey] = summarize(analyze(product, profile(over)));
+      }
+      out[profileKey] = row;
+    }
+    writeFileSync(resolve(process.cwd(), 'tests/fixtures/score-baseline.json'), `${JSON.stringify(out, null, 2)}\n`);
+  });
+});
+
+describe.skipIf(RECORDING)('score regression against the recorded baseline', () => {
   for (const [profileKey, over] of Object.entries(BASELINE_PROFILES)) {
     describe(`profile: ${profileKey}`, () => {
       for (const [productKey, product] of Object.entries(PRODUCTS)) {

@@ -2,82 +2,74 @@
 
 _Know what's good before you bite._
 
-Nouri is a mobile web app (an installable PWA, so no App Store needed). Scan a packaged food and it tells you whether it's a good choice, with a score out of 100 and plain-English reasons.
+[![CI](https://github.com/joydeep195/Nouri/actions/workflows/ci.yml/badge.svg)](https://github.com/joydeep195/Nouri/actions/workflows/ci.yml)
 
-It was built for someone living with suspected Crohn's / IBD who is also trying to lose weight. Every food is judged on three things:
+Nouri is an installable mobile web app (PWA, no App Store needed). Scan a packaged food and it tells you whether it's a good choice, with a score out of 100 and plain-English reasons. It was built for someone living with suspected Crohn's/IBD who is also trying to lose weight.
 
-| Pillar             | What it looks at                                                                                                                                                                                                                         |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Overall health** | How processed it is (NOVA), additives, salt, saturated/trans fat, fibre                                                                                                                                                                  |
-| **Gut comfort**    | Ingredients linked to IBD symptoms: carrageenan, polysorbate 80, CMC, maltodextrin, sugar alcohols, artificial sweeteners, FODMAPs (onion, garlic, inulin, beans…), fizz, caffeine, alcohol, processed meat, plus personal sensitivities |
-| **Weight goals**   | Calories, sugar (especially in drinks), fat, and whether it will keep you full (protein, fibre)                                                                                                                                          |
+| Pillar             | What it looks at                                                                                                                                                        |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Overall health** | Processing (NOVA), additives, salt, saturated/trans fat, fibre                                                                                                          |
+| **Gut comfort**    | IBD triggers: carrageenan, polysorbate 80, CMC, maltodextrin, sugar alcohols, sweeteners, FODMAPs, fizz, caffeine, alcohol, processed meat, plus personal sensitivities |
+| **Weight goals**   | Calories, sugar (especially drinks), fat, and how filling it is (protein, fibre)                                                                                        |
 
-The overall score leans towards the weakest pillar, so a food can't hide one big problem behind good numbers. Anything marked as a personal trigger is always **Best avoided**.
+The overall score leans towards the weakest pillar, and anything marked as a personal trigger is always **Best avoided**. See [docs/SCORING.md](docs/SCORING.md) for how scoring works.
 
 ## Features
 
-- **Barcode & QR scanning** with the phone camera (EAN-13/8, UPC-A/E, and GS1 "Digital Link" QR codes). There's a photo fallback when live camera access isn't available.
-- **No barcode? Read the label.** Snap the ingredients and the text is read on the phone itself (Tesseract.js). Nutrition values are pre-filled when the table is in the photo.
+- **Scan barcodes and QR codes** with the camera (EAN/UPC and GS1 Digital Link). A photo fallback works when the live camera isn't available.
+- **No barcode? Read the label.** The ingredients and nutrition table are read **on the phone** by a self-hosted OCR engine.
 - **Type or paste** an ingredient list, with optional nutrition per 100 g.
-- **Understands Indian labels**: INS numbers, "Emulsifier (471)", maida, atta, besan, paneer, etc.
-- **Personal profile**: weight-loss goal, flare mode, low-FODMAP, dairy/lactose, gluten, spicy food, caffeine, and custom trigger foods.
-- **History** of everything scanned, re-scored automatically when the profile changes.
-- Works offline once installed (except product lookups, which need the internet). Light and dark mode.
-- **Private**: the profile and history stay on the phone. Only barcode numbers are sent, to [Open Food Facts](https://world.openfoodfacts.org).
+- **Understands Indian labels**: INS numbers, "Emulsifier (471)", maida, atta, besan, paneer.
+- **Personal profile**: weight-loss goal, flare mode, low-FODMAP, dairy, gluten, spice, caffeine, and custom triggers.
+- **History**, re-scored automatically when the profile changes.
+- **Offline-capable**, with light and dark mode and accessible markup.
+- **Private by design**: no accounts or tracking, and data stays on the phone. See [docs/PRIVACY.md](docs/PRIVACY.md).
 
-## Run it on your computer
+## Quick start
+
+Requires Node 22+.
 
 ```bash
 npm install
-npm run dev
+npm run dev        # http://localhost:5173
 ```
 
-Open the address it prints. To use the camera on a phone, the app must be served over **https** (see below). On `http://` the camera is blocked, but typing ingredients and barcode numbers still works.
+| Script                                                  | What it does                                                                                                                               |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| `npm run check`                                         | Everything CI runs except e2e: format, lint, types, unit tests with coverage, build                                                        |
+| `npm test` / `npm run test:watch`                       | Unit and component tests (Vitest + Testing Library)                                                                                        |
+| `npm run test:coverage`                                 | Tests with coverage thresholds (80% overall, 90% for model code and libs)                                                                  |
+| `npm run e2e`                                           | Playwright on iPhone (WebKit) and Android (Chromium) against the production build. Run `npx playwright install chromium webkit` once first |
+| `npm run build` / `npm run preview`                     | Production build / serve it with the production security headers                                                                           |
+| `npm run lint` / `npm run typecheck` / `npm run format` | Code-quality tools on their own                                                                                                            |
+| `npm run baseline`                                      | Re-record the scoring regression baseline after an intended scoring change                                                                 |
+| `npm run hosting:sync`                                  | Regenerate `vercel.json` from the security policy                                                                                          |
 
-```bash
-npm test         # scoring engine tests
-npm run build    # production build into dist/
-npm run preview  # serve the production build locally
-```
+## Deploy and install on an iPhone
 
-## Put it on her iPhone (free)
+The app is static: build it and host the `dist/` folder anywhere with **https**, since the camera requires it.
 
-1. Build it: `npm run build`. This creates a `dist` folder.
-2. Host the `dist` folder on any free static host with https. The easiest options:
-   - **Netlify Drop**: go to <https://app.netlify.com/drop> and drag the `dist` folder onto the page. Sign in (free) so the site stays up permanently. You get a link like `https://nouri-xyz.netlify.app`.
-   - **Vercel**, **Cloudflare Pages** or **GitHub Pages** work too. The app uses relative paths, so a sub-folder URL is fine.
-3. On the iPhone, open the link in **Safari**, tap **Share**, then **Add to Home Screen**.
-4. Open Nouri from the home screen and allow camera access when asked.
+1. **Netlify** (recommended, because it applies the generated `_headers` security file): connect this GitHub repo, or drag `dist/` onto <https://app.netlify.com/drop>.
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+2. **Vercel**: import the repo. `vercel.json` sets the build and the security headers.
+3. **Cloudflare Pages** also reads `_headers`. GitHub Pages works too, but can't send security headers; the CSP `<meta>` tag still applies.
 
-Updates: rebuild and re-upload `dist`. Installed copies update themselves the next time they're opened.
+On the iPhone, open the site in **Safari**, tap **Share**, then **Add to Home Screen**, and allow camera access on first scan. Installed copies update themselves when you deploy again.
 
-## Project layout
+## Project docs
 
-```
-src/
-  config.js            App name, tagline, version (rename the app here)
-  lib/
-    rules.js           Ingredient rules: what's flagged, why, and how much it matters
-    score.js           Scoring engine: pillars, verdicts, nutrition thresholds
-    text.js            Ingredient parsing, E/INS number detection
-    labelText.js       Cleans up text read from label photos
-    openfoodfacts.js   Product lookup
-    barcode.js         Camera + barcode/QR detection (ZXing WebAssembly)
-    ocr.js             On-device label reading
-    scan.js            Barcode / QR code interpretation
-    storage.js         On-device storage for profile and history
-  screens/             Home, Scanner, Lookup, LabelReader, IngredientsForm, Result, History, Profile, Onboarding
-  components/          Shared UI pieces
-tests/                 Scoring tests with real products (Coke, Nutella, oats…)
-public/icon.svg        App icon source (npm run icons regenerates the PNGs)
-```
+- [Architecture](docs/ARCHITECTURE.md): folder structure, data flow, storage, offline
+- [Scoring](docs/SCORING.md): pillars, rules, thresholds, how to tune
+- [Security](SECURITY.md): threat model, CSP and headers
+- [Privacy](docs/PRIVACY.md): what leaves the device (only barcode numbers)
+- [Contributing](CONTRIBUTING.md) and [Changelog](CHANGELOG.md)
+- Decisions: [on-device only](docs/adr/0001-on-device-only.md), [self-hosted OCR](docs/adr/0002-self-hosted-ocr.md)
 
 ## Renaming the app
 
-1. Change `APP_NAME` in `src/config.js`.
-2. Change the `<title>` and `apple-mobile-web-app-title` in `index.html`.
-3. Rename the folder.
+Change `APP_NAME` in `src/shared/config/app.ts`, plus `<title>` and `apple-mobile-web-app-title` in `index.html`.
 
 ## Disclaimer
 
-Nouri gives general guidance based on ingredient and nutrition data. It is **not medical advice**. Everyone with IBD reacts differently. Follow the advice of her gastroenterologist or dietitian, especially during a flare. Product data comes from Open Food Facts and can be incomplete or out of date, so check the pack when it matters.
+Nouri gives general guidance based on ingredient and nutrition data. It is **not medical advice**: everyone with IBD reacts differently, so follow your gastroenterologist or dietitian, especially during a flare. Product data comes from [Open Food Facts](https://world.openfoodfacts.org) (ODbL) and can be incomplete, so check the pack when it matters.

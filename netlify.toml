@@ -1,0 +1,8 @@
+# Netlify: build from the repo. Security headers come from the generated dist/_headers file.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24"
+  SKIP_SIMPLE_GIT_HOOKS = "1"
