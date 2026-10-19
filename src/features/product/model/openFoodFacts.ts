@@ -1,8 +1,14 @@
 // Product lookup via Open Food Facts: a free, open database of ~4 million packaged foods.
 // https://openfoodfacts.github.io/openfoodfacts-server/api/
+// Only the barcode number is sent. Responses are validated before use (see schema.ts).
 
 import { barcodeVariants } from '@/features/scan/model/scan';
-import type { NutriScore, Nutrition, Product } from './types';
+import { FOOD_API_ORIGIN } from '@/shared/config/security';
+import { fetchJson, HttpError } from '@/shared/lib/http';
+import { toSafeImageUrl } from '@/shared/lib/safeUrl';
+import { NUTRIENT_MAX } from './limits';
+import { OffResponseSchema, type OffProduct } from './schema';
+import type { NutrientKey, NutriScore, Nutrition, Product } from './types';
 
 const FIELDS = [
   'code',
@@ -25,47 +31,38 @@ const FIELDS = [
   'nutriments',
 ].join(',');
 
+/** A lookup failure with a message that is safe to show to the user. */
 export class LookupError extends Error {
   override name = 'LookupError';
 }
 
-/** The subset of an Open Food Facts product record that we read. */
-export interface OffProduct {
-  product_name?: string;
-  product_name_en?: string;
-  generic_name?: string;
-  brands?: string;
-  image_front_small_url?: string;
-  image_front_url?: string;
-  quantity?: string;
-  ingredients_text?: string;
-  ingredients_text_en?: string;
-  ingredients_tags?: string[];
-  additives_tags?: string[];
-  allergens_tags?: string[];
-  labels_tags?: string[];
-  categories_tags?: string[];
-  nova_group?: number | null;
-  nutriscore_grade?: string;
-  nutriments?: Record<string, unknown>;
-}
+export const productApiUrl = (code: string): string =>
+  `${FOOD_API_ORIGIN}/api/v2/product/${encodeURIComponent(code)}.json?fields=${FIELDS}`;
 
+export const productPageUrl = (code: string): string => `${FOOD_API_ORIGIN}/product/${encodeURIComponent(code)}`;
+
+/** Looks a barcode up. Resolves null when the product isn't in the database. */
 export async function lookupBarcode(code: string, { signal }: { signal?: AbortSignal } = {}): Promise<Product | null> {
   for (const candidate of barcodeVariants(code)) {
-    let res: Response;
+    let response: { status: number; data: unknown };
     try {
-      res = await fetch(`https://world.openfoodfacts.org/api/v2/product/${candidate}.json?fields=${FIELDS}`, {
-        signal: signal ?? null,
-      });
+      response = await fetchJson(productApiUrl(candidate), { signal, okStatuses: [404] });
     } catch (err) {
-      if (err instanceof DOMException && err.name === 'AbortError') throw err;
+      if (signal?.aborted) throw err;
+      if (err instanceof HttpError && err.kind === 'status' && err.status === 429) {
+        throw new LookupError('The food database is busy right now. Wait a minute and try again.');
+      }
+      if (err instanceof HttpError && err.kind === 'status') {
+        throw new LookupError(
+          `The food database is having trouble (error ${err.status ?? '?'}). Try again in a moment.`,
+        );
+      }
       throw new LookupError("Couldn't reach the food database. Check your internet connection.");
     }
-    if (res.status === 404) continue;
-    if (!res.ok)
-      throw new LookupError(`The food database is having trouble (error ${res.status}). Try again in a moment.`);
-    const data = (await res.json()) as { status?: number; product?: OffProduct };
-    if (data.status === 1 && data.product) return fromOpenFoodFacts(data.product, candidate);
+    if (response.status === 404) continue;
+    const parsed = OffResponseSchema.safeParse(response.data);
+    if (!parsed.success) throw new LookupError('The food database sent something unexpected. Try again later.');
+    if (parsed.data.status === 1 && parsed.data.product) return fromOpenFoodFacts(parsed.data.product, candidate);
   }
   return null;
 }
@@ -89,7 +86,7 @@ export function fromOpenFoodFacts(p: OffProduct, code: string): Product {
     code,
     name: firstText(p.product_name_en, p.product_name, p.generic_name).trim() || 'Unnamed product',
     brand: (p.brands ?? '').split(',')[0]?.trim() ?? '',
-    image: firstText(p.image_front_small_url, p.image_front_url) || null,
+    image: toSafeImageUrl(firstText(p.image_front_small_url, p.image_front_url)),
     quantity,
     ingredientsText: firstText(p.ingredients_text_en, p.ingredients_text).replace(/_/g, '').replace(/\s+/g, ' ').trim(),
     ingredientTags: (p.ingredients_tags ?? [])
@@ -111,8 +108,10 @@ function fromNutriments(n: Record<string, unknown> | undefined): Nutrition | nul
   const num = (k: string): number | null => {
     const raw = n[k];
     const v = typeof raw === 'string' ? parseFloat(raw) : raw;
-    return typeof v === 'number' && Number.isFinite(v) ? v : null;
+    return typeof v === 'number' && Number.isFinite(v) && v >= 0 ? v : null;
   };
+  const inRange = (key: NutrientKey, v: number | null) => (v != null && v <= NUTRIENT_MAX[key] ? v : null);
+
   let kcal = num('energy-kcal_100g');
   const kj = num('energy_100g');
   if (kcal == null && kj != null) kcal = kj / 4.184;
@@ -120,19 +119,16 @@ function fromNutriments(n: Record<string, unknown> | undefined): Nutrition | nul
   const sodium = num('sodium_100g');
   if (salt == null && sodium != null) salt = sodium * 2.5;
   const out: Nutrition = {
-    kcal: kcal == null ? null : Math.round(kcal),
-    sugars: num('sugars_100g'),
-    fat: num('fat_100g'),
-    satFat: num('saturated-fat_100g'),
-    salt,
-    fiber: num('fiber_100g'),
-    protein: num('proteins_100g'),
-    carbs: num('carbohydrates_100g'),
-    alcohol: num('alcohol_100g'),
+    kcal: inRange('kcal', kcal == null ? null : Math.round(kcal)),
+    sugars: inRange('sugars', num('sugars_100g')),
+    fat: inRange('fat', num('fat_100g')),
+    satFat: inRange('satFat', num('saturated-fat_100g')),
+    salt: inRange('salt', salt),
+    fiber: inRange('fiber', num('fiber_100g')),
+    protein: inRange('protein', num('proteins_100g')),
+    carbs: inRange('carbs', num('carbohydrates_100g')),
+    alcohol: inRange('alcohol', num('alcohol_100g')),
   };
   const known = (['kcal', 'sugars', 'fat', 'satFat', 'salt', 'protein'] as const).filter((k) => out[k] != null).length;
   return known >= 2 ? out : null;
 }
-
-export const productPageUrl = (code: string): string =>
-  `https://world.openfoodfacts.org/product/${encodeURIComponent(code)}`;

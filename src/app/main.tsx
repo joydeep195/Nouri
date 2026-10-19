@@ -11,6 +11,9 @@ import { ErrorBoundary } from './ErrorBoundary';
 
 installGlobalErrorHandlers();
 
+// Ask the browser not to evict the profile and history when the phone is low on space.
+void (navigator as { storage?: Partial<StorageManager> }).storage?.persist?.().catch(() => false);
+
 // Installs the offline cache and quietly updates the app when a new version is published.
 registerSW({ immediate: true });
 

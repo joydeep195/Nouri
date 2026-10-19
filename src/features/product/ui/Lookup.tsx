@@ -1,6 +1,7 @@
 import { useEffect, useEffectEvent, useState, type ReactNode } from 'react';
-import { Keyboard, PackageSearch, RefreshCw, ScanBarcode, ScanText, WifiOff } from 'lucide-react';
+import { Keyboard, PackageSearch, RefreshCw, ScanBarcode, ScanText, TriangleAlert, WifiOff } from 'lucide-react';
 import { canScore } from '@/features/analysis/model/score';
+import { isValidGtin } from '@/features/scan/model/scan';
 import { LogoMark } from '@/shared/ui/Logo';
 import { TopBar } from '@/shared/ui/TopBar';
 import { LookupError, lookupBarcode } from '../model/openFoodFacts';
@@ -10,6 +11,7 @@ import { ProductThumb } from './ProductThumb';
 type LookupState =
   | { status: 'loading' }
   | { status: 'notfound' }
+  | { status: 'invalid' }
   | { status: 'incomplete'; product: Product }
   | { status: 'error'; message: string };
 
@@ -26,13 +28,16 @@ const GENERIC_ERROR = "Couldn't look it up right now. Check your connection and 
 
 /** Looks a barcode up and hands the product on, or explains what to do if it isn't found. */
 export default function Lookup({ code, onFound, onBack, onLabel, onType, onRescan }: LookupProps) {
-  const [state, setState] = useState<LookupState>({ status: 'loading' });
+  // Misread or mistyped numbers fail the check digit, so they never reach the network.
+  const validCode = isValidGtin(code);
+  const [state, setState] = useState<LookupState>(validCode ? { status: 'loading' } : { status: 'invalid' });
   const [attempt, setAttempt] = useState(0);
   const found = useEffectEvent((product: Product) => {
     onFound(product);
   });
 
   useEffect(() => {
+    if (!validCode) return undefined;
     const ctrl = new AbortController();
     lookupBarcode(code, { signal: ctrl.signal })
       .then((product) => {
@@ -47,7 +52,7 @@ export default function Lookup({ code, onFound, onBack, onLabel, onType, onResca
     return () => {
       ctrl.abort();
     };
-  }, [code, attempt]);
+  }, [code, attempt, validCode]);
 
   if (state.status === 'loading') {
     return (
@@ -70,6 +75,11 @@ export default function Lookup({ code, onFound, onBack, onLabel, onType, onResca
       title: "We don't know this one yet",
       text: "This product isn't in the Open Food Facts database. You can still check it by reading the ingredients on the pack.",
     },
+    invalid: {
+      icon: <TriangleAlert size={38} />,
+      title: "That barcode doesn't look right",
+      text: 'The numbers don’t add up, which usually means a misread or a typo. Try scanning again, or read the label instead.',
+    },
     incomplete: {
       icon: <ProductThumb product={state.status === 'incomplete' ? state.product : null} size={84} />,
       title: state.status === 'incomplete' ? state.product.name : '',
@@ -88,7 +98,7 @@ export default function Lookup({ code, onFound, onBack, onLabel, onType, onResca
       <TopBar onBack={onBack} />
       <div className="state" style={{ minHeight: '64dvh' }}>
         <div
-          className={`state-icon ${state.status === 'error' ? 'warn' : ''}`}
+          className={`state-icon ${state.status === 'error' || state.status === 'invalid' ? 'warn' : ''}`}
           style={state.status === 'incomplete' ? { background: 'none' } : undefined}
         >
           {v.icon}

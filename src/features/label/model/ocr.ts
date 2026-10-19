@@ -1,7 +1,18 @@
 // Reads text from a photo of an ingredients label, on the phone itself (Tesseract.js).
-// The first run downloads the English reading model (a few MB); after that it is cached.
+// The engine and English model are served from our own site (see build-tools/selfHostedOcr.ts);
+// the first run downloads them (~7 MB), after that they are cached and work offline.
 
 import { extractIngredients, parseNutrition, type ParsedNutrition } from './labelText';
+
+/** Absolute URLs, because the worker resolves relative paths against its own location. */
+export function ocrPaths(baseURI: string = document.baseURI) {
+  const root = new URL(__OCR_PATH__, baseURI);
+  return {
+    workerPath: new URL('worker.min.js', root).href,
+    corePath: new URL('core', root).href,
+    langPath: new URL('lang', root).href,
+  };
+}
 
 export type OcrStage = 'prepare' | 'load' | 'read';
 export interface OcrProgress {
@@ -25,6 +36,9 @@ export async function readLabelPhoto(
   const { createWorker } = await import('tesseract.js');
   onProgress({ stage: 'load', progress: 0 });
   const worker = await createWorker('eng', 1, {
+    ...ocrPaths(),
+    // Load the worker straight from its URL rather than a blob: URL, so the CSP needs no blob: workers.
+    workerBlobURL: false,
     logger: (m) => {
       if (m.status === 'recognizing text') onProgress({ stage: 'read', progress: m.progress });
       else onProgress({ stage: 'load', progress: m.progress });

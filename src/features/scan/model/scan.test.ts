@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { barcodeVariants, isValidBarcode, parseScan } from './scan';
+import { barcodeVariants, isValidBarcode, isValidGtin, parseScan, upcEToUpcA } from './scan';
 
 describe('parseScan', () => {
   it('reads plain barcodes', () => {
@@ -36,5 +36,26 @@ describe('barcode helpers', () => {
     expect(isValidBarcode('12345670')).toBe(true);
     expect(isValidBarcode('1234567')).toBe(false);
     expect(isValidBarcode('12a45670')).toBe(false);
+  });
+});
+
+describe('check digits', () => {
+  it('accepts real EAN-13, UPC-A and EAN-8 codes', () => {
+    for (const code of ['5449000000996', '3017620422003', '012345678905', '96385074']) {
+      expect(isValidGtin(code), code).toBe(true);
+    }
+  });
+
+  it('rejects misreads and wrong lengths', () => {
+    expect(isValidGtin('5449000000997')).toBe(false);
+    expect(isValidGtin('123456789')).toBe(false);
+    expect(isValidGtin('abcdefgh')).toBe(false);
+  });
+
+  it('understands UPC-E', () => {
+    expect(upcEToUpcA('04252614')).toBe('042100005264');
+    expect(upcEToUpcA('01234565')).toBe('012345000065');
+    expect(isValidGtin('04252614')).toBe(true);
+    expect(barcodeVariants('04252614')).toEqual(['04252614', '042100005264', '0042100005264']);
   });
 });

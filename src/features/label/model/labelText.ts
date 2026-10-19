@@ -46,13 +46,15 @@ function valueAfter(lines: string[], label: RegExp, excludeBefore?: RegExp): Fou
 
 export type ParsedNutrition = Partial<Record<NutrientKey, number>>;
 
+// Labels end with "no letter follows" rather than \b, because OCR often runs the label and
+// number together ("Protein6.1g").
 const FIELDS: [NutrientKey, RegExp, RegExp?][] = [
-  ['fat', /\bfat\b/, /(saturated|trans|sat\.?|mono\w*|poly\w*)\s*$/i],
+  ['fat', /\bfat(?![a-z])/, /(saturated|trans|sat\.?|mono\w*|poly\w*)\s*$/i],
   ['satFat', /saturated fat|saturates|saturated|sat\.?\s*fat/],
-  ['sugars', /sugars?\b/, /(added|no|free)\s*$/i],
+  ['sugars', /sugars?(?![a-z])/, /(added|no|free)\s*$/i],
   ['fiber', /dietary fib(?:re|er)|fib(?:re|er)/],
-  ['protein', /proteins?\b/],
-  ['salt', /\bsalt\b/],
+  ['protein', /proteins?(?![a-z])/],
+  ['salt', /\bsalt(?![a-z])/],
 ];
 
 /** Best-effort read of a nutrition table. Returns only the values it found, or null. */

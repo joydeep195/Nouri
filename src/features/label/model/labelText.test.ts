@@ -49,3 +49,14 @@ describe('parseNutrition', () => {
     expect(parseNutrition('nothing useful here')).toBeNull();
   });
 });
+
+describe('parseNutrition with OCR quirks', () => {
+  it('reads labels that run straight into their numbers', () => {
+    const raw = 'Fat 19.5 g of which saturates 9.8 g\nSugars 31g Protein6.1g Salt0.6g';
+    expect(parseNutrition(raw)).toEqual({ fat: 19.5, satFat: 9.8, sugars: 31, protein: 6.1, salt: 0.6 });
+  });
+
+  it('does not mistake "fat-reduced" or "salted" for nutrient rows', () => {
+    expect(parseNutrition('Fat-reduced cocoa 7%, salted peanuts 20 g')).toBeNull();
+  });
+});

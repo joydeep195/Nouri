@@ -3,7 +3,10 @@ import { fileURLToPath, URL } from 'node:url';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
+import { securityHeaders } from './build-tools/securityHeaders.ts';
+import { OCR_PATH, selfHostedOcr } from './build-tools/selfHostedOcr.ts';
 import { APP_DESCRIPTION, APP_NAME } from './src/shared/config/app.ts';
+import { SECURITY_HEADERS } from './src/shared/config/security.ts';
 
 const DAY = 60 * 60 * 24;
 
@@ -11,10 +14,17 @@ export default defineConfig({
   // Relative paths so the built app works from any folder (GitHub Pages, Netlify, etc.)
   base: './',
   resolve: { alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) } },
+  // No data: URIs (the CSP only allows files from our own origin), no source maps in production.
+  build: { sourcemap: false, target: 'es2022', assetsInlineLimit: 0 },
+  // `vite preview` sends the same headers as production hosting, so the CSP is tested for real.
+  preview: { headers: SECURITY_HEADERS },
   plugins: [
     react(),
+    selfHostedOcr(),
+    securityHeaders(),
     VitePWA({
       registerType: 'autoUpdate',
+      injectRegister: false,
       includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
       manifest: {
         name: APP_NAME,
@@ -34,6 +44,8 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,wasm,woff2}'],
+        // The label reader (~7 MB) is cached on first use instead of at install.
+        globIgnores: ['ocr/**'],
         maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
         runtimeCaching: [
           {
@@ -46,7 +58,7 @@ export default defineConfig({
             },
           },
           {
-            urlPattern: /^https:\/\/images\.openfoodfacts\.org\//,
+            urlPattern: /^https:\/\/(images|static)\.openfoodfacts\.org\//,
             handler: 'CacheFirst',
             options: {
               cacheName: 'food-images',
@@ -55,13 +67,12 @@ export default defineConfig({
             },
           },
           {
-            // The label reader's engine and English model, downloaded on first use.
-            urlPattern: /^https:\/\/cdn\.jsdelivr\.net\/npm\/(tesseract|@tesseract)/,
+            urlPattern: ({ url, sameOrigin }) => sameOrigin && url.pathname.includes(`/${OCR_PATH}`),
             handler: 'CacheFirst',
             options: {
               cacheName: 'label-reader',
-              expiration: { maxEntries: 20, maxAgeSeconds: 120 * DAY },
-              cacheableResponse: { statuses: [0, 200] },
+              expiration: { maxEntries: 10, maxAgeSeconds: 365 * DAY },
+              cacheableResponse: { statuses: [200] },
             },
           },
         ],

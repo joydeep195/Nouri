@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import Result from '@/features/analysis/ui/Result';
-import { addToHistory, type HistoryEntry } from '@/features/history/model/history';
+import { addToHistory, HISTORY_STORE, type HistoryEntry } from '@/features/history/model/history';
 import History from '@/features/history/ui/History';
 import Home from '@/features/home/ui/Home';
 import IngredientsForm from '@/features/label/ui/IngredientsForm';
@@ -8,19 +8,20 @@ import LabelReader from '@/features/label/ui/LabelReader';
 import type { Product } from '@/features/product/model/types';
 import Lookup from '@/features/product/ui/Lookup';
 import QrLink from '@/features/product/ui/QrLink';
-import { DEFAULT_PROFILE, type Profile as ProfileData } from '@/features/profile/model/profile';
+import { DEFAULT_PROFILE } from '@/features/profile/model/profile';
 import Onboarding from '@/features/profile/ui/Onboarding';
 import Profile from '@/features/profile/ui/Profile';
+import { PROFILE_STORE } from '@/features/profile/model/profileStore';
 import { parseScan } from '@/features/scan/model/scan';
 import BarcodeEntry from '@/features/scan/ui/BarcodeEntry';
 import Scanner from '@/features/scan/ui/Scanner';
-import { KEYS, usePersistentState } from '@/shared/lib/storage';
+import { useStore } from '@/shared/lib/storage';
 import { useNavigator } from './navigation';
 import TabBar from './TabBar';
 
 export default function App() {
-  const [profile, setProfile] = usePersistentState<ProfileData>(KEYS.profile, { ...DEFAULT_PROFILE });
-  const [history, setHistory] = usePersistentState<HistoryEntry[]>(KEYS.history, []);
+  const [profile, setProfile] = useStore(PROFILE_STORE);
+  const [history, setHistory] = useStore(HISTORY_STORE);
   const nav = useNavigator();
   const { route } = nav;
 

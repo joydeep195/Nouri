@@ -20,7 +20,16 @@
     "noEmit": true,
     "allowImportingTsExtensions": true,
     "paths": { "@/*": ["./src/*"] },
-    "types": ["vite/client", "vite-plugin-pwa/client", "node"]
+    "types": ["node"]
   },
-  "include": ["src", "tests", "e2e", "scripts", "vite.config.ts", "playwright.config.ts", "eslint.config.js"]
+  "include": [
+    "src",
+    "tests",
+    "e2e",
+    "scripts",
+    "build-tools",
+    "vite.config.ts",
+    "playwright.config.ts",
+    "eslint.config.js"
+  ]
 }

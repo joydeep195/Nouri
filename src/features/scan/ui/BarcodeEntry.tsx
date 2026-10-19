@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Search } from 'lucide-react';
 import { TopBar } from '@/shared/ui/TopBar';
-import { isValidBarcode } from '../model/scan';
+import { isValidBarcode, isValidGtin } from '../model/scan';
 
 interface BarcodeEntryProps {
   onSubmit: (code: string) => void;
@@ -11,7 +11,9 @@ interface BarcodeEntryProps {
 export default function BarcodeEntry({ onSubmit, onBack }: BarcodeEntryProps) {
   const [code, setCode] = useState('');
   const clean = code.replace(/\D/g, '');
-  const valid = isValidBarcode(clean);
+  const valid = isValidGtin(clean);
+  // Only complain once a full-length number has been typed.
+  const showError = isValidBarcode(clean) && !valid && [8, 12, 13, 14].includes(clean.length);
 
   return (
     <main className="screen has-bar no-tabs">
@@ -39,7 +41,14 @@ export default function BarcodeEntry({ onSubmit, onBack }: BarcodeEntryProps) {
             setCode(e.target.value.replace(/[^\d ]/g, '').slice(0, 18));
           }}
           aria-label="Barcode number"
+          aria-invalid={showError}
+          aria-describedby={showError ? 'barcode-error' : undefined}
         />
+        {showError && (
+          <p id="barcode-error" className="field-error" role="alert" style={{ textAlign: 'center' }}>
+            That number doesn&apos;t look right. Check the digits, especially the last one.
+          </p>
+        )}
         <div className="action-bar">
           <button className="btn btn-primary" type="submit" disabled={!valid}>
             <Search size={20} /> Look it up
