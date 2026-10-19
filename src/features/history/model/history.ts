@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from '@/shared/lib/zod';
 import { parseProduct } from '@/features/product/model/schema';
 import type { Product } from '@/features/product/model/types';
 import type { StoreSpec } from '@/shared/lib/storage';

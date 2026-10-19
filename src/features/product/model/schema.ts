@@ -2,7 +2,7 @@
 // and products stored on the phone. Unknown fields are dropped, strings are length-capped and
 // numbers range-checked. A bad field is discarded on its own instead of failing the whole record.
 
-import { z } from 'zod';
+import { z } from '@/shared/lib/zod';
 import { toSafeImageUrl } from '@/shared/lib/safeUrl';
 import { MAX_INGREDIENTS_LENGTH, MAX_NAME_LENGTH, MAX_TAGS, MAX_TAG_LENGTH, NUTRIENT_MAX } from './limits';
 import type { NutrientKey, Nutrition, Product } from './types';

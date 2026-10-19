@@ -26,11 +26,15 @@ const DIRECTIVES: Record<string, string[]> = {
 const serialize = (d: Record<string, string[]>, extra: string[] = []) =>
   [...Object.entries(d).map(([k, v]) => `${k} ${v.join(' ')}`), ...extra].join('; ');
 
+// No `upgrade-insecure-requests`: every outside origin above is already https-only and HSTS
+// forces https for the app itself, while WebKit would also "upgrade" http://localhost during
+// local testing and break it.
+
 /** CSP for the <meta> tag. frame-ancestors is ignored in <meta>, so it is header-only. */
-export const CSP_META = serialize(DIRECTIVES, ['upgrade-insecure-requests']);
+export const CSP_META = serialize(DIRECTIVES);
 
 /** CSP sent as an HTTP header by the host. */
-export const CSP_HEADER = serialize(DIRECTIVES, ["frame-ancestors 'none'", 'upgrade-insecure-requests']);
+export const CSP_HEADER = serialize(DIRECTIVES, ["frame-ancestors 'none'"]);
 
 export const SECURITY_HEADERS: Record<string, string> = {
   'Content-Security-Policy': CSP_HEADER,

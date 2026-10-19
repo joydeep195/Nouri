@@ -84,11 +84,31 @@ export default defineConfig({
     setupFiles: ['tests/setup.ts'],
     include: ['src/**/*.test.{ts,tsx}', 'tests/**/*.test.{ts,tsx}'],
     restoreMocks: true,
+    // Full user-flow tests type a lot; coverage instrumentation makes them slower.
+    testTimeout: 20_000,
     coverage: {
       provider: 'v8',
       include: ['src/**/*.{ts,tsx}'],
-      exclude: ['src/**/*.test.{ts,tsx}', 'src/app/main.tsx', 'src/vite-env.d.ts'],
+      exclude: [
+        'src/**/*.test.{ts,tsx}',
+        'src/app/main.tsx',
+        'src/vite-env.d.ts',
+        // Camera, WebAssembly barcode and OCR code needs a real browser: covered by e2e/ (Playwright).
+        'src/features/scan/model/barcode.ts',
+        'src/features/scan/ui/Scanner.tsx',
+        'src/features/label/model/ocr.ts',
+        'src/features/label/ui/LabelReader.tsx',
+      ],
       reporter: ['text-summary', 'html', 'lcov'],
+      thresholds: {
+        lines: 80,
+        statements: 80,
+        functions: 75,
+        branches: 75,
+        // The scoring engine and shared libraries are held to a higher bar.
+        'src/features/*/model/**': { lines: 90, statements: 90 },
+        'src/shared/lib/**': { lines: 90, statements: 90 },
+      },
     },
   },
 });

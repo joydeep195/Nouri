@@ -28,6 +28,12 @@ export default tseslint.config(
         { selector: "MemberExpression[property.name='innerHTML']", message: 'Never write raw HTML.' },
       ],
       'no-console': ['error', { allow: ['warn', 'error'] }],
+      'no-restricted-imports': [
+        'error',
+        {
+          paths: [{ name: 'zod', message: "Import z from '@/shared/lib/zod' (jitless mode, which our CSP requires)." }],
+        },
+      ],
       eqeqeq: ['error', 'always', { null: 'ignore' }],
       '@typescript-eslint/consistent-type-imports': 'error',
       '@typescript-eslint/no-unused-vars': [
@@ -42,6 +48,7 @@ export default tseslint.config(
       'jsx-a11y/no-autofocus': 'off',
     },
   },
+  { files: ['src/shared/lib/zod.ts'], rules: { 'no-restricted-imports': 'off' } },
   {
     files: ['**/*.test.{ts,tsx}', 'tests/**', 'e2e/**'],
     rules: {

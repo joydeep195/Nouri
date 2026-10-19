@@ -175,22 +175,30 @@ export default function IngredientsForm({
             {NUTRI_FIELDS.map((f) => {
               const bad = Number.isNaN(parsed[f.key]);
               return (
-                <label key={f.key}>
-                  {f.label} ({f.unit})
+                <div key={f.key} className="nutri-field">
+                  <label htmlFor={`nutri-${f.key}`}>
+                    {f.label} ({f.unit})
+                  </label>
                   <input
+                    id={`nutri-${f.key}`}
                     className={`input ${bad ? 'invalid' : ''}`}
                     inputMode="decimal"
                     placeholder="–"
                     value={nutri[f.key]}
                     maxLength={7}
                     aria-invalid={bad}
+                    aria-describedby={bad ? `nutri-${f.key}-error` : undefined}
                     onChange={(e) => {
                       const value = e.target.value.replace(/[^\d.,]/g, '');
                       setNutri((n) => ({ ...n, [f.key]: value }));
                     }}
                   />
-                  {bad && <span className="field-error">0 to {NUTRIENT_MAX[f.key]}</span>}
-                </label>
+                  {bad && (
+                    <span id={`nutri-${f.key}-error`} className="field-error">
+                      0 to {NUTRIENT_MAX[f.key]}
+                    </span>
+                  )}
+                </div>
               );
             })}
           </div>

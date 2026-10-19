@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from '@/shared/lib/zod';
 import type { StoreSpec } from '@/shared/lib/storage';
 import { DEFAULT_PROFILE, type Profile } from './profile';
 import { checkTrigger } from './triggers';
