@@ -2,6 +2,13 @@
 
 All notable changes to Nouri. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
+## [2.1.2] - 2026-10-20
+
+### Fixed
+
+- New versions now take over as soon as they are downloaded. Before, an update waited until every Nouri window was closed, which on an iPhone home-screen app could take days.
+- The label reader is now kept for offline use after its first run, as intended. The caching rule referred to a build-time value that doesn't exist inside the service worker, so it never matched.
+
 ## [2.1.1] - 2026-10-20
 
 ### Fixed

@@ -61,6 +61,11 @@ export default defineConfig({
         ],
       },
       workbox: {
+        // autoUpdate only sets these itself when the plugin injects its own register script;
+        // we register in main.tsx (no inline script under the CSP), so set them here, or a new
+        // version would wait until every Nouri window is closed.
+        skipWaiting: true,
+        clientsClaim: true,
         globPatterns: ['**/*.{js,css,html,svg,png,wasm,woff2}'],
         // The label reader (~7 MB) is cached on first use instead of at install.
         globIgnores: ['ocr/**'],
@@ -85,7 +90,9 @@ export default defineConfig({
             },
           },
           {
-            urlPattern: ({ url, sameOrigin }) => sameOrigin && url.pathname.includes(`/${OCR_PATH}`),
+            // A RegExp, not a function: a function is copied into sw.js as source text, where
+            // OCR_PATH is undefined. Workbox only matches a RegExp mid-URL on the same origin.
+            urlPattern: new RegExp(`/${OCR_PATH.replace(/\./g, '\\.')}`),
             handler: 'CacheFirst',
             options: {
               cacheName: 'label-reader',
