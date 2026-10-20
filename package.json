@@ -1,7 +1,7 @@
 {
   "name": "nouri",
   "private": true,
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Scan packaged food and see if it's a good choice: overall health, gut comfort (Crohn's / IBD) and weight goals.",
   "type": "module",
   "engines": {

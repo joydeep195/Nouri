@@ -11,7 +11,9 @@ const DIRECTIVES: Record<string, string[]> = {
   // WebAssembly (barcode + label readers) needs wasm-unsafe-eval; no JS eval is allowed.
   'script-src': ["'self'", "'wasm-unsafe-eval'"],
   'worker-src': ["'self'"],
-  'connect-src': ["'self'", FOOD_API_ORIGIN],
+  // The service worker caches product photos, and its fetches are checked against
+  // connect-src (not img-src), so the image origins belong here too.
+  'connect-src': ["'self'", FOOD_API_ORIGIN, ...IMAGE_ORIGINS],
   // blob: is the preview of the label photo the user picked.
   'img-src': ["'self'", 'blob:', ...IMAGE_ORIGINS],
   'style-src': ["'self'"],

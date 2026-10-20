@@ -2,6 +2,12 @@
 
 All notable changes to Nouri. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
+## [2.1.1] - 2026-10-20
+
+### Fixed
+
+- Product photos now load once the app is installed. The offline cache fetches them itself, and the security policy only allowed those fetches to reach the food database, so the photo servers were blocked.
+
 ## [2.1.0] - 2026-10-20
 
 ### Added

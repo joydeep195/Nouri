@@ -28,6 +28,13 @@ describe('security policy', () => {
     expect(IMAGE_ORIGINS.map((o) => new URL(o).hostname)).toEqual(IMAGE_HOSTS);
   });
 
+  it('lets the service worker fetch the product photos it caches', () => {
+    const connect = CSP_HEADER.split('; ')
+      .find((d) => d.startsWith('connect-src '))
+      ?.split(' ');
+    expect(connect).toEqual(expect.arrayContaining(IMAGE_ORIGINS));
+  });
+
   it('writes every header into the _headers file', () => {
     const file = headersFile();
     for (const [k, v] of Object.entries(SECURITY_HEADERS)) expect(file).toContain(`${k}: ${v}`);
