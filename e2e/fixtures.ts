@@ -21,7 +21,7 @@ interface Fixtures {
 export const test = base.extend<Fixtures>({
   // `auto` so the CSP check and the database mock apply to every test, even ones that don't ask for it.
   cspViolations: [
-    async ({ page }, use) => {
+    async ({ page, context }, use) => {
       const violations: string[] = [];
       page.on('console', (msg) => {
         if (msg.type() === 'error' && /Content Security Policy/i.test(msg.text())) violations.push(msg.text());
@@ -36,14 +36,15 @@ export const test = base.extend<Fixtures>({
           );
         });
       });
-      // Never hit the real food database from tests.
-      await page.route('https://world.openfoodfacts.org/**', (route) => {
+      // Never hit the real food database from tests. Routed on the context, not the page, so the
+      // mocks also answer requests the service worker makes (Chromium only; see offline.spec.ts).
+      await context.route('https://world.openfoodfacts.org/**', (route) => {
         const url = route.request().url();
         return url.includes('/product/3017620422003.json')
           ? route.fulfill({ json: { status: 1, ...NUTELLA } })
           : route.fulfill({ json: { status: 0 } });
       });
-      await page.route('https://images.openfoodfacts.org/**', (route) =>
+      await context.route('https://images.openfoodfacts.org/**', (route) =>
         route.fulfill({ body: PIXEL, contentType: 'image/png' }),
       );
       await use(violations);
